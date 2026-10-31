@@ -1,6 +1,20 @@
 from pathlib import Path
 import os,sys,json,hashlib,re,ast
-B=Path('kredit').resolve();O=B/'experiments/revision_v1';os.environ['MPLCONFIGDIR']=str(O/'mpl_cache');sys.path.insert(0,str(B/'.extension_deps'))
+B=Path(__file__).resolve().parent;ROOT=B.parent;O=B/'experiments/revision_v1';os.environ['MPLCONFIGDIR']=str(O/'mpl_cache');sys.path.insert(0,str(B/'.extension_deps'))
+# Report missing artifacts before importing optional research dependencies.
+required=[B/'modeling/selected_rf.joblib']
+for fam in ['random_forest','extra_trees','gradient_boosting','xgboost']:
+ for seed in [42,17,73]:
+  folder=O/fam/f'seed_{seed}'
+  required.extend([folder/'model.joblib',folder/'shap_tree_path_dependent_0.npz'])
+  required.extend(folder/f'shap_interventional_{bg}.npz' for bg in ([20261021,20261023,20261024] if seed==42 else [20261021]))
+missing_artifacts=[str(p.relative_to(B)) for p in required if not p.is_file()]
+(O/'verification_report_current.json').write_text(json.dumps({'status':'RUNNING','scope':'current verification; no completed result yet'}),encoding='utf-8')
+if missing_artifacts:
+ report={'status':'INCOMPLETE','scope':'artifact preflight only','missing_artifacts':missing_artifacts}
+ (O/'verification_report_current.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+ print(f'INCOMPLETE: {len(missing_artifacts)} required artifacts missing; see {O / "verification_report_current.json"}')
+ raise SystemExit(2)
 import numpy as np,pandas as pd,joblib
 from scipy.stats import spearmanr
 from sklearn.metrics import average_precision_score,roc_auc_score,f1_score
@@ -34,12 +48,12 @@ for fam in M['families']:
      ck(f'{fam}_{seed}_{bg}_{group}_{cut}_counts',int(mask.sum())==r.n_valid and int((mask&different).sum())==r.n_disagreement)
 ck('historical_model_sha',hashlib.sha256((B/'modeling/selected_rf.joblib').read_bytes()).hexdigest()=='3f79f93e3e66a28fac8ff168e297d6ccfcfc9a5413dec44cbc55db977cc12b7f')
 old=json.loads((B/'artifacts/artifact_checksums.json').read_text());ck('historical_preprocessing_checksums',all(hashlib.sha256((B/k).read_bytes()).hexdigest()==v for k,v in old.items()))
-ck('consultation_md_unchanged',hashlib.sha256(Path('consultation_guide.md').read_bytes()).hexdigest()=='5d4771a0c9d04778dfe19f50861ccb27c0ef8b7487a70071bf198599159d3094')
+ck('consultation_md_unchanged',hashlib.sha256((ROOT/'consultation_guide.md').read_bytes()).hexdigest()=='5d4771a0c9d04778dfe19f50861ccb27c0ef8b7487a70071bf198599159d3094')
 missing=[]
-for p in [O/'RESULTS.md',O/'paper_methods_results_en.md',B/'paper/manuscript_revision_en.md',Path('README.md')]:
+for p in [O/'RESULTS.md',O/'paper_methods_results_en.md',B/'paper/manuscript_revision_en.md',(ROOT/'README.md')]:
  for target in re.findall(r'\]\(([^\s)]+)\)',p.read_text(encoding='utf-8')):
   if not target.startswith(('http://','https://','#')) and not (p.parent/target).exists():missing.append((str(p),target))
 ck('local_markdown_links',not missing)
 for p in B.glob('*revision*.py'):ast.parse(p.read_text(encoding='utf-8-sig'))
 ck('five_png_figures',len(list((O/'figures').glob('*.png')))==5)
-(O/'final_quality_report.json').write_text(json.dumps({'status':'PASS','n_checks':len(checks),'checks':checks,'shap_additivity':errors,'plots_visually_reviewed':5,'missing_links':missing,'input_file_sha256':{k:hashlib.sha256((B/k).read_bytes()).hexdigest() for k in old}},indent=2));print('FINAL QA PASS:',len(checks),'checks')
+(O/'verification_report_current.json').write_text(json.dumps({'status':'PASS','n_checks':len(checks),'checks':checks,'shap_additivity':errors,'visual_review':{'status':'NOT_PERFORMED','note':'Automated checks do not establish visual review.'},'missing_links':missing,'input_file_sha256':{k:hashlib.sha256((B/k).read_bytes()).hexdigest() for k in old}},indent=2));print('FINAL QA PASS:',len(checks),'checks')

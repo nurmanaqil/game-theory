@@ -1,7 +1,16 @@
 """Revision experiment. Outputs isolated; validation-only selection; paired raw-output SHAP."""
 from pathlib import Path
 import os,sys,json,time,hashlib,platform
-B=Path(__file__).resolve().parent;O=B/'experiments/revision_v1';O.mkdir(parents=True,exist_ok=True)
+B=Path(__file__).resolve().parent
+O=Path(os.environ.get('TREESHAP_OUTPUT_DIR', str(B/'experiments/revision_v1'))).resolve()
+# Historical outputs are evidence, not a destination for a changed pipeline.
+if O == (B/'experiments/revision_v1').resolve() or (O/'manifest.json').exists():
+ raise SystemExit('Use TREESHAP_OUTPUT_DIR pointing to a separate output directory without a completed manifest. Historical results are preserved.')
+O.mkdir(parents=True,exist_ok=True)
+protocol_source=B/'experiments/revision_v1/protocol.md'
+if not (O/'protocol.md').exists():
+ (O/'protocol.md').write_bytes(protocol_source.read_bytes())
+from checkpoint_integrity import checkpoint_context, record_checkpoint, verify_checkpoint
 os.environ['MPLCONFIGDIR']=str(O/'mpl_cache');(O/'mpl_cache').mkdir(exist_ok=True)
 sys.path.insert(0,str(B/'.extension_deps'))
 import numpy as np,pandas as pd,joblib,sklearn,shap,scipy,xgboost
@@ -9,6 +18,24 @@ from sklearn.ensemble import RandomForestClassifier,ExtraTreesClassifier,Gradien
 from sklearn.metrics import average_precision_score,roc_auc_score,precision_recall_curve,accuracy_score,precision_score,recall_score,f1_score,brier_score_loss,log_loss,confusion_matrix
 from scipy.stats import spearmanr,kendalltau
 START=time.perf_counter();timings=[]
+VERSIONS={m.__name__:m.__version__ for m in [np,pd,sklearn,scipy,shap,xgboost,joblib]}
+VERSIONS['python']=platform.python_version()
+INPUTS=sorted((B/'processed/encoded').glob('*.csv'))+[B/'artifacts/feature_map.csv',Path(__file__)]
+# Fail before writing experiment outputs if any existing checkpoint is untracked.
+for cached in list(O.rglob('*.joblib'))+list(O.rglob('shap_*.npz')):
+ if not cached.with_name(cached.name+'.provenance.json').is_file():
+  raise SystemExit(f'Untracked checkpoint: {cached}. Use a fresh output directory.')
+
+def context(configuration):
+ return checkpoint_context(INPUTS,configuration,VERSIONS)
+
+def load_model(path,configuration):
+ verify_checkpoint(path,context(configuration))
+ return joblib.load(path)
+
+def save_model(model,path,configuration):
+ joblib.dump(model,path)
+ record_checkpoint(path,context(configuration))
 WORKER=sys.argv[1] if len(sys.argv)>1 else None
 if WORKER:
  assert WORKER in ['random_forest','extra_trees','gradient_boosting','xgboost']
@@ -72,8 +99,9 @@ for fam in families:
  folder=O/fam;folder.mkdir(exist_ok=True);best=None
  for ci,params in enumerate(candidate_specs(fam)):
   cp=folder/f'candidate_{ci}.joblib';t=time.perf_counter()
-  if cp.exists():model=joblib.load(cp)
-  else:model=make(fam,params,42);model.fit(*D['train']);joblib.dump(model,cp)
+  config={'family':fam,'params':params,'seed':42}
+  if cp.exists():model=load_model(cp,config)
+  else:model=make(fam,params,42);model.fit(*D['train']);save_model(model,cp,config)
   pv=model.predict_proba(D['validation'][0])[:,1];ap=float(average_precision_score(D['validation'][1],pv))
   selection.append({'family':fam,'candidate':ci,'validation_AP':ap,'validation_ROC_AUC':roc_auc_score(D['validation'][1],pv),'parameters':json.dumps(params),'seconds_fit_or_load':time.perf_counter()-t})
   say('CANDIDATE',fam,ci,'AP',ap)
@@ -82,11 +110,12 @@ for fam in families:
  ap,ci,params,selected=best;savejson(folder/'selection.json',{'family':fam,'candidate':ci,'parameters':params,'validation_AP':ap,'selection_seed':42,'criterion':'highest validation AP; exact tie lower candidate index'})
  for seed in seeds:
   run=folder/f'seed_{seed}';run.mkdir(exist_ok=True);mp=run/'model.joblib';t=time.perf_counter()
-  if mp.exists():model=joblib.load(mp)
+  config={'family':fam,'params':params,'seed':seed}
+  if mp.exists():model=load_model(mp,config)
   else:
    model=selected if seed==42 else make(fam,params,seed)
    if seed!=42:model.fit(*D['train'])
-   joblib.dump(model,mp)
+   save_model(model,mp,config)
   timings.append({'family':fam,'seed':seed,'operation':'fit_or_load_selected','seconds':time.perf_counter()-t})
   pv=model.predict_proba(D['validation'][0])[:,1];thr=threshold(D['validation'][1],pv)
   savejson(run/'model_manifest.json',{'family':fam,'seed':seed,'selected_params':params,'threshold':thr,'model_sha256':digest(mp),'feature_order':features,'raw_units':'probability' if fam in ['random_forest','extra_trees'] else 'log_odds_margin','tuned_on_test':False,'additivity_atol':1e-5 if fam=='xgboost' else 1e-6})
@@ -105,12 +134,15 @@ for fam in families:
   computed={};settings=[('tree_path_dependent',0)]+[('interventional',s) for s in (bgseeds if seed==42 else bgseeds[:1])]
   for mode,bs in settings:
    file=run/f'shap_{mode}_{bs}.npz';t=time.perf_counter()
+   shap_context=context({'model_sha256':digest(mp),'mode':mode,'background_seed':bs,'background_sha256':digest(O/f'background_{bs}.csv') if bs else None,'evaluation_rows':idx.tolist()})
    if file.exists():
+    verify_checkpoint(file,shap_context)
     with np.load(file,allow_pickle=False) as z:v=z['values'];base=float(z['baseline']);assert np.array_equal(z['test_row_indices'],idx) and np.array_equal(z['feature_names'],np.array(features))
     err=float(np.max(abs(v.sum(axis=1)+base-raw_predict(model,fam,S))));assert err<=(1e-5 if fam=='xgboost' else 1e-6)
    else:
     say('SHAP START',fam,seed,mode,bs);v,base,err=explain(model,fam,S,mode,backgrounds[bs] if bs else None)
     np.savez_compressed(file,values=v,baseline=base,test_row_indices=idx,feature_names=np.array(features))
+    record_checkpoint(file,shap_context)
    elapsed=time.perf_counter()-t;timings.append({'family':fam,'seed':seed,'operation':f'{mode}_{bs}','seconds':elapsed});computed[(mode,bs)]=(v,base)
    say('SHAP PASS',fam,seed,mode,bs,'seconds',round(elapsed,1),'error',err)
    for src in sources:

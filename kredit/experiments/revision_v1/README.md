@@ -1,3 +1,9 @@
+# Hasil historis revision_v1
+
+Folder ini menyimpan hasil eksperimen 23 Oktober 2026. Pipeline yang diperbaiki pada 31 Oktober tidak boleh menulis ulang folder ini. Untuk output baru dan aturan checkpoint, ikuti [REPRODUCTION.md](../../REPRODUCTION.md). Perintah eksekusi dan helper di bawah merupakan catatan workflow historis, bukan petunjuk menjalankan pipeline baru pada folder ini.
+
+Laporan numerik baru: `verification_report_current.json`. Laporan historis: `final_quality_report.json`. Salinan proyek saat ini belum menyertakan model/encoder joblib dan array NPZ; status historis PASS tidak berarti paket ini lengkap.
+
 # Menjalankan eksperimen revisi
 
 Semua output berada di folder ini. Dataset dan split tetap; output historis di luar folder ini tidak ditimpa. Status selesai diverifikasi oleh manifest.json, analysis_checks.json, dan final_quality_report.json: semuanya PASS. Pemeriksaan akhir mencakup 266 pemeriksaan numerik/skema/tautan.

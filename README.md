@@ -1,24 +1,28 @@
 # TreeSHAP pada prediksi gagal bayar kartu kredit
 
-Proyek paper Teori Game ini membandingkan mode interventional dan tree-path-dependent pada TreeSHAP untuk melihat pembagian atribusi enam fitur tagihan yang berkorelasi, BILL_AMT1–BILL_AMT6. Kedua mode menjelaskan model Random Forest dan observasi yang sama. Hasil membahas perilaku model, bukan penyebab gagal bayar.
+Proyek minipaper Teori Game ini membandingkan interventional dan tree-path-dependent TreeSHAP pada enam fitur tagihan BILL_AMT1–BILL_AMT6. Empat classifier digunakan untuk seleksi berdasarkan AP validasi; **XGBoost menjadi model utama**. Random Forest, Extra Trees, dan Gradient Boosting memberikan konteks pendukung.
 
 ## Status proyek
 
-Audit, preprocessing, pemodelan, evaluasi test, eksperimen TreeSHAP utama, dan pemeriksaan sensitivitas background sudah memiliki hasil tersimpan. Dataset berisi 30.000 observasi dan 23 prediktor asal. Split berisi 18.005 train, 5.997 validation, dan 5.998 test; encoding menghasilkan 89 kolom.
+Dataset berisi 30.000 observasi dan 23 prediktor asli, direpresentasikan sebagai 89 input setelah encoding. Split tetap: 18.005 training, 5.997 validation, 5.998 test. Fokus enam tagihan adalah fokus atribusi, bukan model enam prediktor.
 
-Model terpilih menggunakan 300 pohon, max_depth=12, min_samples_leaf=5, dan seed 42. Threshold dipilih dari validation. Analisis TreeSHAP menggunakan 1.000 observasi test dan tiga background train berukuran 100. Pengulangan pelatihan antarseed belum dilakukan.
+Analisis memakai 1.000 observasi test, tiga background training berukuran 100 pada seed utama, dan seed training 42/17/73. Peringkat global XGBoost sama pada dua mode, tetapi fitur tagihan teratas berbeda pada 149/1.000 observasi. Test sudah pernah diperiksa; hasil bersifat eksploratif.
+
+Draf aktif: [paper_draft_en.md](kredit/paper/paper_draft_en.md). PDF dan Google Docs dapat memiliki redaksi pengguna yang lebih baru dan tidak otomatis tersinkronisasi.
+
+**Kelengkapan salinan:** CSV, protokol, manifest, dan laporan historis tersedia; model `.joblib`, encoder, serta array `.npz` belum ikut tersedia. Laporan historis 266 checks bukan bukti bahwa verifikasi penuh dapat dijalankan dari salinan ini. Lihat [petunjuk verifikasi](kredit/REPRODUCTION.md).
 
 ## Revisi eksperimen 23 Oktober 2026
 
 Eksperimen terbaru membandingkan Random Forest, Extra Trees, Gradient Boosting, dan XGBoost: tiga konfigurasi per keluarga dan tiga seed training. Dua mode TreeSHAP dibandingkan pada sampel 1.000 test tetap. Semua keluarga diuji pada tiga background untuk seed utama, dan satu background untuk dua seed tambahan.
 
 - [Ringkasan hasil revisi dan lima grafik](kredit/experiments/revision_v1/RESULTS.md)
-- [Draf naskah lengkap revisi](kredit/paper/manuscript_revision_en.md)
+- [Draf aktif fokus enam tagihan](kredit/paper/paper_draft_en.md)
 - [Protokol dan amendemen teknis](kredit/experiments/revision_v1/protocol.md)
 - [Posisi literatur dan batas akses full text](kredit/experiments/revision_v1/literature_positioning.md)
 - [Cara menjalankan eksperimen revisi](kredit/experiments/revision_v1/README.md)
 
-Draf naskah masih memerlukan review penulis dan penyatuan gaya sitasi; Google Docs belum diubah. Hasil serta panduan konsultasi sebelumnya dipertahankan sebagai catatan tahap awal. Dependency baru dicatat di `kredit/requirements_revision.txt`; unit SHAP probabilitas forest tidak dicampur dengan raw margin boosting.
+Draf aktif memakai sitasi numerik IEEE dan tetap memerlukan review penulis. Usulan revisi audit tersedia di [paper_draft_revised_en.md](kredit/paper/paper_draft_revised_en.md); Google Docs tidak otomatis diperbarui. Hasil serta panduan konsultasi sebelumnya dipertahankan sebagai catatan tahap awal. Dependency baru dicatat di `kredit/requirements_revision.txt`; unit SHAP probabilitas forest tidak dicampur dengan raw margin boosting.
 
 ## Struktur folder
 
@@ -80,3 +84,9 @@ Requirements yang tersedia adalah `kredit/requirements_preprocessing.txt` dan `k
 Nama kode dan dokumen menggunakan huruf kecil dengan snake_case. Nama dataset dan artefak hasil dipertahankan agar cocok dengan konfigurasi, checksum, dan pemanggilan kode. PDF hanya diganti nama; isinya tidak dirender ulang. `kredit/Paket_Aqil_untuk_Irfan.zip` dipertahankan sebagai snapshot handoff lama dan masih memuat struktur sebelum rename; generator akan memakai nama baru saat paket dibuat ulang.
 
 Google Docs merupakan naskah bersama. Rename lokal tidak mengubah Google Docs; hasil TreeSHAP lokal belum dimasukkan ke dokumen bersama pada pemeriksaan terakhir.
+
+## Audit dan revisi 31 Oktober 2026
+
+- [Usulan revisi paper](kredit/paper/paper_draft_revised_en.md) dan [catatan perubahan](kredit/paper/REVISION-NOTES.md).
+- [Audit proyek](kredit/paper/review/PROJECT-AUDIT.md) dan [verifikasi perbaikan](kredit/paper/review/IMPLEMENTATION-VERIFICATION.md).
+- Review numerik CSV tidak menggantikan reproduksi model/SHAP atau pemeriksaan plagiarisme dan AI.

@@ -1,3 +1,31 @@
+# Verifikasi salinan proyek saat ini
+
+Jalankan dari folder mana pun (sesuaikan path script):
+
+```powershell
+py game-theory/kredit/verify_revision_results.py
+py -m unittest discover -s game-theory/kredit -p test_checkpoint_integrity.py
+```
+
+Verifier memeriksa keberadaan model dan array sebelum memuat dependency riset. Exit code 2 dan status `INCOMPLETE` berarti artefak belum tersedia; bukan kegagalan numerik. Hasil baru disimpan ke `experiments/revision_v1/verification_report_current.json`, tidak menimpa laporan historis `final_quality_report.json`. Review visual harus dicatat manual, bukan disimpulkan dari pemeriksaan numerik.
+
+Lengkapi model terlatih, encoder, dan 32 array SHAP dari sumber eksperimen asli. Jangan membuat file dummy atau memakai hasil training baru sebagai pengganti bukti historis. Manifest mencatat Python 3.14.7, NumPy 2.3.5, pandas 3.0.1, scikit-learn 1.7.2, SciPy 1.16.2, SHAP 0.54.1, XGBoost 3.4.1, dan joblib 1.5.2. `requirements_revision.txt` merupakan daftar versi, tetapi instalasi bersihnya belum diverifikasi.
+
+Untuk eksperimen baru gunakan environment terpisah dengan versi tersebut dan **folder output baru**:
+
+```powershell
+$env:TREESHAP_OUTPUT_DIR = Join-Path $PWD 'game-theory/kredit/experiments/new_run'
+py game-theory/kredit/run_revision_experiments.py
+```
+
+Jangan menjalankan perintah training hanya untuk menguji perbaikan kode. Pipeline menolak output historis/default dan folder yang sudah memiliki completed manifest. Checkpoint baru memiliki sidecar provenance yang mencatat input, parameter, seed, runtime, serta checksum file. Checkpoint tanpa sidecar atau dengan fingerprint berbeda ditolak. Helper historis `prefit_candidates.py`, `precompute_extra_trees.py`, dan generator/merge lama tidak mendukung output baru ini; jangan gunakan untuk resume pipeline yang diperbarui. Rekalkulasi gambar/naskah juga harus ditinjau sebelum memakai output baru.
+
+Saat memverifikasi probabilitas CSV gunakan pandas `float_precision="round_trip"`; parsing default dapat mengubah klasifikasi observasi tepat pada threshold. Bedakan presisi serialisasi dari perubahan model.
+
+## Catatan lingkungan historis
+
+Petunjuk berikut berasal dari workspace lama. Environment dan executable tersebut **belum ikut tersedia di salinan ini**.
+
 # Lingkungan dan verifikasi reproduksi
 
 Lingkungan eksekusi lokal: `kredit/.venv_local/Scripts/python.exe` (Python 3.14.7).

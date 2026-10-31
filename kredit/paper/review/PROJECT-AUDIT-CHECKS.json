@@ -1,0 +1,51 @@
+{
+  "local_summary_checks": 160,
+  "local_summary_all_pass": true,
+  "prediction_metric_comparisons": 24,
+  "prediction_metric_all_pass": true,
+  "xgboost": [
+    {
+      "seed": 17,
+      "background": 20261021,
+      "different": 149,
+      "L1": 0.1060675238574573
+    },
+    {
+      "seed": 42,
+      "background": 20261021,
+      "different": 149,
+      "L1": 0.1050689960192193
+    },
+    {
+      "seed": 42,
+      "background": 20261023,
+      "different": 137,
+      "L1": 0.09652332047630723
+    },
+    {
+      "seed": 42,
+      "background": 20261024,
+      "different": 121,
+      "L1": 0.10330145347776629
+    },
+    {
+      "seed": 73,
+      "background": 20261021,
+      "different": 171,
+      "L1": 0.10854695003390243
+    }
+  ],
+  "available_npz": 0,
+  "available_joblib": 0,
+  "script_hash_matches": true,
+  "protocol_hash_matches": true,
+  "scope": "Recomputed from CSVs, not model inference, retraining, or SHAP recomputation",
+  "prediction_read_options": {
+    "float_precision": "round_trip",
+    "other_metrics_atol": 1e-12,
+    "Brier_atol": 1e-08
+  },
+  "saved_prediction_label_mismatches": 0,
+  "maximum_Brier_difference": 1.549025074876198e-10,
+  "note": "Default pandas parsing caused eight threshold-boundary label differences; round_trip eliminated all. Small XGBoost Brier differences are below reported precision."
+}

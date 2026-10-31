@@ -30,3 +30,6 @@ Thumbs.db
 *.npz
 *.npy
 *.zip
+
+# Machine-specific verification status; historical quality report stays tracked
+/kredit/experiments/revision_v1/verification_report_current.json
