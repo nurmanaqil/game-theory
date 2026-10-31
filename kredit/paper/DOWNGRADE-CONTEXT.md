@@ -4,7 +4,7 @@ Tanggal: 31 Oktober 2026.
 
 ## Pembaruan: PDF ringkas sudah tersedia
 
-Setelah permintaan lanjutan pengguna pada 31 Oktober 2026, dibuat [paper_minipaper_en.md](paper_minipaper_en.md) dan [PDF minipaper 3 halaman](../../output/pdf/paper_minipaper_en.pdf). Bagian status awal di bawah merupakan catatan sebelum ekspor ini.
+Setelah permintaan lanjutan pengguna pada 31 Oktober 2026, dibuat [paper_minipaper_en.md](paper_minipaper_en.md) dan PDF minipaper 3 halaman (lokal: output/pdf/paper_minipaper_en.pdf; dibagikan melalui WhatsApp). Bagian status awal di bawah merupakan catatan sebelum ekspor ini.
 
 Versi ringkas sekitar 2.215 kata termasuk referensi, A4 dua kolom, isi Times New Roman 10 pt. Delapan tabel dan lima grafik versi lengkap diringkas menjadi dua tabel dan satu grafik; detail pendukung tetap tersedia dalam proyek dan naskah lengkap. Dua rumus dasar dipertahankan, sedangkan ukuran atribusi lain dijelaskan ringkas dalam teks. Hasil penelitian tidak dihitung ulang atau diubah. Sebelas referensi tetap disertakan. Ini tata letak menyerupai paper konferensi, bukan sertifikasi kesesuaian penuh dengan template IEEE resmi.
 

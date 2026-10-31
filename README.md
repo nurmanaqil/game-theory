@@ -93,4 +93,4 @@ Google Docs merupakan naskah bersama. Rename lokal tidak mengubah Google Docs; h
 
 ## PDF minipaper ringkas
 
-[Unduh PDF 3 halaman](output/pdf/paper_minipaper_en.pdf) · [Sumber Markdown](kredit/paper/paper_minipaper_en.md) · [Konteks penyederhanaan](kredit/paper/DOWNGRADE-CONTEXT.md). Versi lengkap dan PDF lama tetap tersedia; Google Docs belum disinkronkan.
+PDF 3 halaman dibagikan terpisah melalui WhatsApp (file lokal: output/pdf/paper_minipaper_en.pdf) · [Sumber Markdown](kredit/paper/paper_minipaper_en.md) · [Konteks penyederhanaan](kredit/paper/DOWNGRADE-CONTEXT.md). Versi lengkap dan PDF lama tetap tersedia; Google Docs belum disinkronkan.

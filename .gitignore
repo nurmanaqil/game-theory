@@ -33,3 +33,6 @@ Thumbs.db
 
 # Machine-specific verification status; historical quality report stays tracked
 /kredit/experiments/revision_v1/verification_report_current.json
+
+# Final minipaper PDF is distributed separately via WhatsApp
+/output/pdf/paper_minipaper_en.pdf
