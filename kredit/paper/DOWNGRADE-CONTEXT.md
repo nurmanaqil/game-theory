@@ -2,7 +2,17 @@
 
 Tanggal: 31 Oktober 2026.
 
-## Arti dan status downgrade
+## Pembaruan: PDF ringkas sudah tersedia
+
+Setelah permintaan lanjutan pengguna pada 31 Oktober 2026, dibuat [paper_minipaper_en.md](paper_minipaper_en.md) dan [PDF minipaper 3 halaman](../../output/pdf/paper_minipaper_en.pdf). Bagian status awal di bawah merupakan catatan sebelum ekspor ini.
+
+Versi ringkas sekitar 2.215 kata termasuk referensi, A4 dua kolom, isi Times New Roman 10 pt. Delapan tabel dan lima grafik versi lengkap diringkas menjadi dua tabel dan satu grafik; detail pendukung tetap tersedia dalam proyek dan naskah lengkap. Dua rumus dasar dipertahankan, sedangkan ukuran atribusi lain dijelaskan ringkas dalam teks. Hasil penelitian tidak dihitung ulang atau diubah. Sebelas referensi tetap disertakan. Ini tata letak menyerupai paper konferensi, bukan sertifikasi kesesuaian penuh dengan template IEEE resmi.
+
+PDF asli dan versi lengkap tidak ditimpa. Google Docs belum disinkronkan. Validasi ekspor tersedia di `minipaper_export_validation.json`; seluruh halaman diperiksa secara visual, termasuk posisi grafik/caption. Tidak ada klaim bebas plagiarisme atau skor AI dari proses ekspor.
+
+Untuk membuat ulang: instal `reportlab`, `pypdfium2` ke `.tools/pdf_export` dan sediakan `matplotlib`; jalankan `py kredit/build_minipaper_pdf.py` dari root repo. Script menggunakan font Times New Roman pada Windows. Dependency `.tools` dan cache `tmp` tidak disertakan ke Git.
+
+## Arti dan status downgrade awal
 
 Dokumen ini memakai istilah **downgrade sebagai penyederhanaan cakupan dan penyajian paper untuk minipaper**, berdasarkan konteks percakapan. Jika yang dimaksud adalah penurunan versi Python, library, atau model, perubahan tersebut **belum dilakukan**.
 

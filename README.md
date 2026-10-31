@@ -90,3 +90,7 @@ Google Docs merupakan naskah bersama. Rename lokal tidak mengubah Google Docs; h
 - [Usulan revisi paper](kredit/paper/paper_draft_revised_en.md) dan [catatan perubahan](kredit/paper/REVISION-NOTES.md).
 - [Audit proyek](kredit/paper/review/PROJECT-AUDIT.md) dan [verifikasi perbaikan](kredit/paper/review/IMPLEMENTATION-VERIFICATION.md).
 - Review numerik CSV tidak menggantikan reproduksi model/SHAP atau pemeriksaan plagiarisme dan AI.
+
+## PDF minipaper ringkas
+
+[Unduh PDF 3 halaman](output/pdf/paper_minipaper_en.pdf) · [Sumber Markdown](kredit/paper/paper_minipaper_en.md) · [Konteks penyederhanaan](kredit/paper/DOWNGRADE-CONTEXT.md). Versi lengkap dan PDF lama tetap tersedia; Google Docs belum disinkronkan.

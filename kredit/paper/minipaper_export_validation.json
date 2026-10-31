@@ -1,0 +1,14 @@
+{
+  "pages": 3,
+  "source_words": 2215,
+  "source_sha256": "7005fa11521a72850a5914534150a9b2cedf0855e614eb1ebc38ea149ff739ca",
+  "pdf_sha256": "acdfff114ff1cabb2367cd2d1d1e5725eed53399ef6e3b8d10adc8a633cd09c0",
+  "layout": "A4, two columns, TNR body 10 pt",
+  "checks": [
+    "all pages render",
+    "key result values present",
+    "figure and caption on same page"
+  ],
+  "reportlab": "5.1.0",
+  "pypdfium2": "5.14.0"
+}
