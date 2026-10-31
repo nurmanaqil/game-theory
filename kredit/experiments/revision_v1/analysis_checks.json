@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "prediction_metric_rows": 48,
+  "attribution_summary_rows": 160,
+  "pilot_rows": 24,
+  "shap_files": 32,
+  "source_features": 23,
+  "plots": 5,
+  "selection_validation_only": true
+}

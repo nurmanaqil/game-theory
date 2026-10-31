@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "citation_first_appearance": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "reference_count": 11,
+  "authors": [
+    [
+      "Muhammad Daffa Ade Nugraha",
+      "L0124127"
+    ],
+    [
+      "Muhammad Yahya Saputra",
+      "L0124025"
+    ],
+    [
+      "Nurman Aqil Wicaksono",
+      "L0124139"
+    ],
+    [
+      "Muhammad Irfan",
+      "L0124063"
+    ]
+  ],
+  "source": "Kelompok Teori Game A 2026, Sheet1!B21:E24; independently verified via connected Google Sheets",
+  "layout": "one column; Times New Roman 12 pt; body leading 18 pt"
+}

@@ -1,0 +1,27 @@
+{
+  "model_name": "RF_depth12_leaf5",
+  "model_sha256": "3f79f93e3e66a28fac8ff168e297d6ccfcfc9a5413dec44cbc55db977cc12b7f",
+  "selected_threshold": 0.23619742272000907,
+  "threshold_selection": "maximize validation F1 for class 1",
+  "n_test": 5998,
+  "n_default": 1319,
+  "test_prevalence": 0.21990663554518172,
+  "test_data_sha256": {
+    "X_test.csv": "8f1e8d848d1d3662b51f9bb184e89ea156086a87ba29ef372cab68c8c8c1f185",
+    "y_test.csv": "4c1751878a4096d2beb80ce9060cd441c8e63a93587a97b39a34ac24bb982909"
+  },
+  "training_or_tuning_performed": false,
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.7.2",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5"
+  },
+  "checks": {
+    "model_and_selection_files_unchanged": true,
+    "test_rows_covered": true,
+    "confusion_counts_reconcile": true,
+    "positive_counts_reconcile": true,
+    "saved_predictions_match": true
+  }
+}

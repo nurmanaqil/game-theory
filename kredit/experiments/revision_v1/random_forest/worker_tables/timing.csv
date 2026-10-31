@@ -1,0 +1,12 @@
+family,seed,operation,seconds
+random_forest,42,fit_or_load_selected,0.12779000005684793
+random_forest,42,tree_path_dependent_0,0.08145040017552674
+random_forest,42,interventional_20261021,0.07495629996992648
+random_forest,42,interventional_20261023,0.07584840012714267
+random_forest,42,interventional_20261024,0.07562709995545447
+random_forest,17,fit_or_load_selected,0.11347710015252233
+random_forest,17,tree_path_dependent_0,0.0786699999589473
+random_forest,17,interventional_20261021,0.0771055999211967
+random_forest,73,fit_or_load_selected,0.12015109998174012
+random_forest,73,tree_path_dependent_0,87.85690360004082
+random_forest,73,interventional_20261021,175.43954570009373

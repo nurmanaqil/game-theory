@@ -1,0 +1,24 @@
+{
+  "scope": "1000 fixed test observations, 6 billing features, one fitted model and one background sample",
+  "n_observations": 1000,
+  "n_unique_top_both_modes": 1000,
+  "n_tied_in_either_mode": 0,
+  "n_top_agreement": 578,
+  "n_top_disagreement": 422,
+  "top_agreement_rate_among_unique": 0.578,
+  "top_tie_rule": "exclude observations with more than one maximum abs(SHAP) within absolute tolerance 1e-12 in either mode",
+  "global_ranking_scope": "six billing features ranked by mean absolute SHAP; average ranks for ties",
+  "spearman_global_billing": 0.7714285714285715,
+  "kendall_tau_b_global_billing": 0.6,
+  "mean_abs_signed_group_difference": 0.01041477043848555,
+  "mean_sum_abs_individual_differences": 0.011591091008608988,
+  "group_note": "sum of signed individual attributions, not a new grouped-player Shapley game",
+  "causal_claim": false,
+  "limitations": [
+    "single model seed",
+    "single 100-row interventional background",
+    "sample of test observations",
+    "mode-specific baselines differ",
+    "no statistical significance or causal effect established"
+  ]
+}

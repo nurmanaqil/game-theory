@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "pandas": "3.0.1",
+  "numpy": "2.3.5",
+  "execution": "Sequential Python cell execution; no Jupyter kernel invoked",
+  "recorded_at_utc": "2026-10-20T13:53:00.442576+00:00"
+}

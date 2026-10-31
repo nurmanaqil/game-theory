@@ -1,0 +1,947 @@
+[
+  {
+    "start": 4.66,
+    "end": 8.67,
+    "text": " Suara saya masih masuk?",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 8.67,
+    "end": 10.67,
+    "text": " Stringnya belum, Pak.",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 10.67,
+    "end": 11.67,
+    "text": " Belum, ya.",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 11.67,
+    "end": 13.67,
+    "text": " Nah, ini coba saya...",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 13.67,
+    "end": 15.67,
+    "text": " Berikan beberapa contoh.",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 15.67,
+    "end": 78.18,
+    "text": " Diobah...",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 79.18,
+    "end": 80.18,
+    "text": " ...dune screen-nya.",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 80.18,
+    "end": 93.09,
+    "text": " Ini saja kelihatannya.",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 93.09,
+    "end": 95.09,
+    "text": " Nah, untuk masing-masing kelombok,",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 95.09,
+    "end": 98.09,
+    "text": " silakan nanti membuat akun pepperpoll.",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 98.09,
+    "end": 100.09,
+    "text": " Pepperpoll ini platform GI.",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 101.09,
+    "end": 104.09,
+    "text": " Yang bisa dikundakan untuk membantu membuat pepper.",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 104.09,
+    "end": 108.09,
+    "text": " Tetapi ingatnya, dia bisa diintegrasikan di MSWood.",
+    "avg_logprob": -0.44247877101103467,
+    "no_speech_prob": 0.5577504634857178
+  },
+  {
+    "start": 109.09,
+    "end": 114.85,
+    "text": " ini sudah saya integrasikan di MSWatt saya",
+    "avg_logprob": -0.7140429119269053,
+    "no_speech_prob": 0.16765522956848145
+  },
+  {
+    "start": 114.85,
+    "end": 118.33,
+    "text": " sehingga bisa sudah muncul ada tag khusus pepperpoll di sini",
+    "avg_logprob": -0.7140429119269053,
+    "no_speech_prob": 0.16765522956848145
+  },
+  {
+    "start": 118.33,
+    "end": 120.61,
+    "text": " kemudian",
+    "avg_logprob": -0.7140429119269053,
+    "no_speech_prob": 0.16765522956848145
+  },
+  {
+    "start": 120.61,
+    "end": 123.93,
+    "text": " kemudian Open Pepperpoll",
+    "avg_logprob": -0.7140429119269053,
+    "no_speech_prob": 0.16765522956848145
+  },
+  {
+    "start": 123.93,
+    "end": 130.87,
+    "text": " kita berikan sedikit",
+    "avg_logprob": -0.7140429119269053,
+    "no_speech_prob": 0.16765522956848145
+  },
+  {
+    "start": 130.87,
+    "end": 134.15,
+    "text": " ilustrasi atau contohnya",
+    "avg_logprob": -0.7140429119269053,
+    "no_speech_prob": 0.16765522956848145
+  },
+  {
+    "start": 134.15,
+    "end": 159.57,
+    "text": " ini contohnya ya, kalau misalnya dibuka di Pepperpoll sudah diintegrasikan di Dock",
+    "avg_logprob": -0.7140429119269053,
+    "no_speech_prob": 0.16765522956848145
+  },
+  {
+    "start": 159.57,
+    "end": 166.97,
+    "text": " kemudian langsung untuk Papers di buat dalam BaseEnglish",
+    "avg_logprob": -0.4069965074558069,
+    "no_speech_prob": 0.26981616020202637
+  },
+  {
+    "start": 166.97,
+    "end": 174.82,
+    "text": " ini bisa digunakan untuk mengecek Grammar",
+    "avg_logprob": -0.4069965074558069,
+    "no_speech_prob": 0.26981616020202637
+  },
+  {
+    "start": 174.82,
+    "end": 179.82,
+    "text": " kita lihat di sini ada beberapa suggestion",
+    "avg_logprob": -0.4069965074558069,
+    "no_speech_prob": 0.26981616020202637
+  },
+  {
+    "start": 179.82,
+    "end": 184.82,
+    "text": " berarti ada kekeliruan di Grammar terkait dengan BaseEnglish",
+    "avg_logprob": -0.4069965074558069,
+    "no_speech_prob": 0.26981616020202637
+  },
+  {
+    "start": 184.82,
+    "end": 188.82,
+    "text": " ada Grammar, Readability, Mechanism & Style, Hoga Blurry dan sebagainya",
+    "avg_logprob": -0.4069965074558069,
+    "no_speech_prob": 0.26981616020202637
+  },
+  {
+    "start": 188.82,
+    "end": 192.82,
+    "text": " kita bisa langsung memperbaiki menggunakan Papers Poll di sini",
+    "avg_logprob": -0.4069965074558069,
+    "no_speech_prob": 0.26981616020202637
+  },
+  {
+    "start": 192.82,
+    "end": 203.82,
+    "text": " misalnya di sini ada kalimat yang perlu direpres, harusnya bukan escapable of achieving tapi cukup kan achieve",
+    "avg_logprob": -0.5347367011267563,
+    "no_speech_prob": 0.7866234183311462
+  },
+  {
+    "start": 203.82,
+    "end": 209.82,
+    "text": " kalau di asap nanti langsung memperbaiki di tulisan keyword kita",
+    "avg_logprob": -0.5347367011267563,
+    "no_speech_prob": 0.7866234183311462
+  },
+  {
+    "start": 209.82,
+    "end": 213.82,
+    "text": " kalimat ini langsung berubah",
+    "avg_logprob": -0.5347367011267563,
+    "no_speech_prob": 0.7866234183311462
+  },
+  {
+    "start": 213.82,
+    "end": 225.31,
+    "text": " kemudian yang berikutnya, S1 of the largest coffee producing, nah ini coffee producing harusnya pakai strip",
+    "avg_logprob": -0.32050306746300233,
+    "no_speech_prob": 0.585833728313446
+  },
+  {
+    "start": 225.31,
+    "end": 234.1,
+    "text": " nah ini sudah langsung diperbaiki oleh paper poll kemudian kita accept tapi harus dibaca satu-satu",
+    "avg_logprob": -0.32050306746300233,
+    "no_speech_prob": 0.585833728313446
+  },
+  {
+    "start": 234.1,
+    "end": 238.1,
+    "text": " ada beberapa yang tidak sesuai, harusnya diri-check",
+    "avg_logprob": -0.32050306746300233,
+    "no_speech_prob": 0.585833728313446
+  },
+  {
+    "start": 238.1,
+    "end": 243.1,
+    "text": " tapi kalau misalnya perbaikannya sesuai set, nah misalnya di sini masalah",
+    "avg_logprob": -0.32050306746300233,
+    "no_speech_prob": 0.585833728313446
+  },
+  {
+    "start": 243.1,
+    "end": 249.1,
+    "text": " Baca kemudian disk dan seharusnya ini cukup biasa saja dan seharusnya",
+    "avg_logprob": -0.3757003349593923,
+    "no_speech_prob": 0.4613121449947357
+  },
+  {
+    "start": 249.1,
+    "end": 255.1,
+    "text": " Ini yang pertama, jadi bisa mengecek grammar secara langsung",
+    "avg_logprob": -0.3757003349593923,
+    "no_speech_prob": 0.4613121449947357
+  },
+  {
+    "start": 255.1,
+    "end": 264.1,
+    "text": " Kemudian kelebihan yang lain bisa mencari citasi atau referensi yang paling mendekati",
+    "avg_logprob": -0.3757003349593923,
+    "no_speech_prob": 0.4613121449947357
+  },
+  {
+    "start": 264.1,
+    "end": 268.1,
+    "text": " Argumen yang kita masukkan ke dalam introduction",
+    "avg_logprob": -0.3757003349593923,
+    "no_speech_prob": 0.4613121449947357
+  },
+  {
+    "start": 268.1,
+    "end": 278.1,
+    "text": " saya punya kalimat seperti ini, perlu citasi yang mendukung pernyataan yang saya berikan di dalam intro.datsun",
+    "avg_logprob": -0.43503569576838247,
+    "no_speech_prob": 0.5836396813392639
+  },
+  {
+    "start": 278.1,
+    "end": 286.1,
+    "text": " disini bisa kita cari reset set, ax and question, set text",
+    "avg_logprob": -0.43503569576838247,
+    "no_speech_prob": 0.5836396813392639
+  },
+  {
+    "start": 286.1,
+    "end": 296.1,
+    "text": " nanti kita search, pepper poll akan memberikan beberapa atau native pepper yang membahas kalimat",
+    "avg_logprob": -0.43503569576838247,
+    "no_speech_prob": 0.5836396813392639
+  },
+  {
+    "start": 296.1,
+    "end": 301.54,
+    "text": " kalimat atau paragraph yang kita berikan tadi",
+    "avg_logprob": -0.32447424307465556,
+    "no_speech_prob": 0.38197898864746094
+  },
+  {
+    "start": 301.54,
+    "end": 305.54,
+    "text": " kalau cari yang bahasa Inggris",
+    "avg_logprob": -0.32447424307465556,
+    "no_speech_prob": 0.38197898864746094
+  },
+  {
+    "start": 305.54,
+    "end": 313.82,
+    "text": " ini harusnya belum saya masukkan akun saya tadi",
+    "avg_logprob": -0.32447424307465556,
+    "no_speech_prob": 0.38197898864746094
+  },
+  {
+    "start": 313.82,
+    "end": 316.82,
+    "text": " tapi kalau sudah punya akun, kemudian login",
+    "avg_logprob": -0.32447424307465556,
+    "no_speech_prob": 0.38197898864746094
+  },
+  {
+    "start": 316.82,
+    "end": 318.82,
+    "text": " ini tadi saya belum login, kalau sudah login",
+    "avg_logprob": -0.32447424307465556,
+    "no_speech_prob": 0.38197898864746094
+  },
+  {
+    "start": 318.82,
+    "end": 322.82,
+    "text": " nanti di sini ada tulisan set, kemudian langsung masuk ke sini",
+    "avg_logprob": -0.32447424307465556,
+    "no_speech_prob": 0.38197898864746094
+  },
+  {
+    "start": 322.82,
+    "end": 329.82,
+    "text": " kemudian reverensinya akan otomatis masuk di bagian reverensi",
+    "avg_logprob": -0.3044740080833435,
+    "no_speech_prob": 0.37851259112358093
+  },
+  {
+    "start": 329.82,
+    "end": 339.5,
+    "text": " ini fitur yang kedua, fitur yang pertama radikan bisa untuk mengecek grammar secara langsung",
+    "avg_logprob": -0.3044740080833435,
+    "no_speech_prob": 0.37851259112358093
+  },
+  {
+    "start": 339.5,
+    "end": 345.5,
+    "text": " kemudian yang kedua bisa mencari reverensi untuk citasi",
+    "avg_logprob": -0.3044740080833435,
+    "no_speech_prob": 0.37851259112358093
+  },
+  {
+    "start": 345.5,
+    "end": 352.5,
+    "text": " kemudian yang ketiga, fiturnya banyak, tapi disini saya berikan contoh 3 fitur saja",
+    "avg_logprob": -0.3044740080833435,
+    "no_speech_prob": 0.37851259112358093
+  },
+  {
+    "start": 352.5,
+    "end": 355.5,
+    "text": " nanti silahkan bisa di explore",
+    "avg_logprob": -0.4177573666428075,
+    "no_speech_prob": 0.1592894047498703
+  },
+  {
+    "start": 356.7,
+    "end": 360.26,
+    "text": " tapi ingat AITC ini hanya digunakan untuk membantu",
+    "avg_logprob": -0.4177573666428075,
+    "no_speech_prob": 0.1592894047498703
+  },
+  {
+    "start": 360.26,
+    "end": 365.26,
+    "text": " kita untuk menulis semua hasil begian",
+    "avg_logprob": -0.4177573666428075,
+    "no_speech_prob": 0.1592894047498703
+  },
+  {
+    "start": 365.26,
+    "end": 371.06,
+    "text": " jadi hasil begiannya tetap kita tejakan dengan menggunakan metan atau pingin kita sendiri",
+    "avg_logprob": -0.4177573666428075,
+    "no_speech_prob": 0.1592894047498703
+  },
+  {
+    "start": 371.06,
+    "end": 374.9,
+    "text": " kemudian baru kita beri penjelasan",
+    "avg_logprob": -0.4177573666428075,
+    "no_speech_prob": 0.1592894047498703
+  },
+  {
+    "start": 374.9,
+    "end": 379.58,
+    "text": " kita beri penjelasan misalnya hasilnya lebih besar dari 15 persaian",
+    "avg_logprob": -0.4177573666428075,
+    "no_speech_prob": 0.1592894047498703
+  },
+  {
+    "start": 379.58,
+    "end": 384.08,
+    "text": " kalau akurasi 24% ini berdasarkan hasil pelitian",
+    "avg_logprob": -0.5033453354176055,
+    "no_speech_prob": 0.14578640460968018
+  },
+  {
+    "start": 384.58,
+    "end": 393.08,
+    "text": " tapi untuk isian teksnya, misalnya mau kita tambahkan atau kita perkuat argumentnya",
+    "avg_logprob": -0.5033453354176055,
+    "no_speech_prob": 0.14578640460968018
+  },
+  {
+    "start": 393.08,
+    "end": 397.58,
+    "text": " kita bisa menggunakan bantuan pepperpulse bagi asisten",
+    "avg_logprob": -0.5033453354176055,
+    "no_speech_prob": 0.14578640460968018
+  },
+  {
+    "start": 397.58,
+    "end": 400.58,
+    "text": " misalnya disini ada pilihan re-read atau re-read",
+    "avg_logprob": -0.5033453354176055,
+    "no_speech_prob": 0.14578640460968018
+  },
+  {
+    "start": 400.58,
+    "end": 406.08,
+    "text": " misalnya re-read, misalnya disini ada beberapa fitur",
+    "avg_logprob": -0.5033453354176055,
+    "no_speech_prob": 0.14578640460968018
+  },
+  {
+    "start": 406.08,
+    "end": 414.08,
+    "text": " mau kita tambahkan kalimat terikutnya itu keep writing atau explain this, expand on this",
+    "avg_logprob": -0.32685593969148136,
+    "no_speech_prob": 0.34895405173301697
+  },
+  {
+    "start": 414.08,
+    "end": 424.1,
+    "text": " atau pilihan yang lain generate concluding statement, silahkan nanti bisa dicoba-coba",
+    "avg_logprob": -0.32685593969148136,
+    "no_speech_prob": 0.34895405173301697
+  },
+  {
+    "start": 424.1,
+    "end": 429.1,
+    "text": " langitnya keep writing, keep writing itu biasanya menambahkan beberapa kalimat selanjutnya",
+    "avg_logprob": -0.32685593969148136,
+    "no_speech_prob": 0.34895405173301697
+  },
+  {
+    "start": 429.1,
+    "end": 437.67,
+    "text": " jadi tidak mengubah kalimat yang kita bold disini, misalnya keep writing",
+    "avg_logprob": -0.32685593969148136,
+    "no_speech_prob": 0.34895405173301697
+  },
+  {
+    "start": 437.67,
+    "end": 442.67,
+    "text": " dan setelah 3 sentensis, menambahkan 3 kalimat berikutnya",
+    "avg_logprob": -0.4961270290725636,
+    "no_speech_prob": 0.16320563852787018
+  },
+  {
+    "start": 442.67,
+    "end": 445.67,
+    "text": " kemudian kita insert dan nanti menambah",
+    "avg_logprob": -0.4961270290725636,
+    "no_speech_prob": 0.16320563852787018
+  },
+  {
+    "start": 445.67,
+    "end": 449.67,
+    "text": " tapi tetep kita becala lagi apakah sudah sesuai atau belum",
+    "avg_logprob": -0.4961270290725636,
+    "no_speech_prob": 0.16320563852787018
+  },
+  {
+    "start": 449.67,
+    "end": 452.67,
+    "text": " iskondistan, improvement, highlight, dan sebagainya",
+    "avg_logprob": -0.4961270290725636,
+    "no_speech_prob": 0.16320563852787018
+  },
+  {
+    "start": 452.67,
+    "end": 456.67,
+    "text": " ini kalau ini untuk give rating",
+    "avg_logprob": -0.4961270290725636,
+    "no_speech_prob": 0.16320563852787018
+  },
+  {
+    "start": 456.67,
+    "end": 461.67,
+    "text": " atau yang lain, misalnya mau kita para-plaster",
+    "avg_logprob": -0.4961270290725636,
+    "no_speech_prob": 0.16320563852787018
+  },
+  {
+    "start": 461.67,
+    "end": 464.67,
+    "text": " karena nandikan perlu di-check turn it in ya",
+    "avg_logprob": -0.4961270290725636,
+    "no_speech_prob": 0.16320563852787018
+  },
+  {
+    "start": 464.67,
+    "end": 475.67,
+    "text": " yang untuk menghindari plagiasi atau plagiarisme tingkat turnitian harus kurang dari 20 persen atau sumbularity",
+    "avg_logprob": -0.42832392233389394,
+    "no_speech_prob": 0.491685688495636
+  },
+  {
+    "start": 475.67,
+    "end": 483.07,
+    "text": " disini ada pilihan misalnya para rasa mudian generate",
+    "avg_logprob": -0.42832392233389394,
+    "no_speech_prob": 0.491685688495636
+  },
+  {
+    "start": 483.07,
+    "end": 491.33,
+    "text": " disini mempara rasa paragraph yang kita pilih tadi",
+    "avg_logprob": -0.42832392233389394,
+    "no_speech_prob": 0.491685688495636
+  },
+  {
+    "start": 491.33,
+    "end": 496.33,
+    "text": " replace berarti menggantikan, kalau kita replace disini menggantikan",
+    "avg_logprob": -0.42832392233389394,
+    "no_speech_prob": 0.491685688495636
+  },
+  {
+    "start": 496.33,
+    "end": 501.33,
+    "text": " isinya sama, cuma susu-susunan atau susu-susur bahasanya berbeda.",
+    "avg_logprob": -0.28160714752533855,
+    "no_speech_prob": 0.4626120924949646
+  },
+  {
+    "start": 501.33,
+    "end": 505.28,
+    "text": " Nanti bisa di-check yang lain.",
+    "avg_logprob": -0.28160714752533855,
+    "no_speech_prob": 0.4626120924949646
+  },
+  {
+    "start": 505.28,
+    "end": 507.28,
+    "text": " Fitur-fitur yang lain.",
+    "avg_logprob": -0.28160714752533855,
+    "no_speech_prob": 0.4626120924949646
+  },
+  {
+    "start": 507.28,
+    "end": 513.63,
+    "text": " Jadi silahkan ada banyak platform seperti Paperball.",
+    "avg_logprob": -0.28160714752533855,
+    "no_speech_prob": 0.4626120924949646
+  },
+  {
+    "start": 513.63,
+    "end": 519.63,
+    "text": " Tapi Paperball ini cukup bagus karena sudah bisa diindegasikan di,",
+    "avg_logprob": -0.28160714752533855,
+    "no_speech_prob": 0.4626120924949646
+  },
+  {
+    "start": 519.63,
+    "end": 524.63,
+    "text": " jadi ketika kita menulis, kita bisa langsung menggunakan Paperball",
+    "avg_logprob": -0.28160714752533855,
+    "no_speech_prob": 0.4626120924949646
+  },
+  {
+    "start": 524.63,
+    "end": 531.47,
+    "text": " pepperpoll untuk membantu melengkapi, menyempurnakan manuskribi yang kita buat.",
+    "avg_logprob": -0.43156171696526663,
+    "no_speech_prob": 0.42851558327674866
+  },
+  {
+    "start": 531.47,
+    "end": 537.99,
+    "text": " Ingat tidak membuat semua pepper di si pepper, tetapi hanya melengkapi",
+    "avg_logprob": -0.43156171696526663,
+    "no_speech_prob": 0.42851558327674866
+  },
+  {
+    "start": 537.99,
+    "end": 543.03,
+    "text": " atau membantu, misalnya untuk mengecek kremar, mengecek bahasa, dan sebesar.",
+    "avg_logprob": -0.43156171696526663,
+    "no_speech_prob": 0.42851558327674866
+  },
+  {
+    "start": 543.03,
+    "end": 549.16,
+    "text": " Itu ya, jadi itu kaya yang pertama, silahkan masing-masing individu,",
+    "avg_logprob": -0.43156171696526663,
+    "no_speech_prob": 0.42851558327674866
+  },
+  {
+    "start": 549.16,
+    "end": 552.84,
+    "text": " masing-masing kelompok untuk mendarat membuat akun pepperpoll,",
+    "avg_logprob": -0.43156171696526663,
+    "no_speech_prob": 0.42851558327674866
+  },
+  {
+    "start": 552.84,
+    "end": 559.84,
+    "text": " kemudian sampai bisa diintegrasikan ke Word, sehingga muncul paper poll di sini",
+    "avg_logprob": -0.3891091883182526,
+    "no_speech_prob": 0.2690255045890808
+  },
+  {
+    "start": 559.84,
+    "end": 570.4,
+    "text": " kemudian tugas untuk UTSID, masing-masing kelompos sudah mulai meniusun mini paper dengan formatnya bebas",
+    "avg_logprob": -0.3891091883182526,
+    "no_speech_prob": 0.2690255045890808
+  },
+  {
+    "start": 570.4,
+    "end": 575.4,
+    "text": " tapi paling tidak menggudi format paper ya, ada judul, ada abstract, ada introduction sampai yang terakhir",
+    "avg_logprob": -0.3891091883182526,
+    "no_speech_prob": 0.2690255045890808
+  },
+  {
+    "start": 575.4,
+    "end": 580.4,
+    "text": " ada kesimpulan, concluding, remark, atau conclusion dan references",
+    "avg_logprob": -0.3891091883182526,
+    "no_speech_prob": 0.2690255045890808
+  },
+  {
+    "start": 580.4,
+    "end": 589.74,
+    "text": " Selain ini nanti kita berikan beberapa contoh beper yang lain ya, tadi kan baru kita masukkan di sepada satu contoh beper saja.",
+    "avg_logprob": -0.506128881584134,
+    "no_speech_prob": 0.6128581166267395
+  },
+  {
+    "start": 589.74,
+    "end": 603.75,
+    "text": " Baik itu ada pertanyaan sampai di sini, atau sudah jelas tergantung dengan tugas UDS-nya?",
+    "avg_logprob": -0.506128881584134,
+    "no_speech_prob": 0.6128581166267395
+  },
+  {
+    "start": 603.75,
+    "end": 606.9,
+    "text": " Apa, izintannya?",
+    "avg_logprob": -0.506128881584134,
+    "no_speech_prob": 0.6128581166267395
+  },
+  {
+    "start": 606.9,
+    "end": 607.94,
+    "text": " Iya, silahkan.",
+    "avg_logprob": -0.506128881584134,
+    "no_speech_prob": 0.6128581166267395
+  },
+  {
+    "start": 607.94,
+    "end": 612.9,
+    "text": " Penugasan berarti tidak harus selesai kan Pak, tadi kan Pak Bintang kereda harus sempurna.",
+    "avg_logprob": -0.506128881584134,
+    "no_speech_prob": 0.6128581166267395
+  },
+  {
+    "start": 612.9,
+    "end": 621.86,
+    "text": " Tapi buat sekarang belum sebab mengatakan, kalau sekarang masih banyak yang bisa saya baru nyari data-nya dulu,",
+    "avg_logprob": -0.5936009135188126,
+    "no_speech_prob": 0.5025784373283386
+  },
+  {
+    "start": 621.86,
+    "end": 626.66,
+    "text": " atau di paper yang tiba-tiba jelasnya nak kira gimana, tapi bisa dikonsentrasi lagi.",
+    "avg_logprob": -0.5936009135188126,
+    "no_speech_prob": 0.5025784373283386
+  },
+  {
+    "start": 626.66,
+    "end": 636.58,
+    "text": " Iya, boleh. Jadi ini untuk V1 atau versi pertama, jadi mini paper versi pertama.",
+    "avg_logprob": -0.5936009135188126,
+    "no_speech_prob": 0.5025784373283386
+  },
+  {
+    "start": 636.58,
+    "end": 643.58,
+    "text": " Jadi tidak harus lengkap dulu, sempurna dulu.",
+    "avg_logprob": -0.2276757206235613,
+    "no_speech_prob": 0.4610912501811981
+  },
+  {
+    "start": 643.58,
+    "end": 649.58,
+    "text": " Tetapi kalau sudah lengkap atau semuna, tentunya kan ada poin ngelenya ya.",
+    "avg_logprob": -0.2276757206235613,
+    "no_speech_prob": 0.4610912501811981
+  },
+  {
+    "start": 649.58,
+    "end": 655.58,
+    "text": " Jadi misalnya ada kelompok yang sudah mengerjakan, sudah menganalisi data",
+    "avg_logprob": -0.2276757206235613,
+    "no_speech_prob": 0.4610912501811981
+  },
+  {
+    "start": 655.58,
+    "end": 660.86,
+    "text": " dengan kelompok yang baru mencari data, tentunya kan ngelenya kan berbeda.",
+    "avg_logprob": -0.2276757206235613,
+    "no_speech_prob": 0.4610912501811981
+  },
+  {
+    "start": 660.86,
+    "end": 664.86,
+    "text": " Kemudian untuk dirlenya kan sampai tanggal 25 ya.",
+    "avg_logprob": -0.2276757206235613,
+    "no_speech_prob": 0.4610912501811981
+  },
+  {
+    "start": 664.86,
+    "end": 675.86,
+    "text": " Nah, nanti kalau misalnya dirasa waktunya kurang, silahkan bisa didiskusikan melalui BG Classnya nanti bisa disampaikan ke saya, jadi waktunya flexible.",
+    "avg_logprob": -0.286301586887624,
+    "no_speech_prob": 0.704934298992157
+  },
+  {
+    "start": 675.86,
+    "end": 679.86,
+    "text": " Tapi kalau pun ada perpanjangan hanya beberapa hari saja.",
+    "avg_logprob": -0.286301586887624,
+    "no_speech_prob": 0.704934298992157
+  },
+  {
+    "start": 679.86,
+    "end": 683.46,
+    "text": " Sudah jelas?",
+    "avg_logprob": -0.286301586887624,
+    "no_speech_prob": 0.704934298992157
+  },
+  {
+    "start": 688.21,
+    "end": 689.21,
+    "text": " Yang lain?",
+    "avg_logprob": -0.286301586887624,
+    "no_speech_prob": 0.704934298992157
+  },
+  {
+    "start": 689.21,
+    "end": 693.99,
+    "text": " Jelas, Pak.",
+    "avg_logprob": -0.286301586887624,
+    "no_speech_prob": 0.704934298992157
+  },
+  {
+    "start": 693.99,
+    "end": 694.99,
+    "text": " Ya, baik.",
+    "avg_logprob": -0.286301586887624,
+    "no_speech_prob": 0.704934298992157
+  },
+  {
+    "start": 694.99,
+    "end": 696.99,
+    "text": " Kalau tidak, kita cukupkan ya.",
+    "avg_logprob": -0.286301586887624,
+    "no_speech_prob": 0.704934298992157
+  },
+  {
+    "start": 696.99,
+    "end": 709.99,
+    "text": " Tadi kalau ada kelompok yang mau mengubah modelnya menjadi mengambilkan generatif adversari yang network ada point plus",
+    "avg_logprob": -0.3535015443339944,
+    "no_speech_prob": 0.6374214887619019
+  },
+  {
+    "start": 709.99,
+    "end": 720.49,
+    "text": " Karena tiga kompleksitasnya berbeda. Jangan kalau ada kelompok yang suka tantangan, ada yang mengambilkan",
+    "avg_logprob": -0.3535015443339944,
+    "no_speech_prob": 0.6374214887619019
+  },
+  {
+    "start": 720.49,
+    "end": 723.29,
+    "text": " baik itu ya untuk pertemuan kita hari ini",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 723.29,
+    "end": 726.19,
+    "text": " ini nanti saya buatkan OJW 5 menit",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 726.19,
+    "end": 728.29,
+    "text": " setelah itu nanti silahkan",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 728.29,
+    "end": 730.29,
+    "text": " persensi",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 730.29,
+    "end": 733.29,
+    "text": " untuk mengganti pertemuan minggu ini",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 733.29,
+    "end": 737.29,
+    "text": " kalau tidak ada bisa kita cukupkan tadi ya",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 737.29,
+    "end": 741.43,
+    "text": " ingat yang pertama tadi",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 741.43,
+    "end": 742.43,
+    "text": " paper pole",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 742.43,
+    "end": 744.43,
+    "text": " nanti sangat membantu tugasnya",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 744.43,
+    "end": 745.83,
+    "text": " kemudian yang kedua",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 745.83,
+    "end": 747.83,
+    "text": " mulai",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 747.83,
+    "end": 749.83,
+    "text": " pengajakan",
+    "avg_logprob": -0.4610539318245148,
+    "no_speech_prob": 0.12374287098646164
+  },
+  {
+    "start": 749.83,
+    "end": 755.83,
+    "text": " isi tukasnya yaitu mencari data kemudian dianalysis menggunakan model, kemudian mulai menyusup",
+    "avg_logprob": -0.21528478009360177,
+    "no_speech_prob": 0.12403082847595215
+  },
+  {
+    "start": 755.83,
+    "end": 762.83,
+    "text": " Makanya disini butuh tim ya, butuh tim base project, masing-masing anggota harus berkontribusi",
+    "avg_logprob": -0.21528478009360177,
+    "no_speech_prob": 0.12403082847595215
+  },
+  {
+    "start": 762.83,
+    "end": 766.83,
+    "text": " Kalau ada yang tidak berkontribusi, silahkan nanti bisa dilaporkan",
+    "avg_logprob": -0.21528478009360177,
+    "no_speech_prob": 0.12403082847595215
+  },
+  {
+    "start": 766.83,
+    "end": 774.11,
+    "text": " Makanya nanti di akhir kita cek perkontribusi masing-masing anggota",
+    "avg_logprob": -0.21528478009360177,
+    "no_speech_prob": 0.12403082847595215
+  },
+  {
+    "start": 774.11,
+    "end": 777.11,
+    "text": " Kalau tidak, kita cukupkan",
+    "avg_logprob": -0.21528478009360177,
+    "no_speech_prob": 0.12403082847595215
+  },
+  {
+    "start": 777.11,
+    "end": 780.11,
+    "text": " Assalamu'alaikum warahmatullahi wabarakatuh",
+    "avg_logprob": -0.21528478009360177,
+    "no_speech_prob": 0.12403082847595215
+  },
+  {
+    "start": 780.11,
+    "end": 782.11,
+    "text": " Waalaikumsalam",
+    "avg_logprob": -0.39961541444063187,
+    "no_speech_prob": 0.47209882736206055
+  },
+  {
+    "start": 782.11,
+    "end": 784.11,
+    "text": " Waalaikumsalam",
+    "avg_logprob": -0.39961541444063187,
+    "no_speech_prob": 0.47209882736206055
+  },
+  {
+    "start": 784.11,
+    "end": 786.11,
+    "text": " Waalaikumsalam",
+    "avg_logprob": -0.39961541444063187,
+    "no_speech_prob": 0.47209882736206055
+  },
+  {
+    "start": 786.11,
+    "end": 788.11,
+    "text": " Selamat tinggal",
+    "avg_logprob": -0.39961541444063187,
+    "no_speech_prob": 0.47209882736206055
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "family": "gradient_boosting",
+  "candidate": 1,
+  "parameters": {
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "min_samples_leaf": 5,
+    "max_depth": 3,
+    "subsample": 1.0
+  },
+  "validation_AP": 0.5757201877916722,
+  "selection_seed": 42,
+  "criterion": "highest validation AP; exact tie lower candidate index"
+}

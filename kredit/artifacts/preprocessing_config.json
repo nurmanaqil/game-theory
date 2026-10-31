@@ -1,0 +1,31 @@
+{
+  "seed": 20261020,
+  "partition": "StratifiedGroupKFold(n_splits=5, shuffle=True): fold0=test; fold1=validation; folds2,3,4=train",
+  "groups": "Exact equality of 23 semantic predictors after prespecified EDUCATION mapping; excludes ID and target.",
+  "target_ratios": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "raw_sha256": "a0f0ab49d6326671d6cd83be5c88dcf18007025fe9a53ecd699119c871176ca1",
+  "n_rows": 30000,
+  "n_semantic_features": 23,
+  "n_encoded_features": 89,
+  "rows_dropped": 0,
+  "education_unknown_rows": 345,
+  "education_numeric_codes_changed": 331,
+  "n_profile_groups_after_recode": 29944,
+  "repeated_profile_rows_after_recode": 108,
+  "repeated_profile_groups_after_recode": 52,
+  "conflicting_target_groups_after_recode": 21,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scikit_learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "joblib": "1.5.2"
+  },
+  "training_started": false,
+  "model_results_available": false
+}

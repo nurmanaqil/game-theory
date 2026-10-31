@@ -1,0 +1,10 @@
+{
+  "original_unchanged": true,
+  "raw_snapshot_matches_original": true,
+  "raw_dataframe_not_modified": true,
+  "dictionary_covers_each_column_once": true,
+  "target_counts_reconcile": true,
+  "category_counts_reconcile": true,
+  "duplicate_members_reconcile": true,
+  "target_is_binary_and_complete": true
+}

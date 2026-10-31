@@ -1,0 +1,15 @@
+{
+  "family": "random_forest",
+  "candidate": 1,
+  "parameters": {
+    "n_estimators": 300,
+    "max_depth": 12,
+    "min_samples_leaf": 5,
+    "max_features": "sqrt",
+    "bootstrap": true,
+    "n_jobs": 2
+  },
+  "validation_AP": 0.5731126973088532,
+  "selection_seed": 42,
+  "criterion": "highest validation AP; exact tie lower candidate index"
+}

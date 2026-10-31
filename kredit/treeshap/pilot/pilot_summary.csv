@@ -1,0 +1,3 @@
+mode,n_explained,baseline_default,maximum_additivity_error_all_classes,additivity_passed,seconds
+interventional,20,0.2485182291860801,1.6223544396787304e-08,True,2.6389175999938743
+tree_path_dependent,20,0.2190245302230862,2.55351295663786e-15,True,0.9223435999883804

@@ -1,0 +1,27 @@
+{
+  "source_local": "UCI_Credit_Card.csv",
+  "raw_snapshot": "raw/UCI_Credit_Card.csv",
+  "size_bytes": 2862995,
+  "sha256": "a0f0ab49d6326671d6cd83be5c88dcf18007025fe9a53ecd699119c871176ca1",
+  "first_recorded_by_this_audit_utc": "2026-10-20T13:51:49.662468+00:00",
+  "download_date": null,
+  "uploader_dataset_version": null,
+  "provenance_status": "Struktur dibandingkan dengan dokumentasi UCI; kesamaan byte terhadap unduhan resmi belum diverifikasi.",
+  "source_license": "S1 mencantumkan CC BY 4.0. Lisensi/versi mirror saat pengunduhan belum terekam.",
+  "sources": {
+    "S1": {
+      "title": "UCI Default of Credit Card Clients",
+      "url": "https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients",
+      "doi": "10.24432/C55S3H"
+    },
+    "S2": {
+      "title": "Kaggle mirror: uciml/default-of-credit-card-clients-dataset",
+      "url": "https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset"
+    },
+    "S3": {
+      "title": "Lin dan Wang (2025), preprint, Tabel 1 dan bagian Data Source and Cleaning",
+      "url": "https://arxiv.org/pdf/2508.01851",
+      "journal_doi": "10.3390/risks13120238"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "mode": "interventional",
+    "error": 3.023531363055554e-07
+  },
+  {
+    "mode": "tree_path_dependent",
+    "error": 2.384185791015625e-07
+  }
+]

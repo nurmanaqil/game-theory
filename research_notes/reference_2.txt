@@ -1,0 +1,568 @@
+
+--- PAGE 1 ---
+ 
+Classification of Roasted Coffee Bean Maturity 
+Levels Using Convolutional Neural Network with 
+Grad-CAM Visualization 
+ 
+ 
+Abstract—Determining the maturity level of roasted coffee 
+beans is an important step because it can affect the quality of 
+coffee production in Indonesia. Therefore, this study was 
+conducted to develop a Convolutional Neural Network (CNN) 
+model using EfficientNet -B0 to classify the degree of maturity 
+and apply the Gradient -weighted Class Activation Mapping 
+(Grad-CAM) visualization technique. The data used consisted 
+of images of roasted coffee beans categorized into four degrees 
+of maturity, namely green, light, mediu m, and dark. The test 
+results show that the model is capable of achieving an accuracy 
+of more than 98% with a loss value below 0.20. This indicates 
+that the model has reached optimal convergence without 
+overfitting. In addition, the heatmap visualization f rom Grad-
+CAM proves that the model focuses on relevant visual areas, 
+such as the color and texture of coffee beans, in determining 
+classification decisions. 
+Keywords—Deep Learning, Convolutional Neural Network, 
+EfficientNet-B0, Grad-CAM, Roasted Coffee Bean 
+I. INTRODUCTION 
+Coffee production in Indonesia in 2024 reached 789,233 
+thousand tons, an increase of 3.86% from 2023 [1]. As one of 
+the largest coffee producing countries, Indonesians have 
+made drinking coffee a part of their culture. The habit of 
+enjoying coffee is not only ingrained in daily activities, but 
+also part of social interactions, lifestyle, and even the identity 
+of the younger generation. Drinking coffee every day has 
+even become an inseparable routine for most people. Based 
+on GoodStats survey [2], as many as 40% of Indonesians 
+admit to consuming two cups of coffee per day, indicating a 
+high level of dependence and demand. 
+The increase in demand for coffee products needs to be 
+balanced with efforts to maintain the quality of coffee beans 
+so that quality stability is maintained. Therefore, identifying 
+the maturity of coffee beans is a crucial stage in the coffee 
+production ch ain. In order to maintain coffee quality, 
+computer vision technology through the Convolutional 
+Neural Network (CNN) architecture offers an objective 
+automation solution. CNN is capable of learning complex 
+visual patterns such as color and texture to classi fy coffee 
+fruit ripeness with high accuracy, replacing inefficient 
+manual processes. Although CNN excels in accuracy, this 
+model is often considered a black box because its decision -
+making process is difficult to understand.  Therefore, this 
+research aims not only to build a CNN model for coffee fruit 
+ripeness classification, but also to apply the Gradient -
+weighted Class Activation Mapping (Grad -CAM) 
+visualization technique. The use of Grad -CAM will produce 
+a heatmap to analyze and visualize the model's foc us, 
+resulting in a classification system that is not only accurate 
+but also transparent and interpretable. 
+II. LITERATURE REVIEW 
+A. Previous Study and Research 
+Research on the classification of coffee bean 
+roasting levels has been conducted using various 
+approaches based on image processing and deep learning. 
+One relevant study is Coffee Roast Intelligence. This 
+study utilizes Convolutional Neural Networks (CNN) to 
+identify the maturity level of roasted coffee beans. CNN 
+was chosen as the primary method due to its ability to 
+extract complex visual patterns such as the color and 
+texture of roasted coffee beans [3].  
+In the Coffee Roast Intelligence study [4], there was 
+no model that utilized explainable AI to identify factors 
+that influence the classification decisions of the methods 
+used. To support this need for interpretability, this study 
+integrated the Gradient -weighted Class Activation 
+Mapping (Grad -CAM) method as a visualization tool 
+capable of showing which areas of the coffee bean image 
+are the main focus of the model when determining the 
+roasting level. Grad-CAM has been proven to be suitable 
+as a method of interpretation and transparency for CNN 
+in research conducted by Ramprasaath [5]. This approach 
+is expected to not only increase model transparency, but 
+also make it easier for users such as roasters, quality 
+control, and coffee industry players to visually validate 
+prediction results. 
+B. Deep Learning 
+An example of artificial intelligent technology is 
+Deep Learning. Deep Learning is a machine learning 
+method used for object identification and classification 
+[6]. Deep Learning methods utilize non -linear 
+transformations and multi -level abstraction to handle 
+large data sets [7]. In 2006, the concept of Deep Learning 
+emerged as a new branch of research in the field of 
+machine learning [8].  
+ 
+C. Convolutional Neural Network  
+Convolutional Neural Network (CNN) is one of the 
+most efficient and commonly used deep learning methods 
+in visual data processing, such as image recognition and 
+video analysis [9]. The CNN architecture is designed to 
+mimic the workings of the visual cortex in the human 
+brain, where neurons respond to stimuli in specific 
+receptive fields to distinguish between different objects 
+[10]. Basically, the CNN structure consists of several 
+main layers, namely the input layer, the convolution layer 
+for feature extraction, the pooling layer to reduce spatial 
+dimensions and computational complexity, and the fully 
+connected layer for final class ification [11] . The main 
+advantage of CNNs over conventional methods is their 
+
+--- PAGE 2 ---
+ability to perform feature extraction automatically 
+without requiring separate extraction tools, enabling them 
+to gradually learn raw data representations from basic to 
+complex patterns. 
+D. EfficientNet-B0 
+EfficientNet-B0 is the base model of the 
+Convolutional Neural Network (CNN) architecture series 
+known as EfficientNet. This architecture is designed to 
+achieve an ideal balance between high accuracy and 
+computational efficiency. Unlike conventional CNN 
+models that manually scale network dimensions, 
+EfficientNet applies a compound scaling technique that 
+systematically scales the depth, width, and resolution of 
+the network using fixed compound coefficients [6], [7]. 
+The main architecture of EfficientNet -B0 was developed 
+using Mobile Inverted Bottleneck Convolution blocks, 
+inspired by MobileNetV2. However, these blocks were 
+developed with a Squeeze -and-Excitation (SE) 
+mechanism to improve feature extraction, as well as 
+replacing the ReLU activation function with Swish [6], 
+[12]. 
+E. Gradient-weighted Class Activation Mapping 
+Gradient-weighted Class Activation Mapping 
+(Grad-CAM) is a visualization technique developed to 
+improve the transparency and interpretability of deep 
+learning models, particularly Convolutional Neural 
+Networks (CNNs), which are often considered black 
+boxes [13]. This method works by utilizing gradient 
+information from the target class flowing to the last 
+convolutional layer, thereby producing a coarse 
+localization map, which is then visualized as a heatmap 
+[14], [15]. This heatmap intuitively emphasizes important 
+areas or pixels in the input image that most influence the 
+model's prediction decision, allowing users to check 
+whether the model focuses on relevant object features or 
+only learns inappropriate background patterns [16]. In the 
+context of image classification, Grad -CAM provides 
+post-hoc visual explanations that help domain experts 
+assess model performance by displaying high visual 
+intensity in areas that form the basis for classification 
+decisions. Although the resulting  interpretation is 
+qualitative, this approach is very useful for ensuring that 
+the classification model has learned the correct 
+discriminative features of the detected objects [15].  
+F. Coffee 
+According to the Badan Pusat Statistik, Indonesia 
+was able to produce 758.72 tons of coffee in 2023 [17]. 
+This is also influenced by the high demand for coffee 
+among the public, as drinking coffee has become a way 
+of life in Indonesia. Therefore, Indonesia ranked first in 
+coffee consumption in Southeast Asia in 2019 [18].  
+To produce coffee beans that can be used to make 
+drinks, coffee must undergo a roasting process. This 
+technique is the key to coffee's aroma because roasting 
+causes the coffee beans to expand and open up [19]. 
+Coffee bean roasting levels are divided into four 
+categories: green, light, medium, and dark   [20]. The 
+levels range from the lightest to the most intense. 
+III. METHODOLOGY 
+The main method used to classify the maturity level of 
+coffee beans is Convolutional Neural Network (CNN). In 
+order to improve transparency and clarify the decision -
+making basis of the CNN model, this study utilizes the Grad-
+CAM visualization technique. Through the analysis of the 
+heatmap generated by Grad-CAM, it is able to identify areas 
+in the image that contribute most significantly to the model's 
+prediction. The complete process and workflow of the 
+method used in this study are presented in Figure 1. 
+ 
+Figure 1. Flowchart of Classification of Roasted Coffee Bean Maturity 
+Levels 
+A. Data Preparation 
+The dataset used in this study consists of images of 
+roasted coffee beans obtained from the Kaggle at Coffee 
+Bean Dataset Resized (224 X 224) [21]. The dataset consists 
+of four categories of maturity levels, namely green, light, 
+medium, and dark. All images have variations in lighting 
+conditions, shooting angles, and backgrounds, so a pre -
+processing stage is required before the data can be used as 
+input for the Convolutional Neural Network (CNN) model. 
+All images are then read using OpenCV, which by default 
+loads images in BGR format. Therefore, each image is 
+converted to RGB format to comply with the input standard 
+of the EfficientNet architecture used in this study. Upon 
+completion, the images are resized to 224 × 224 pixels using 
+
+
+--- PAGE 3 ---
+the resize function. This resolution normalization is 
+necessary to maintain input dimension consistency and 
+ensure compatibility with the pretrained model type 
+employed. The processed images are then stored in a data 
+structure containing image pairs and cl ass labels, then 
+converted into a four-dimensional NumPy array (N, 224, 224, 
+3), where N is the total number of samples. Once all the data 
+has been collected, randomization is performed to eliminate 
+sequence bias and prevent the model from learning based o n 
+sequential class patterns. 
+The final stage of pre-processing is separating the dataset 
+into training data and testing data. The separation is done to 
+evaluate the model's performance on data that was not used 
+during the training process, so that the evaluation results are 
+more objective and not affected by overfitting. Overall, this 
+stage ensures that all images have been standardized and are 
+ready to be used in the training process of the EfficientNetB0-
+based CNN model with Grad-CAM visualization. 
+B. Data Training 
+This study applies a Transfer Learning approach using the 
+EfficientNet-B0 architecture as the main method for feature 
+extraction. The model is configured in three main 
+components, namely pre -trained images, the addition of a 
+classification head, and training parameter configuration. 
+1) Pre-trained Image 
+This study applies the Transfer Learning 
+approach, a method in which the model is not 
+developed from scratch, but rather utilizes the initial 
+parameter weights θ that have been previously 
+trained in the source domain of the ImageNet 
+dataset. This strategy was chosen to address the 
+limited number of coffee bean images and accelerate 
+the model convergence process. The main 
+advantage of EfficientNet -B0 lies in its com pound 
+scaling method, which uniformly balances the 
+depth, width, and resolution of the network. As 
+explained by Hussain et al. [22], this scaling 
+mechanism is formulated using a compound 
+coefficient 𝜙  based on the equation:  
+𝑑 = 𝛼𝜙, 𝑤 = 𝛽𝜙, 𝑟 = 𝛾𝜙 (1) 
+This optimal architecture is then used to extract 
+universal visual features, such as lines, edges, and 
+textures in the early convolutional layers. The 
+feature extraction process in each convolution layer 
+is performed through a dot product operation 
+between input I and filter kernel K, which is 
+expressed in the following equation: 
+𝑆(𝑖, 𝑗) = (𝐼 ∗ 𝐾)(𝑖, 𝑗) 
+= ∑ ∑ 𝐼(𝑚, 𝑛) ⋅ 𝐾(𝑖 − 𝑚, 𝑗 − 𝑛)
+𝑛𝑚
+(2) 
+Since these basic features are also present in 
+coffee bean images, the model can effectively use 
+the 𝑆(𝑖, 𝑗) representation. The original EfficientNet-
+B0 architecture has a final classification layer 
+designed to predict 1,000 ImageNet categories. 
+However, since this study only targets four levels of 
+coffee maturity, a custom classification head was 
+specifically created, using the 3D feature map output 
+from the last convolutional layer as a basis. Unlike 
+pure feature extraction methods that freeze the 
+weights of the base model, this study uses full fine -
+tuning, which allows all weights in the EfficientNet-
+B0 network to be updated during backpropagation. 
+The weight update mechanism θ at iteration 𝑡 + 1 is 
+performed based on the gradient of the loss function 
+L, which is defined as: 
+𝜃𝑡+1 = 𝜃𝑡 − 𝜂 ⋅ 𝛻𝐿(𝜃𝑡) (3) 
+Where 𝜂 represents the learning rate, which is set 
+at 10−5. The goal is for the model to not only rely 
+on general features from ImageNet, but also to be 
+able to adjust the feature representation to be more 
+sensitive to the characteristics of coffee beans, while 
+maintaining the stability of the parameters that have 
+been learned previously. 
+2) Classification Head 
+After feature extraction, the feature map 
+produced by EfficientNet -B0 is processed by a 
+custom classification head created specifically for 
+this study. The initial step involves dimension 
+reduction through Global Average Pooling 2D, 
+which summarizes spatia l data into a one -
+dimensional feature vector by calculating the 
+average value in each channel. If 𝑓𝑖,𝑗,𝑘 represents the 
+activation value at position (i, j) in channel k then 
+this operation can be formulated as: 
+𝑦𝑘 = 1
+𝐻 × 𝑊 ∑ ∑ 𝑓𝑖,𝑗,𝑘
+𝑊
+𝑗=1
+𝐻
+𝑖=1
+(4) 
+Where H and W are the height and width 
+dimensions of the feature map. This method was 
+chosen to significantly reduce the number of 
+parameters and improve the model's robustness to 
+changes in object position (spatial translation) in the 
+image. The feature vectors are the n sent to a dense 
+layer with 256 neuron units that utilize the ReLU 
+(Rectified Linear Unit) activation function to 
+capture the non -linear relationships between 
+features. This activation function works by mapping 
+negative input values to zero, as defined in  the 
+following equation: 
+𝑓(𝑥) = max(0, 𝑥) (5) 
+To avoid overfitting, a situation where the model 
+fits the training data too closely, the Dropout 
+regularization technique was applied at a rate of 0.5. 
+This approach randomly deactivates half of the 
+neurons during training, forcing the network to learn 
+stronger and more redundant feature 
+representations, rather than relying on a single 
+specific feature. 
+In the final step, the processing output is sent to 
+the final layer consisting of 4 neurons, 
+corresponding to the number of coffee bean maturity 
+categories (Dark, Green, Light, Medium). The 
+Softmax activation function is used in this layer to 
+convert the m odel output (z) into a probability 
+distribution 𝑃(𝑦 = 𝑖 | 𝑥). The probability for class i 
+is calculated using the formula: 
+𝜎(𝑧)𝑖 = 𝑒 𝑧𝑖
+∑ 𝑒𝑧𝑗𝐾
+𝑗=1
+ (6) 
+Where K is the number of classes or categories. 
+The category with the highest probability value is 
+
+--- PAGE 4 ---
+then selected as the final classification prediction 
+result. 
+3) Training Process 
+The model training process was carried out using 
+the TensorFlow and Keras libraries with the Adam 
+(Adaptive Moment Estimation) optimization 
+algorithm. Adam was chosen for its efficiency in 
+handling high -dimensional data and its ability to 
+dynamically adapt  the learning rate. This 
+conservative approach was applied to minimize the 
+risk of damage to pre -trained weights that had 
+loaded essential visual feature information, as well 
+as to ensure that the convergence process ran stably 
+towards the global optimum point. 
+As the objective function to be minimized, this 
+study uses Sparse Categorical Crossentropy. This 
+loss function is suitable for multi-class classification 
+with integer format labels, where the system 
+measures the logarithmic difference between the 
+predicted class probability and the actual label. 
+Mathematically, the loss function for a single data 
+sample is defined as: 
+𝐿 = − ∑ 𝑦𝑖 ⋅ log(𝑝𝑖)
+𝐾
+𝑖=1
+(7) 
+Where K is the number of classes, and 𝑦𝑖 is 1 if 
+class i is the correct label and 0 if incorrect. The 
+objective of the training process is to minimize the 
+value of L to approach zero. Training was conducted 
+for 15 epochs with a batch size of 32. To validate the 
+model's generalization ability, a cross -validation 
+scenario was applied by separating 10% of the 
+training data as a validation set. The model's 
+performance was then comprehensively evaluated 
+using standard metrics based on a confusion matrix. 
+Referring to the formulation described by Hussain et 
+al. [22], the model's accuracy was calculated as the 
+ratio of total correct predictions to the total number 
+of observations: 
+𝐴𝑐𝑐𝑢𝑟𝑎𝑐𝑦 = 𝑇𝑃 + 𝑇𝑁
+𝑇𝑃 + 𝑇𝑁 + 𝐹𝑃 + 𝐹𝑁 (8) 
+Where TP (True Positive), TN (True Negative), 
+FP (False Positive), and FN (False Negative) 
+represent prediction elements. In addition to 
+accuracy, precision is measured to determine the 
+accuracy of the model's positive predictions: 
+𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 = 𝑇𝑃
+𝑇𝑃 + 𝐹𝑃 (9) 
+The sensitivity of the model in recognizing 
+positive classes is measured using the following 
+formula: 
+𝑅𝑒𝑐𝑎𝑙𝑙 = 𝑇𝑃
+𝑇𝑃 + 𝐹𝑃 (10) 
+Finally, to balance precision and recall values, 
+the F1-Score metric is used, which is the harmonic 
+mean of the two, as formulated below: 
+𝐹1 ∙ 𝑆𝑐𝑜𝑟𝑒 = 2 ∙ 𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 ∙ 𝑅𝑒𝑐𝑎𝑙𝑙
+𝑃𝑟𝑒𝑠𝑖𝑐𝑖𝑜𝑛 + 𝑅𝑒𝑐𝑎𝑙𝑙 (11) 
+IV. RESULTS AND DISCUSSION 
+In this section, testing and discussion will be carried out 
+on the coffee bean roasting maturity classification system that 
+has been developed. The testing was carried out by analyzing 
+the prediction results of the CNN model and Grad -CAM 
+visualization. The training results data were presented in the 
+form of accuracy and loss graphs to see the model's 
+convergence level at each e poch, as well as a confusion 
+matrix to see the details of classification errors between 
+classes. The Grad-CAM visualization approach was also used 
+to prove that the model actually learned relevant visual 
+features, such as the color and texture of coffee beans. 
+Based on the prediction results shown in Figures 2, 3, 4, 
+and 5, the model successfully identified the maturity level of 
+coffee beans accurately. In the Green, Light, and Medium 
+categories, the model shows a very high confidence level 
+of >90%. Meanwhile, i n the Dark category, the model 
+provides a convincing prediction result of 80%, which 
+indicates that the visual features of dark brown color and 
+texture in roasted beans are well recognized by the model. 
+Table 1. Prediction results table 
+Coffee Bean Roasting Level Prediction Results 
+ 
+Figure 2. Green Coffee Bean Roasting Level 
+ 
+Figure 3. Light Coffee Bean Roasting Level 
+ 
+Figure 4. Medium Coffee Bean Roasting Level 
+
+
+--- PAGE 5 ---
+ 
+Figure 5. Dark Coffee Bean Roasting Level 
+ 
+From the accuracy model graph in Figure 6, it can be seen 
+that the model results show a significant and stable 
+improvement in performance. The model started learning 
+with low accuracy (~24%), but it managed to improve with 
+each epoch, achieving an accuracy  of >98%. In other words, 
+this model has a low error rate. Additionally, the validation 
+accuracy line moves in tandem with and even exceeds the 
+training accuracy, indicating that the Dropout mechanism is 
+working well, preventing the model from overfitting. 
+ 
+Figure 6. Model Accuracy Chart 
+ 
+In addition to measuring model accuracy, the model's loss 
+value is also measured. This is shown in Figure 7, which 
+shows that the model's error rate decreases significantly and 
+consistently as the number of epochs increases. At the 
+beginning of training, t he loss value is still high because the 
+model weights have not yet adapted to the coffee bean 
+features. However, as the learning process progresses, the 
+loss value drops dramatically and reaches a relatively low 
+figure, which is below 0.20 for training and  validation data. 
+This proves that the model has reached an optimal 
+convergence point. 
+ 
+Figure 7. Model Loss Chart 
+ 
+To validate the model's performance, the evaluation was 
+continued using a confusion matrix. This matrix shows the 
+distribution map of the model's predictions for each coffee 
+class, namely Green, Light, Medium, and Dark. Based on the 
+confusion matrix visual ization in Figure 8, a very positive 
+pattern can be seen, where the majority of the prediction 
+numbers are concentrated on the main diagonal. This 
+indicates that the number of true positives is very high, or that 
+the model is almost always able to predict labels that 
+correspond to the actual conditions.  
+ 
+Figure 8. Confusion Matrix 
+ 
+V. CONCLUSION 
+Based on the results of testing and analysis that have been 
+carried out, it can be concluded that the Convolutional Neural 
+Network (CNN) model developed is capable of classifying 
+the maturity level of coffee beans with excellent 
+performance. The Grad -CAM heatmap results show that the 
+model focuses on areas of the image that are visually relevant, 
+such as color, darkness intensity, and coffee bean surface 
+texture, ensuring that the model's decisions do not depend on 
+random artifacts but rather truly learn th e important features 
+of the object. Quantitatively, the model shows a significant 
+increase in accuracy at each epoch and achieves a final 
+accuracy value of over 98%, accompanied by a steady 
+
+
+--- PAGE 6 ---
+decrease in loss to a value below 0.20. This confirms that the 
+model has reached an optimal convergence point without 
+experiencing overfitting. The Confusion Matrix visualization 
+also shows the dominance of true positive values on the main 
+diagonal, which means that the model is able to correctly 
+predict most of the samples. 
+REFERENCES 
+[1] “Annual report scopi 2024,” SCOPI, Central Jakarta, 2024. [Online]. 
+Available: https://scopi.or.id/storage/scp-
+reports/July2025/7tYfOwGlyCtCRbZdYGNz.pdf 
+[2] GoodStats, “Hasil Survei Pola Konsumsi Kopi 2024,” GoodStats. 
+Accessed: Nov. 30, 2025. [Online]. Available: 
+https://goodstats.id/publication/hasil-survei-pola-konsumsi-kopi-2024-
+QT1FU 
+[3] A. F. Setiadi F., A. A. Kurniawan, A. D. Hartanto, and H. Hartatik, 
+“Implementasi Metode CNN dan Deep Learning untuk Menentukan 
+Tingkat Roasting Biji Kopi,” Inf. Tech. J, vol. 4, no. 2, pp. 48–54, Dec. 
+2022, doi: 10.24076/intechnojournal.2022v4i2.1563. 
+[4] S. Ontoum, T. Khemanantakul, P. Sroison, T. Triyason, and B. 
+Watanapa, “Coffee Roast Intelligence,” arXiv [cs.CV], Jun. 03, 2022. 
+[Online]. Available: http://arxiv.org/abs/2206.01841 
+[5] R. R. Selvaraju, M. Cogswell, A. Das, R. Vedantam, D. Parikh, and D. 
+Batra, “Grad -CAM: Visual explanations from deep networks via 
+gradient-based localization,” Int. J. Comput. Vis. , vol. 128, no. 2, pp. 
+336–359, Feb. 2020, doi: 10.1007/s11263-019-01228-7. 
+[6] Ü. Atila, M. Uçar, K. Akyol, and E. Uçar, “Plant leaf disease 
+classification using EfficientNet deep learning model,” Ecol. Inform., 
+vol. 61, no. 101182, p. 101182, Mar. 2021, doi: 
+10.1016/j.ecoinf.2020.101182. 
+[7] M. Behzadpour, B. L. Ortiz, E. Azizi, and K. Wu, “Breast tumor 
+classification using EfficientNet deep learning model,” arXiv [eess.IV], 
+2024. doi: 10.48550/ARXIV.2411.17870. 
+[8] N. Sharma, R. Sharma, and N. Jindal, “Machine learning and deep 
+learning applications-A vision,” Global Transitions Proceedings, vol. 
+2, no. 1, pp. 24–28, Jun. 2021, doi: 10.1016/j.gltp.2021.01.004. 
+[9] M. M. Taye, “Theoretical understanding of convolutional neural 
+network: Concepts, architectures, applications, future directions,” 
+Computation (Basel) , vol. 11, no. 3, p. 52, Mar. 2023, doi: 
+10.3390/computation11030052. 
+[10] D. Bhatt et al. , “CNN variants for computer vision: History, 
+architecture, application, challenges and future scope,” Electronics 
+(Basel), vol. 10, no. 20, p. 2470, Oct. 2021, doi: 
+10.3390/electronics10202470. 
+[11] I. Naseer, S. Akram, T. Masood, A. Jaffar, M. A. Khan, and A. Mosavi, 
+“Performance analysis of state -of-the-art CNN architectures for 
+LUNA16,” Sensors (Basel), vol. 22, no. 12, p. 4426, Jun. 2022, doi: 
+10.3390/s22124426. 
+[12] S. Babu, K. Thawait, A. P. Gopi, U. Srinivasarao, and K. J. Naik, “An 
+EfficientNet-B0 framework for nitrogen stress identification in 
+sustainable precision farming plants,” Cognit. Comput., vol. 17, no. 5, 
+Oct. 2025, doi: 10.1007/s12559-025-10504-3. 
+[13] R. L. Draelos and L. Carin, “Use HiResCAM instead of Grad-CAM for 
+faithful explanations of convolutional neural networks,” arXiv 
+[eess.IV], Nov. 17, 2020. [Online]. Available: 
+http://arxiv.org/abs/2011.08891 
+[14] H. Panwar, P. K. Gupta, M. K. Siddiqui, R. Morales -Menendez, P. 
+Bhardwaj, and V. Singh, “A deep learning and grad -CAM based color 
+visualization approach for fast detection of COVID-19 cases using chest 
+X-ray and CT -Scan images,” Chaos Solitons Fractals , vol. 140, no. 
+110190, p. 110190, Nov. 2020, doi: 10.1016/j.chaos.2020.110190. 
+[15] H. Zhang and K. Ogasawara, “Grad -CAM-based explainable artificial 
+intelligence related to medical text processing,” Bioengineering 
+(Basel), vol. 10, no. 9, p. 1070, Sep. 2023, doi: 
+10.3390/bioengineering10091070. 
+[16] D. Dworak and J. Baranowski, “Adaptation of Grad -CAM method to 
+neural network architecture for LiDAR pointcloud object detection,” 
+Energies, vol. 15, no. 13, p. 4681, Jun. 2022, doi: 10.3390/en15134681. 
+[17] Badan Pusat Statistik Indonesia, “Statistik Kopi Indonesia 2023,” 
+Badan Pusat Statistik. Accessed: Dec. 10, 2025. [Online]. Available: 
+https://www.bps.go.id/id/publication/2024/11/29/d748d9bf594118fe1
+12fc51e/statistik-kopi-indonesia-2023.html 
+[18] P. G. Ramadani, H. M. Suud, A. P. Arum, D. A. Savitri, F. Nisak, and 
+D. E. Kusbianto, “Pengaruh Tingkat Roasting Kopi Robusta dan 
+Penambahan Jahe Merah Pada Aktivitas Antioksidan,” Atech-i, vol. 2, 
+no. 2, pp. 7–17, Apr. 2025, doi: 10.55043/atech-i.v2i2.30. 
+[19] E. Hassan, “Enhancing coffee bean classification: a comparative 
+analysis of pre -trained deep learning models,” Neural Comput. Appl., 
+vol. 36, no. 16, pp. 9023 –9052, Jun. 2024, doi: 10.1007/s00521-024-
+09623-z. 
+[20] I. V. C. Motta, N. Vuillerme, H. -H. Pham, and F. A. P. de Figueiredo, 
+“Machine learning techniques for coffee classification: a 
+comprehensive review of scientific research,” Artif. Intell. Rev., vol. 58, 
+no. 1, Nov. 2024, doi: 10.1007/s10462-024-11004-w. 
+[21] Gerry, “Coffee Bean Dataset Resized (224 X 224).” Aug. 11, 2022. 
+Accessed: Dec. 13, 2025. [Online]. Available: 
+https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-
+resized-224-x-224 
+[22] A. Hussain, S. Ul Amin, M. Fayaz, and S. Seo, “An efficient and robust 
+hand gesture recognition system of sign language employing finetuned 
+inception-V3 and efficientnet -B0 network,” Comput. Syst. Sci. Eng. , 
+vol. 46, no. 3, pp. 3509–3525, 2023, doi: 10.32604/csse.2023.037258. 
+ 

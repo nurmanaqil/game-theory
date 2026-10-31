@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.7.2",
+    "scipy": "1.16.2",
+    "shap": "0.54.1",
+    "joblib": "1.5.2"
+  },
+  "python": "3.14.7",
+  "python_executable": "D:\\Kuliah\\Semester 5\\Game Theory\\Project Paper\\kredit\\.venv_local\\Scripts\\python.exe",
+  "dependency_strategy": "new local venv, reused copied cp314 site-packages via .pth; no pip install",
+  "checks": {
+    "raw_checksum": {
+      "passed": true,
+      "detail": null
+    },
+    "preprocessing_file_checksums": {
+      "passed": true,
+      "detail": 16
+    },
+    "train_split_membership": {
+      "passed": true,
+      "detail": null
+    },
+    "train_encoding": {
+      "passed": true,
+      "detail": null
+    },
+    "train_labels": {
+      "passed": true,
+      "detail": null
+    },
+    "validation_split_membership": {
+      "passed": true,
+      "detail": null
+    },
+    "validation_encoding": {
+      "passed": true,
+      "detail": null
+    },
+    "validation_labels": {
+      "passed": true,
+      "detail": null
+    },
+    "test_split_membership": {
+      "passed": true,
+      "detail": null
+    },
+    "test_encoding": {
+      "passed": true,
+      "detail": null
+    },
+    "test_labels": {
+      "passed": true,
+      "detail": null
+    },
+    "model_checksum": {
+      "passed": true,
+      "detail": null
+    },
+    "validation_probabilities": {
+      "passed": true,
+      "detail": 3.3306690738754696e-16
+    },
+    "selected_threshold": {
+      "passed": true,
+      "detail": 0.23619742272000907
+    },
+    "test_probabilities": {
+      "passed": true,
+      "detail": 1.6653345369377348e-16
+    },
+    "test_metrics_0": {
+      "passed": true,
+      "detail": null
+    },
+    "test_confusion_0": {
+      "passed": true,
+      "detail": null
+    },
+    "test_metrics_1": {
+      "passed": true,
+      "detail": null
+    },
+    "test_confusion_1": {
+      "passed": true,
+      "detail": null
+    },
+    "selected_forest_refit_predictions": {
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    "explanation_membership": {
+      "passed": true,
+      "detail": null
+    },
+    "explanation_inputs": {
+      "passed": true,
+      "detail": null
+    },
+    "interventional_20261021_attributions": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "interventional_20261021_baseline": {
+      "passed": true,
+      "detail": null
+    },
+    "interventional_20261021_additivity": {
+      "passed": true,
+      "detail": null
+    },
+    "tree_path_dependent_20261021_attributions": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "tree_path_dependent_20261021_baseline": {
+      "passed": true,
+      "detail": null
+    },
+    "tree_path_dependent_20261021_additivity": {
+      "passed": true,
+      "detail": null
+    },
+    "interventional_20261023_attributions": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "interventional_20261023_baseline": {
+      "passed": true,
+      "detail": null
+    },
+    "interventional_20261023_additivity": {
+      "passed": true,
+      "detail": null
+    },
+    "interventional_20261024_attributions": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "interventional_20261024_baseline": {
+      "passed": true,
+      "detail": null
+    },
+    "interventional_20261024_additivity": {
+      "passed": true,
+      "detail": null
+    },
+    "background_summary_20261021": {
+      "passed": true,
+      "detail": null
+    },
+    "background_summary_20261023": {
+      "passed": true,
+      "detail": null
+    },
+    "background_summary_20261024": {
+      "passed": true,
+      "detail": null
+    },
+    "historical_artifacts_unchanged": {
+      "passed": true,
+      "detail": 86
+    }
+  },
+  "timing": {
+    "refit_seconds": 5.581893399823457,
+    "interventional_20261021_seconds": 170.44709039991722,
+    "tree_path_dependent_20261021_seconds": 80.75728189991787,
+    "interventional_20261023_seconds": 147.24257710017264,
+    "interventional_20261024_seconds": 155.01406600000337
+  },
+  "elapsed_seconds": 570.0712236999534,
+  "scope": "recomputed split; loaded preprocessor transform; saved model predictions; threshold and test metrics; refit selected RF only; full main SHAP and two extra backgrounds. No full candidate search or encoder refit."
+}

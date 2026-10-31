@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "paper": "D:\\Kuliah\\Semester 5\\Game Theory\\Project Paper\\kredit\\paper\\paper_draft_en.md",
+  "word_count": 4420,
+  "figures": 6,
+  "tables": 7,
+  "references": 11,
+  "tables_generated_from": [
+    "predictive_metrics.csv",
+    "attribution_summary.csv"
+  ],
+  "checks": [
+    "image targets exist",
+    "no unfilled table tokens",
+    "sequential reference list",
+    "paired display-math delimiters",
+    "seven numbered tables",
+    "six numbered figures"
+  ]
+}

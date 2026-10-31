@@ -1,0 +1,4 @@
+family,candidate,validation_AP,validation_ROC_AUC,parameters,seconds_fit_or_load
+random_forest,0,0.5699516181089211,0.7868480856460046,"{""n_estimators"": 300, ""max_depth"": 8, ""min_samples_leaf"": 5, ""max_features"": ""sqrt"", ""bootstrap"": true, ""n_jobs"": 2}",0.20459170010872185
+random_forest,1,0.5731126973088532,0.789775394857939,"{""n_estimators"": 300, ""max_depth"": 12, ""min_samples_leaf"": 5, ""max_features"": ""sqrt"", ""bootstrap"": true, ""n_jobs"": 2}",0.2736629000864923
+random_forest,2,0.571748652632738,0.787975980193318,"{""n_estimators"": 300, ""max_depth"": null, ""min_samples_leaf"": 5, ""max_features"": ""sqrt"", ""bootstrap"": true, ""n_jobs"": 2}",0.3848679999355227

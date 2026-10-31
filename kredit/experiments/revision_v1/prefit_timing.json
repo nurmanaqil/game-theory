@@ -1,0 +1,47 @@
+[
+  {
+    "family": "extra_trees",
+    "candidate": 0,
+    "fit_seconds": 1.9986216998659074
+  },
+  {
+    "family": "extra_trees",
+    "candidate": 1,
+    "fit_seconds": 2.470379199832678
+  },
+  {
+    "family": "extra_trees",
+    "candidate": 2,
+    "fit_seconds": 3.5885124998167157
+  },
+  {
+    "family": "gradient_boosting",
+    "candidate": 0,
+    "fit_seconds": 16.177978200139478
+  },
+  {
+    "family": "gradient_boosting",
+    "candidate": 1,
+    "fit_seconds": 23.995397999882698
+  },
+  {
+    "family": "gradient_boosting",
+    "candidate": 2,
+    "fit_seconds": 31.98198079993017
+  },
+  {
+    "family": "xgboost",
+    "candidate": 0,
+    "fit_seconds": 1.8801812999881804
+  },
+  {
+    "family": "xgboost",
+    "candidate": 1,
+    "fit_seconds": 1.8771794000640512
+  },
+  {
+    "family": "xgboost",
+    "candidate": 2,
+    "fit_seconds": 2.035763500025496
+  }
+]

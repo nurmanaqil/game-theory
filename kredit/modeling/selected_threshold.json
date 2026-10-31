@@ -1,0 +1,9 @@
+{
+  "threshold": 0.23619742272000907,
+  "selection_rule": "maximize validation F1 for class 1",
+  "tie_break": "higher threshold",
+  "validation_f1": 0.5597112860892388,
+  "model_file": "selected_rf.joblib",
+  "model_sha256": "3f79f93e3e66a28fac8ff168e297d6ccfcfc9a5413dec44cbc55db977cc12b7f",
+  "n_validation": 5997
+}

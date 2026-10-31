@@ -1,0 +1,15 @@
+{
+  "family": "extra_trees",
+  "candidate": 2,
+  "parameters": {
+    "n_estimators": 300,
+    "max_depth": null,
+    "min_samples_leaf": 5,
+    "max_features": "sqrt",
+    "bootstrap": false,
+    "n_jobs": 2
+  },
+  "validation_AP": 0.5639718015062679,
+  "selection_seed": 42,
+  "criterion": "highest validation AP; exact tie lower candidate index"
+}

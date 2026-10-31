@@ -1,0 +1,915 @@
+
+--- PAGE 1 ---
+ViewOnline
+ExportCitation
+RESEARCH ARTICLE |  NOVEMBER 20 2025
+Understanding stock market dynamics with LIME: Insights
+from explainable AI 
+Sectio Krisna Wijaya; Nughthoh Arfawi Kurdhi
+AIP Conf. Proc. 3446, 020037 (2025)
+https://doi.org/10.1063/5.0308817
+ 03 January 2026 18:39:21
+
+
+--- PAGE 2 ---
+
+		
+
+
+		
+'1#24.'/40(#4*'.#4+%3'$'-#3#2'4!/+6'23+4952#,#24#	
+/&0/'3+#
+
+022'310/&+/)#54*02#2(#.+1#5/3#%+&
+3'%4+0,2+3/#345&'/45/3#%+&  
+()') *+&"$)"+'#0*'!-&+#)&#!%+ #&#&%&$0%+ !%+)+!&%&	)+!!!#%+##!%	
+!%+& $)"+ %#0*!*  * +  '&+%+!# +& *!%!!%+#0 % % !*!&%$"!% *'!+ +  -% ')!+!-
+'!#!+!*&	$&#*+ !)&)*+*&+%*,))&$&'!+0%% ##%!%+&!%+)')+)!&,*$+ &*
+/!*+ &) &)*+!% *+&" ')!* ,+ + !) )#!!#!+0 !* )(,%+#0 (,*+!&% , +& !!,#+!* !% ,%)*+%!% %
+'&+%+!# $!*!%+)')++!&%* & )** + * !**,* . !%+)&, /'#!%# 	 	 + %!(,* +& !$')&- + 
+!%+)')+!#!+0&*+&"$)"+&)*+*
+0$'#&0!%$+ &**, *&#%+)')+#&#%&*+!/'#%+!&%*
+.!%-*+!+ &.+&)**, * !*+&)!#*+&"')!*%$)"+!%!+&)*&))#+.!+ %!$'++ 
+$&-$%+* & *#+ *+&"* ,) )*,#+* $&%*+)+ + + 	+ %!(,* *!%!!%+#0 % % +  #)!+0 & 	
+')!+!&%* ')&-!!% $&) ')!* !%*! +* !%+& +  !*!&%$"!% ')&***  !% *+&" $)"+ &)*+*
+,)+ )$&)&,)%#0*!*)-#*+ +!%&)'&)+!%	%&+&%#0!$')&-*+)%*')%0,+#*&!*!%!%+!0!%"0
+-)!#*!%#,%!%*+&"$&-$%+*+ ,*&)!%+!&%#!%*! +*+ +.)')-!&,*#0&*,)0+ #"&/
+%+,)&	$&#* !*!$')&-+)%*')%0$!+!+*+  ##%***&!+.!+ +)!+!&%#')!+!-$+ &*
+$"!%	)!-%&)*+*$&))#!#%+!&%#%+!!'++ ++ *!%!%*.!##-#,#+&*+" &#)*
+!% +  !%%!# *+&) &)!%  #)) ,%)*+%!% & $)"+ 0%$!* % &*+)!%++)!%&)$ !%-*+$%+
+!*!&%*
+0)!!%+ '+.%&$'#/	$&#*% ,$%!%+)')+)*&,))*) *,''&)+*+ -#&'$%+
+&$&)+),*+.&)+ 0%+!-!%%!#&)*+!%+&&#*
+
++<9GHC7?A5F?9HD@5MG5D=JCH5@FC@9=BH<9K<C@9;@C65@97CBCAMG9FJ=B;5G57FI7=5@D@5H:CFA:CF7CAD5B=9GHC
+F5=G9 75D=H5@ CF :CF =BJ9GHCFG HC 57EI=F9 CKB9FG<=D GH5?9G
+ 77IF5H9 DF98=7H=CB 5B8 :CF975GH=B; C: GHC7? DF=79G 5F9
+9GG9BH=5@:CF=B:CFA98897=G=CB	A5?=B;=B:=B5B7=5@A5F?9HG23
+=GHCF=75@@MGHC7?A5F?9HDF98=7H=CBG<5J9F9@=98CB
+HF58=H=CB5@GH5H=GH=75@AC89@G5B8<9IF=GH=7A9H<C8GK<=7<C:H9BGHFI;;@9K=H<H<9=B<9F9BH7CAD@9L=HM5B8JC@5H=@=HM
+C: :=B5B7=5@ 85H5 23
+ +<9G9 HF58=H=CB5@ 5DDFC57<9G :F9EI9BH@M:5@@ G<CFH =B 75DHIF=B; H<9 8MB5A=7 5B8 BCB	@=B95F
+F9@5H=CBG<=DG K=H<=B :=B5B7=5@ A5F?9HG @958=B; HC @=A=H5H=CBG=B H<9=F :CF975GH=B; 577IF57M
+  B F979BH M95FG H<9
+=BH9;F5H=CB5B889J9@CDA9BHC:58J5B798H97<BC@C;=9GGI7<5GA57<=B9@95FB=B;5B8FH=:=7=5@ BH9@@=;9B79 <5G
+9A9F;98 5G 5 DFCA=G=B; 5@H9FB5H=J9 HC 9B<5B79 DF98=7H=CB 75D56=@=H=9G
+ +<9G9 A9H<C8G C::9F H<9 DCH9BH=5@ HC 69HH9F
+<5B8@9@5F;9JC@IA9GC:85H55B8=89BH=:M=BHF=75H9D5HH9FBGH<5HHF58=H=CB5@AC89@GA5MA=GG
+9GD=H9H<9=F58J5BH5;9G
+ 	8F=J9B 5DDFC57<9G 5@GC :579 7<5@@9B;9G F9@5H98 HC AC89@ =BH9FDF9H56=@=HM 5B8 HF5BGD5F9B7M
+ 88F9GG=B; H<9G9
+7<5@@9B;9GH<FCI;<LD@5=B56@9 / H97<B=EI9G=G7FI7=5@:CFA5?=B; DF98=7H=CBGACF97CADF9<9BG=6@95B8
+57H=CB56@9 H<IG 6F=8;=B; H<9 ;5D 69HK99B 58J5B798 5B5@MH=75@ HCC@G 5B8 DF57H=75@ 897=G=CB	A5?=B; =B :=B5B7=5@
+A5F?9HG
+
+.=H<H<9F=G9C:5FH=:=7=5@=BH9@@=;9B79 GHC7?A5F?9HDF98=7H=CB<5GG99BGI6GH5BH=5@DFC;F9GG
+$57<=B9@95FB=B;
+AC89@G 9GD97=5@@M H<CG9 IH=@=N=B; 899D @95FB=B; DFCJ=89 FC6IGH HCC@G :CF 5B5@MN=B; 9LH9BG=J9 :=B5B7=5@ 85H5 5B8
+DFC8I7=B; :CF975GHG 23
+ +<9G9 AC89@G 56@9 HC 75DHIF9 7CAD@9L D5HH9FBG 5B8 5@GC F9@5H=CBG<=DG K=H<=B H<9 85H5
+9B<5B7=B;H<9577IF57MC:H<9DF98=7H=CB7CAD5F98HCHF58=H=CB5@A9H<C8G
+9GD=H9H<9=FDF98=7H=J9DFCK9GGH<9G9 
+AC89@GIGI5@@MCD9F5H95G6@57?6CL9GDFCJ=8=B;CIHDIHGK=H<CIH7@95F9LD@5B5H=CBGC:H<9IB89F@M=B;897=G=CB	
+A 5 ? = B ; D F C 7 9 G G 9 G 2  3 
+ + < = G @ 5 7 ? C : H F 5 B G D 5 F 9 B 7 M 7 5 B @ 9 5 8 H C A = G=BH9FDF9H5H=CBG 5B8 IB89FA=B9 H<9 F9@=56=@=HM C:
+DF98=7H=CBG 5G GH5?9<C@89FG A5M :=B8 =H 7<5@@9B;=B; HC IB89FGH5B8 <CK DF98=7H=CBG 5F9 89F=J98 CF HC HFIGH H<9=F
+CIH7CA9G23
+CBG9EI9BH@MH<9F9=G5;FCK=B;B998HC=BH9;F5H9LD@5=B56@9 / H97<B=EI9GHC=ADFCJ9H<9
+=BH9FDF9H56=@=HM C:  	8F=J9B DF98=7H=CBG H<9F96M 9B<5B7=B; HF5BGD5F9B7M 5B8 :CGH9F=B; ;F95H9F 7CB:=89B79 =B H<9
+:CF975GH=B;75D56=@=H=9GC:H<9G958J5B798AC89@G
+
+LD@5=B56@95FH=:=7=5@=BH9@@=;9B79/ <5G697CA95B=ADCFH5BH5F955=A985H588F9GG=B;H<9G97<5@@9B;9G23
+
+/ :C7IG9GCBA5?=B; AC89@GACF9=BH9FDF9H56@95B8IB89FGH5B856@9H<IG6F=8;=B;H<9;5D69HK99B7CAD@9L 
+The 5th International Conference on Mathematics and its Applications (ICoMathApp) 2024
+AIP Conf. Proc. 3446, 020037-1–020037-12; https://doi.org/10.1063/5.0308817
+Published under an exclusive license by AIP Publishing. 978-0-7354-5298-5/$30.00
+020037-1
+ 03 January 2026 18:39:21
+
+
+--- PAGE 3 ---
+GMGH9AG 5B8 <IA5B 7CADF9<9BG=CB 23
+ ACB; J5F=CIG /  H97<B=EI9G #C75@  BH9FDF9H56@9 $C89@	5;BCGH=7
+LD@5B5H=CBG# $=GD5FH=7I@5F@MG=;B=:=75BH
+ BHFC8I7986M)=69=FC*=B;<5B8I9GHF=B=B# $DFCJ=89G
+@C75@9LD@5B5H=CBG:CF=B8=J=8I5@DF98=7H=CBGA5?=B;=HDCGG=6@9HCIB89FGH5B8H<97CBHF=6IH=CBGC:8=::9F9BH:57HCFGHC
+GD97=:=7 DF98=7H=CBG 23
+ M C::9F=B; =BG=;<HG =BHC <CK D5FH=7I@5F :95HIF9G =B:@I9B79 DF98=7H=CBG # $ 9B<5B79G
+HF5BGD5F9B7M5B85@@CKGIG9FGHC69HH9F;F5GDH<9F5H=CB5@969<=B8 	8F=J9B:CF975GHGH<9F96M=ADFCJ=B;H<9CJ9F5@@
+F9@=56=@=HM5B8HFIGHKCFH<=B9GGC:H<9AC89@G
+IFH<9FACF9H<95DD@=75H=CBC:# $=B:=B5B7=5@A5F?9HG75B<9@D=B
+J5@=85H=B;5B8F9:=B=B; AC89@G9BGIF=B;H<5HH<9M5@=;BK=H<8CA5=B	GD97=:=7?BCK@98;95B8F9;I@5HCFMGH5B85F8G
+
++<=G=B7F95G98=BH9FDF9H56=@=HM=G9GG9BH=5@BCHCB@M:CF:CGH9F=B;IG9FHFIGH6IH5@GC:CF9B56@=B;ACF9=B:CFA985B8
+9::97H=J9897=G=CB	A5?=B;65G98CB 	8F=J9B=BG=;<HG
+GH<9:=9@87CBH=BI9GHC9JC@J9=BH9;F5H=B;/ H97<B=EI9G
+=BHC :=B5B7=5@ :CF975GH=B; AC89@G K=@@ @=?9@M 697CA9 5B =BH9;F5@ 7CADCB9BH C: F9GDCBG=6@9   89D@CMA9BH =B H<9
+:=B5B7=5@G97HCF
+
+ B H<=G D5D9F K9 :C7IG CB 5DD@M=B; #C75@  BH9FDF9H56@9 $C89@	5;BCGH=7 LD@5B5H=CBG # $ HC 9B<5B79 H<9
+=BH9FDF9H56=@=HMC:GHC7?A5F?9HDF98=7H=CBG23
+M@9J9F5;=B;# $K95=AHCIB7CJ9F<CKJ5F=CIG:57HCFG5::97H
+GHC7?DF=79ACJ9A9BHG23
++<=G5DDFC57<=GIG98HC588F9GGH<9@=A=H5H=CBGC:IG=B;HF58=H=CB5@DF98=7H=CBA9H<C8G
+6MC::9F=B;5ACF9HF5BGD5F9BH5B857H=CB56@9IB89FGH5B8=B;C:H<9897=G=CB	A5?=B;DFC79GG9G69<=B8 :CF975GHG
+23
+&IF;C5@=GHC=ADFCJ9H<97@5F=HMC: 	8F=J9BGHC7?A5F?9HDF98=7H=CBGK<=7<DFCJ=89G=BG=;<HG:CFGH5?9<C@89FG
+=BH<9:=B5B7=5@G97HCF
+M9@I7=85H=B;H<97CBHF=6IH=CBGC:=B8=J=8I5@:95HIF9GHCGHC7?DF=79:CF975GHG# $BCHCB@M
+<9@DG =B J5@=85H=B;   AC89@G 6IH 5@GC 5GG=GHG =B 5@=;B=B; H<9A K=H< 8CA5=B	GD97=:=7 ?BCK@98;9 5B8 F9;I@5HCFM
+F9EI=F9A9BHG
+ +<=G =B7F95G98 HF5BGD5F9B7M =G 7FI7=5@ :CF :CGH9F=B; HFIGH =B  	8F=J9B 897=G=CBG 5B8 9B<5B7=B; H<9
+CJ9F5@@9::97H=J9B9GGC::=B5B7=5@:CF975GH=B;HCC@G
+,@H=A5H9@MCIFKCF?G99?GHCDFCJ=8956F=8;969HK99B58J5B798
+ H97<B=EI9G5B8:=B5B7=5@5DD@=75H=CBG:57=@=H5H=B;69HH9F	=B:CFA98=BJ9GHA9BHGHF5H9;=9G5B8897=G=CB	A5?=B;
+
+
+
++<985H5G9HIG98=BH<=GGHI8M=B7@I89GK99?@M<=GHCF=75@GHC7?DF=79G:CF+9G@5 B7
++*#GCIF798:FCA05<CC
+=B5B795@CB;G=897CAAC8=HMDF=79G:CF7C65@H5@IA=B=IAB=7?9@5B8@=H<=IAC6H5=B98:FCA+F58=B;7CBCA=7G
+23
+88=H=CB5@@MH<985H5G9H:95HIF9GH<9C@@5F B89LK<=7<F9:@97HGH<9J5@I9C:H<9,
+*
+8C@@5F5;5=BGH565G?9HC:
+:CF9=;B 7IFF9B7=9G
+ +<9G9 7CAAC8=H=9G 5B8 H<9 C@@5F  B89L 5F97FI7=5@ 5G H<9M G=;B=:=75BH@M =B:@I9B79 +9G@5G
+DFC8I7H=CB7CGHG5B8CJ9F5@@GHC7?DF=798MB5A=7G23
+*D5BB=B;:FCA!I@MHC!I@MH<985H5G9H=G
+DFCJ=898 CB 5 K99?@M 65G=G C::9F=B; 5 7CADF9<9BG=J9 :CIB85H=CB: C F 5 B 5 @ M G = B ; H < 9 = A D 5 7 H C : A 5 H 9 F = 5 @ 7 C G H G 5 B 8 
+7IFF9B7M :@I7HI5H=CBG CB +*#VG GHC7? DF=79
+ +<=G H9ADCF5@ 6F958H< 9BGIF9G 5 FC6IGH 5B5@MG=G C: H<9 =BH9F57H=CBG
+69HK99B 7CAAC8=HM DF=79G 7IFF9B7M J5@I9G 5B8 GHC7? A5F?9H D9F:CFA5B79 DFCJ=8=B; J5@I56@9 =BG=;<HG =BHC H<9
+:57HCFG5::97H=B;+9G@5G:=B5B7=5@D9F:CFA5B79CJ9FH=A9
+
++*++),+,)
+ #  ('"&)"%$ )%"$)(
++*#*HC7?
+'F=79G
+.99?@M7@CG=B;DF=79G5B8HF58=B;JC@IA9G:CF
++9G@5 B7
+
+
+C65@H'F=79G .99?@MDF=79GC:C65@H
+@IA=BIA'F=79G .99?@MDF=79GC:@IA=BIA
+%=7?9@'F=79G .99?@MDF=79GC:%=7?9@
+#=H<=IA'F=79G .99?@MDF=79GC:#=H<=IA
+C@@5F B89L.99?@MJ5@I9GF9:@97H=B;H<9GHF9B;H<C:H<9,
+*
+
+C@@5F
+
+
++<9 =B=H=5@ GH9D =BJC@J98 7@95B=B; H<9 85H5G9H HC 9BGIF9 =HG 7@5F=HM 5B8 F9@=56=@=HM 23
+ +<=G DFC79GG =B7@I898
+F9ACJ=B;CIH@=9FG<5B8@=B;A=GG=B;J5@I9G5B87CFF97H=B;5BM=B7CBG=GH9B7=9GH<5H7CI@8G?9KH<95B5@MG=G
+.=H<5
+7@95B5B87CBG=GH9BH85H5G9HH<9B9LHGH9DK5GHCA9F;9J5F=CIG85H5GCIF79G=B7@I8=B;+*#GHC7?DF=79G7CAAC8=HM
+DF=79G7C65@H5@IA=BIAB=7?9@5B8@=H<=IA5B8H<9C@@5F B89L
++<=G=BH9;F5H9885H5G9HK5GH<9BDF9D5F98:CF
+=BDIH=BHCH<9#CB;*<CFH	+9FA$9ACFM#*+$AC89@K<=7<=GD5FH=7I@5F@MK9@@	GI=H98:CF75DHIF=B;H<9H9ADCF5@
+89D9B89B7=9G5B8D5HH9FBG=BH=A9	G9F=9G85H523
+&B79H<985H5G9HK5GGHFI7HIF98=HK5G:98=BHCH<9#*+$AC89@HC
+HF5=B=H:CFDF98=7H=B;+*#GHC7?DF=79G
++<9#*+$:IB7H=CB985G56@57?6CLDFC79GG=B;H<9=BDIH85H55B8@95FB=B;
+H<97CAD@9LF9@5H=CBG<=DG69HK99B8=::9F9BHJ5F=56@9GGI7<5G<CK7<5B;9G=B7CAAC8=HMDF=79GCF:@I7HI5H=CBG=BH<9
+C@@5F B89L=AD57H+*#VGGHC7?DF=7923
+:H9FH<9AC89@K5GHF5=B985B8:=HH98H<9GI6G9EI9BHGH9DK5GHCG9@97H
+5 F9DF9G9BH5H=J9 G5AD@9 :FCA =HG DF98=7H=CBG :CF :IFH<9F 5B5@MG=G 23
+ +C 9B<5B79 H<9 =BH9FDF9H56=@=HM C: H<9G9
+020037-2
+ 03 January 2026 18:39:21
+
+
+--- PAGE 4 ---
+DF98=7H=CBG K9 5DD@=98 #C75@  BH9FDF9H56@9 $C89@	5;BCGH=7 LD@5B5H=CBG # $ HC IB7CJ9F <CK J5F=CIG :57HCFG
+=B:@I9B798H<9AC89@GCIHDIH
++<=G5@@CK98IGHC;5=B=BG=;<HG=BHCH<9897=G=CB	A5?=B;DFC79GGC:H<9#*+$5B8
+IB89FGH5B8H<9F9@5H=J9=AD57HC:957<J5F=56@9CBGHC7?DF=79DF98=7H=CBG
++<95B5@MG=GC:H<9G9=BG=;<HGDFCJ=8985
+7@95F9FD=7HIF9C:H<9IB89F@M=B;:57HCFG8F=J=B;+*#VGGHC7?DF=79ACJ9A9BHG:57=@=H5H=B;ACF9=B:CFA98=BJ9GHA9BH
+897=G=CBG
+
++C=BH9FDF9HH<96@57?	6CLAC89@H<9G9@97H98G5AD@9IB89FK9BH5DFC79GGC:D9FHIF65H=CBK<9F9G@=;<HJ5F=5H=CBG
+K9F9=BHFC8I798HC=HG=BDIH:95HIF9G
++<9G9D9FHIF65H=CBGGI7<5GGA5@@7<5B;9G=BH<9DF=79C:57CAAC8=HMCFH<9
+C@@5F B89L<9@D98=BIB89FGH5B8=B;<CKG9BG=H=J9H<9AC89@GDF98=7H=CBGK9F9HC7<5B;9G=BH<9=BDIH85H523
+
++<9CIH7CA9GC:H<9G9D9FHIF65H=CBGK9F9@569@98=B8=75H=B;<CK957<7<5B;9=B:@I9B798H<9DF98=7H98GHC7?DF=79
+23
+57<D9FHIF698G5AD@9K5GH<9B5GG=;B985K9=;<H65G98CB=HGG=A=@5F=HMHCH<9CF=;=B5@85H5DC=BH9BGIF=B;H<5H
+ACF9F9@9J5BHD9FHIF65H=CBG<585;F95H9F=AD57HCBH<95B5@MG=G23
++<=G5DDFC57<5@@CK98IGHC=GC@5H9H<99::97HGC:
+=B8=J=8I5@J5F=56@9GCBH<9AC89@GCIHDIHDFCJ=8=B;57@95F9FJ=9KC:H<9=F=B:@I9B79
+,G=B;H<9G9K9=;<H98G5AD@9G
+5B =BH9FDF9H56@9 AC89@ K5G 7CBGHFI7H98 HC 5DDFCL=A5H9 H<9 69<5J=CF C: H<9 #*+$ =B H<9 @C75@ F9;=CB 5FCIB8 H<9
+G9@97H98G5AD@9
++<=G=BH9FDF9H56@9AC89@9B56@98IGHC69HH9FIB89FGH5B8H<9BI5B79GC:<CKGD97=:=7:95HIF9G5::97H98
+H<9DF98=7H=CBG
+=B5@@MH<9F9GI@HGK9F9J=GI5@=N98IG=B;#C75@ BH9FDF9H56@9$C89@	5;BCGH=7LD@5B5H=CBG# $
+K<=7<DFCJ=8985BIB89FGH5B856@99LD@5B5H=CBC:H<9#*+$GDF98=7H=CBG6M<=;<@=;<H=B;H<9ACGH=ADCFH5BH:95HIF9G
+IG98 =B H<9 897=G=CB	A5?=B; DFC79GG 23
+ +<9G9 J=GI5@=N5H=CBG :57=@=H5H98 5 ACF9 HF5BGD5F9BH =BH9FDF9H5H=CB C: H<9
+AC89@G69<5J=CF5@@CK=B;GH5?9<C@89FGHC;5=B57H=CB56@9=BG=;<HG=BHCH<9:57HCFG8F=J=B;GHC7?DF=79:CF975GHG
+
+&% &(*($$&(-
++<9 #CB; *<CFH	+9FA $9ACFM #*+$ B9HKCF? =G 5B 58J5B798 :CFAC: )97IFF9BH %9IF5@ %9HKCF? )%%
+89J9@CD98HC<5B8@9@CB;	H9FA89D9B89B7=9G=BG9EI9BH=5@H=A9	65G9885H5235B89AD@CMG5IB=EI95F7<=H97HIF9
+HCCJ9F7CA9H<9J5B=G<=B;;F58=9BH=GGI9G99B=BHF58=H=CB5@)%%G
++<=G5F7<=H97HIF9=B7CFDCF5H9GH<F99:IB85A9BH5@
+;5H9GH<9=BDIHH<9:CF;9H5B8H<9CIHDIH;5H923
++<9G9H<F99;5H9G7CBHFC@H<9=B:CFA5H=CB:@CK5@@CK=B;#*+$G
+HC9::=7=9BH@MF9H5=B5B8DFC79GG85H557FCGG9LH9B898G9EI9B79G
++<=G75D56=@=HMA5?9G#*+$GD5FH=7I@5F@M9::97H=J9
+:CFH5G?GGI7<5GGHC7?DF=79DF98=7H=CBK<9F9IB89FGH5B8=B;@CB;	H9FAHF9B8G5B8G<CFH	H9FA:@I7H=5H=CBG=G7FI7=5@
+
++<9BCH5H=CBGIG98=BH<9#*+$AC89@5F989H5=@98=B+56@9
+
+
+)$+)*%)!#*&)
+%))"%$  ('"&)"%$
+'43
+) *9HC:H=A9GH9D;   %<
+#2#.'4'2
+ $5HF=LC:K9=;<HG:CFH<9:CF;9H;5H9
+ $5HF=LC:K9=;<HG:CFH<9=BDIH;5H9
+ $5HF=LC:K9=;<HG:CFH<975B8=85H979@@GH5H9
+ $5HF=LC:K9=;<HG:CFH<9CIHDIH;5H9
+ =5GJ97HCF:CFH<9:CF;9H;5H9
+
+
+
+
+=5GJ97HCF:CFH<9=BDIH;5H9
+=5GJ97HCF:CFH<975B8=85H979@@;5H9
+=5GJ97HCF:CFH<9CIHDIH;5H9
+"#2+#$-'3
++
+  BDIHJ97HCF5HH=A9GH9D)
+" =889BGH5H9J97HCF:FCAH<9DF9J=CIGH=A9GH9D)2
+ 9@@GH5H9J97HCF5HH=A9GH9D)
+  CF;9H;5H9CIHDIHJ97HCF5HH=A9GH9D)
+#
+&
+
+ BDIH;5H9CIHDIHJ97HCF5HH=A9GH9D)
+&IHDIH;5H9J97HCF5HH=A9GH9D)
+5B8=85H979@@GH5H9J97HCF5HH=A9GH9D)
+5/%4+0/3
+0 *=;AC=857H=J5H=CB:IB7H=CB
+	 MD9F6C@=7H5B;9BH57H=J5H=CB:IB7H=CB
+
+020037-3
+ 03 January 2026 18:39:21
+
+
+--- PAGE 5 ---
++<9#CB;*<CFH	+9FA$9ACFM#*+$B9HKCF?=G89J9@CD986MC7<F9=H9F5B8*7<A=8<I69F=B23=G
+89G=;B98HC9::97H=J9@MA5B5;9@CB;	H9FA89D9B89B7=9G=BG=89C:G9EI9BH=5@85H5
+,B@=?9HF58=H=CB5@)97IFF9BH%9IF5@
+%9HKCF?G)%%GH<9K5M#*+$GCJ9F7CA9H<9DFC6@9AC:J5B=G<=B;;F58=9BH=GK=H<58=GH=B7H=J95F7<=H97HIF9H<5H
+=B7@I89GH<F999GG9BH=5@;5H9GH<5HK5G89G7F=69869:CF99B56@=B;#*+$GHC75DHIF9@CB;	H9FA5B8G<CFH	H9FAD5HH9FBG
+A5?=B;H<9A9GD97=5@@MK9@@	GI=H98:CF7CAD@9LH5G?G@=?9GHC7?DF=79DF98=7H=CB
++<99EI5H=CBG;CJ9FB=B;H<9#*+$
+B9HKCF?5F95G:C@@CKG
+
+  3 4 +1"15   
+ #39+1"1:   
+ 73   9+1"1:   
+ 3 1# )8   
+ &39+1"1:   
+ "3&   9:   
+
++<99EI5H=CBG;CJ9FB=B;H<9#CB;*<CFH	+9FA$9ACFM#*+$B9HKCF?5F9GHFI7HIF98HC9::97H=J9@MA5B5;95B8
+ID85H9H<9=B:CFA5H=CB:@CKH<FCI;<H<9B9HKCF?
+EI5H=CB89:=B9GH<9:CF;9H;5H9 K<=7<=G89H9FA=B9GCB<CK
+AI7<C:H<9DF9J=CIG79@@GH5H9G<CI@85B87CI@8698=G75F898IG=B;H<9G=;AC=8:IB7H=CB0HCDFC8I795J5@I9
+69HK99B5B8
+H<9=BDIH;5H9#K<=7<7CBHFC@GH<95ACIBHC:B9K=B:CFA5H=CBHC588HCH<979@@GH5H95@GC
+IH=@=N=B;H<9G=;AC=8:IB7H=CB
++<975B8=85H979@@GH5H96=G;9B9F5H98H<FCI;<H<9<MD9F6C@=7H5B;9BH:IB7H=CB
+DFCJ=8=B; DCH9BH=5@ B9K J5@I9G :CF ID85H=B; H<9 79@@ GH5H9
+  ID85H9G H<9 79@@ GH5H9 6M 7CA6=B=B; H<9 F9H5=B98
+=B:CFA5H=CB:FCAK=H<B9K=B:CFA5H=CBK9=;<H986M#5B86+<9CIHDIH;5H9&89H9FA=B9GH<9=B:CFA5H=CB
+HC69CIHDIHHCH<9<=889BGH5H9"5@GCIG=B;H<9G=;AC=8:IB7H=CB
+=B5@@MH<9<=889BGH5H9"K<=7<=G5:=@H9F98
+J9FG=CBC:H<97IFF9BH79@@GH5H9AC8I@5H986MH<9CIHDIH;5H9:57=@=H5H=B;H<9B9HKCF?G56=@=HMHCDFCJ=89DF98=7H=CBG
+5B8A5=BH5=BF9@9J5BH=B:CFA5H=CB57FCGGH=A9GH9DG
+
+&#%*('(*#&#%&)*!,'#!%#
+#C75@ BH9FDF9H56@9$C89@	;BCGH=7LD@5B5H=CBG# $=BHFC8I7986M$5F7C+I@=C)=69=FC5F@CGI9GHF=B
+5B8*5A99F*=B;<=B23=G57FI7=5@HCC@=BLD@5=B56@9FH=:=7=5@ BH9@@=;9B79/ 23
+# $K5G89J9@CD98
+HC588F9GGH<9B998:CF=BH9FDF9H56=@=HM=B7CAD@9L AC89@GC:H9BF9:9FF98HC5G6@57?6CL9G 23
+,B@=?9CH<9F
+A9H<C8G# $DFCJ=89G@C75@9LD@5B5H=CBG:C7IG=B;CB=B8=J=8I5@DF98=7H=CBGF5H<9FH<5B5HH9ADH=B;HC9LD@5=BH<9
+9BH=F9AC89@;@C65@@M23
++<9A9H<C8=G89G=;B98HCDFC8I79<IA5B	IB89FGH5B856@9CIHDIHG5B8=HGAC89@	5;BCGH=7
+B5HIF95@@CKG=HHC695DD@=9857FCGG5K=89F5B;9C:A57<=B9@95FB=B;AC89@G23
++<9BCH5H=CBGIG98=BH<9# $
+AC89@5F989H5=@98=B+56@9
+
+)$+)*%)!#*&)
+%))"%$  ('"&)"%$
+'43
+) *9HC:H=A9GH9D;   %<
+#2#.'4'2
+ *9HC:DCGG=6@9AC89@G
+ 9+: CAD@9LAC89@:IB7H=CB
+!  BH9FDF9H56@9AC89@
+
+9,: 'FCL=A=HMA95GIF9:CF=BGH5B79N
+	9!: =5G7CAD@9L=HMC:H<9=BH9FDF9H56@9AC89@
+"#2+#$-'3
++  BDIHJ97HCF5HH=A9GH9D)
++ =889BGH5H9J97HCF:FCAH<9DF9J=CIGH=A9GH9D)2
+, 9@@GH5H9J97HCF5HH=A9GH9D)
+5/%4+0/3
+
+   #CGG:IB7H=CBA95GIF=B;IB:5=H<:I@B9GG
+
+#C75@  BH9FDF9H56@9 $C89@	;BCGH=7 LD@5B5H=CBG # $ C::9FG 5 :F5A9KCF? :CF DFC8I7=B; IB89FGH5B856@9
+9LD@5B5H=CBGC:A57<=B9@95FB=B;AC89@G
++<99EI5H=CBG;CJ9FB=B;H<9# $AC89@5F95G:C@@CKG
+
+020037-4
+ 03 January 2026 18:39:21
+
+
+--- PAGE 6 ---
+ .9+:3 ' ! $ # %
+
+9  ! /:1	9!:   
+ 9  ! 
+:3 
+9,:4 9,:2!9,:5
+
+	    
+
++<9A5H<9A5H=75@CDH=A=N5H=CBAC89@C:# $G99?GHCA=B=A=N9H<9@CGG:IB7H=CBK<9F9H<9;C5@=GHC:=B8
+5B=BH9FDF9H56@9AC89@!K=H<=B5G9HC:AC89@GH<5H7@CG9@M5DDFCL=A5H9GH<97CAD@9LAC89@ K=H<=BH<9@C75@=HM
+C: 5B =BGH5B79+
+ +<9 ;@C65@ F9DF9G9BH5H=CB C: 5B =BGH5B79+ =G 9LDF9GG98 5G+ K<=@9 =HG =BH9FDF9H56@9
+F9DF9G9BH5H=CB =G 5 6=B5FM J97HCF+   K<=7< =B8=75H9G H<9 @C75@ DF9G9B79 CF 56G9B79 C: :95HIF9G
+ +<9 AC89@	
+5;BCGH=7B5HIF9C:# $5@@CKG!HC695BMA57<=B9@95FB=B;AC89@K=H<=HG8CA5=BF9DF9G9BH985G!  
++<9
+7CAD@9L=HMC:H<9AC89@!=G577CIBH98:CF6MH<9H9FA-9!:K<=7<9BGIF9GH<5HH<99LD@5B5H=CBF9A5=BG=BH9FDF9H56@9
+:CF <IA5BG
+ +<9 # $ 5@;CF=H<A KCF?G 6M ;9B9F5H=B; D9FHIF698 =BGH5B79G, 5FCIB8 H<9 CF=;=B5@ =BGH5B79+ 5B8
+A95GIF9GH<9=FDFCL=A=HMIG=B;/9,:+C9BGIF9H<5HH<9=BH9FDF9H56@9AC89@!:5=H<:I@@MF9DF9G9BHGH<97CAD@9LAC89@
+ =BH<9@C75@=HMC:+# $A=B=A=N9GH<9@CGG:IB7H=CBK<=@9?99D=B;H<97CAD@9L=HM-9!:5G@CK5GDCGG=6@9:CF
+=BH9FDF9H56=@=HM
+
++<9 #C75@  BH9FDF9H56@9 $C89@	;BCGH=7 LD@5B5H=CBG # $ 5@;CF=H<A =G 89G=;B98 HC C::9F IB89FGH5B856@9
+9LD@5B5H=CBG:CF7CAD@9LA57<=B9@95FB=B;AC89@G6M;9B9F5H=B;GD5FG9@=B95F5DDFCL=A5H=CBG
++<9DG9I8C7C89:CF
+H<9# $5@;CF=H<A=GCIH@=B98=B+56@9
+
+	*,&&&)	#&)!+ $
+ *D5F9#=B95FLD@5B5H=CBGIG=B;# $
+)9EI=F9 @5GG=:=9F %IA69FC:*5AD@9G
+)9EI=F9  BGH5B79+5B8=HG=BH9FDF9H56@9J9FG=CB+
+)9EI=F9 *=A=@5F=HM?9FB9@
+#9B;H<C:9LD@5B5H=CB
+ ;<
+:CF#     
+ ,
+G5AD@945FCIB8+:
+4 ,
+ 9,:
+9,:5
+9B8:CF 
+*   2 ((&9 :K=H<,
+5G:95HIF9G 9,:5GH5F;9H
+F9HIFB* 
+
+5G98 CB H<9 DG9I8C7C89 =B +56@9  5B8 H<9 A5H<9A5H=7 AC89@ C:# $ =B +56@9  H<9 :@CK7<5FH C: #=A9
+@;CF=H<A75B69=@@IGHF5H98CB=;
+
+
+
+#&. )+&)	#&)!+ $
+
+ B H<=G D5D9F K9 6I=@8 IDCB H<9 5DDFC57< DF9G9BH98 6M "IA5F 9H 5@
+ 23 K<C IG98 899D @95FB=B; AC89@
+5F7<=H97HIF9G5B8# $HCDF98=7HGHC7?DF=79G65G98CBHF58=H=CB5@=B8=75HCFG@=?9<=;<@CK5B87@CG9DF=79G
+,B@=?9
+H<9=F:C7IGH<=GD5D9F=B7CFDCF5H9G588=H=CB5@:57HCFGGI7<5G7C65@HB=7?9@@=H<=IAH<9C@@5F B89L5B85@IA=BIA
+DF=79GDFCJ=8=B;5ACF97CADF9<9BG=J9=BH9FDF9H5H=CBC:H<9@C75@97CBCA=7:57HCFG8F=J=B;GHC7?DF=79ACJ9A9BHG
+
++<=G9B<5B79A9BH5@@CKG:CFACF989H5=@985B87CBH9LH	GD97=:=7DF98=7H=CBGC::9F=B;5899D9F=BH9FDF9H5H=CBC:GHC7?
+A5F?9H8MB5A=7GIG=B;# $
++<99LD9F=A9BHGK9F97CB8I7H98CB589G?HCD7CADIH9FDCK9F986M$)MN9BDFC79GGCFK=H<C:)$
+5B8 FIBB=B; H<9 .=B8CKG  &D9F5H=B; *MGH9A &*
+ +<9 #CB; *<CFH	+9FA $9ACFM #*+$ A57<=B9 @95FB=B;
+AC89@K5G=AD@9A9BH98=B@C75@'MH<CB
+
+9BJ=FCBA9BHIG=B;+9BGCF@CKK=H<',5779@9F5H=CB9B56@98
++<9
+# $AC89@K5G5@GC=AD@9A9BH98CB'MH<CBIG=B;AC8=:=98#=A9@=6F5FMHC577CIBH:CFH<9H=A9G9F=9GCIHDIH:FCA
+H<9A57<=B9@95FB=B;AC89@
+
+020037-5
+ 03 January 2026 18:39:21
+
+
+--- PAGE 7 ---
+
+$!%+#*!'#*&+())!%&(*&"(!*!&%
++<=GGHI8M9AD<5G=N9GIB89FGH5B8=B;+9G@5 B7
+G+*#<=GHCF=75@GHC7?DF=79ACJ9A9BHG6M=BH9;F5H=B;J5F=CIG
+85H5GCIF79GK=H<5B#*+$AC89@
+,B@=?9HF58=H=CB5@AC89@GH<5HDF=A5F=@M5=AHCDF98=7H:IHIF9DF=79GCIF5DDFC57<
+:C7IG9GCB577IF5H9@MF9D@=75H=B;D5GHDF=79GHCIB7CJ9FH<9=BHF=75H9F9@5H=CBG<=DG69HK99B+*#VGGHC7?DF=795B8
+=B:@I9B7=B;:57HCFGGI7<5GH<9C@@5F B89L5B87CAAC8=HMDF=79G=B7@I8=B;7C65@H5@IA=BIAB=7?9@5B8@=H<=IA
+
+M@9J9F5;=B;H<9#*+$G75D57=HMHC75H7<H9ADCF5@89D9B89B7=9G=B:=B5B7=5@H=A9	G9F=9G85H5H<=GGHI8M5=AGHC
+DFCJ=895899D9F=BG=;<H=BHC<CK:@I7HI5H=CBG=BH<9G9J5F=56@9G=AD57H+*#VGGHC7?D9F:CFA5B79
++<=GA9H<C8BCH
+CB@M 9B<5B79G H<9 IB89FGH5B8=B; C: <=GHCF=75@ 8MB5A=7G 6IH 5@GC DFCJ=89G 5 GC@=8 :F5A9KCF? :CF =BH9FDF9H=B; H<9
+=BHF=75H9=BH9F57H=CBG69HK99B8=::9F9BH97CBCA=7=B8=75HCFG5B8GHC7?DF=79G
+
+
+ 
+ 
+
+ 
+ 
+
+
+ 
+"#0-!*,#!1+!&%&#,$!%,$&#+%!"##!+ !,$&##)!%/%	+&"
+
+.969;5B6MDF9DFC79GG=B;H<985H5H<FCI;<BCFA5@=N5H=CBHC9BGIF9H<5H5@@:95HIF9GK9F9CB5G=A=@5FG75@9K<=7<
+=G=ADCFH5BHHCHF5=BB9IF5@B9HKCF?AC89@9::97H=J9@M
++<=GGH9D=BJC@J98G75@=B;H<9<=GHCF=75@GHC7?DF=79GC:+9G@5
+ B7
++*#H<9C@@5F B89L5B87CAAC8=HMDF=79G:CF7C65@H5@IA=BIAB=7?9@5B8@=H<=IA
+MGH5B85F8=N=B;H<9=F
+F5B;9GK95=A98HC=ADFCJ9H<9AC89@GD9F:CFA5B795B89B<5B79=HG56=@=HMHC@95FBA95B=B;:I@D5HH9FBG:FCAH<9
+020037-6
+ 03 January 2026 18:39:21
+
+
+--- PAGE 8 ---
+85H5
+%CFA5@=N5H=CB<9@DGA=H=;5H9=GGI9GF9@5H98HCJ5FM=B;A5;B=HI89G57FCGG:95HIF9G9BGIF=B;H<5HH<9#*+$AC89@
+75B9::97H=J9@MDFC79GG5B85B5@MN9H<9=BDIH85H5K=H<CIH6=5GHCK5F8G5BMD5FH=7I@5F:95HIF9
+
+
+
+&)$#!1+*+
+
+C@@CK=B;BCFA5@=N5H=CBK99AD@CM985B#*+$AC89@HC5B5@MN95B8F9D@=75H9+*#G<=GHCF=75@GHC7?DF=79
+ACJ9A9BHG
+M=BH9;F5H=B;H<9G9BCFA5@=N9885H5GCIF79GH<9#*+$AC89@K5GHF5=B98HC577IF5H9@MF9DFC8I79D5GH
+DF=79GF5H<9FH<5BDF98=7H:IHIF9CB9G
++<=G5DDFC57<5@@CK98IGHCIB7CJ9F=BHF=75H9F9@5H=CBG<=DG5B889D9B89B7=9G
+69HK99B +*#VG GHC7? DF=79 5B8 J5F=CIG =B:@I9B7=B; :57HCFG GI7< 5G H<9 C@@5F  B89L 5B8 7CAAC8=HM DF=79G
+ +<9
+F9GI@HG89ACBGHF5H98H<5HH<9#*+$AC89@9::97H=J9@M75DHIF98H<9<=GHCF=75@DF=798MB5A=7GF9J95@=B;<CK9LH9FB5@
+9@9A9BHG =AD57H98 +*#G GHC7? 69<5J=CF CJ9F H=A9
+ +<=G 5B5@MG=G DFCJ=898 J5@I56@9 =BG=;<HG =BHC H<9 7CAD@9L
+=BH9F57H=CBG69HK99B+*#VGGHC7?DF=795B8H<9=B:@I9B7=B;J5F=56@9G9B<5B7=B;CIFIB89FGH5B8=B;C:H<9:57HCFG
+8F=J=B;GHC7?DF=79:@I7HI5H=CBG
+
+
+	$!%	) !++,)
+
++<9 #*+$ AC89@ K5G 89G=;B98 HC DFC79GG G9EI9B79G C: <=GHCF=75@85H5 957< 7CADCG98 C: D5GH +*# DF=79G
+5@CB;G=89 CH<9F =B8=75HCFG
+ .=H<<=889B @5M9FG 5B8 IB=HG D9F @5M9F H<9 AC89@ K5G HF5=B98 HC A=B=A=N9 H<9
+8=G7F9D5B7M69HK99B=HGDF98=7H=CBG5B8H<957HI5@<=GHCF=75@DF=79G
++<=GHF5=B=B;DFC79GG5@@CK98H<9AC89@HC=89BH=:M
+H<9 H9ADCF5@ D5HH9FBG 5B8 89D9B89B7=9G 5::97H=B; +*#VG DF=79 ACJ9A9BHG CJ9F H=A9
+ M :C7IG=B; CB 577IF5H9@M
+F9DFC8I7=B;<=GHCF=75@85H5H<=G5DDFC57<9B<5B79GCIFIB89FGH5B8=B;C:A5F?9H8MB5A=7GDFCJ=8=B;89H5=@98=BG=;<HG
+=BHC<CKJ5F=CIG:57HCFGGI7<5G7CAAC8=HMDF=79G5B8H<9C@@5F B89L=AD57H98+*#VGGHC7?DF=79=BH<9D5GH
+
+IFH<9FACF9H<9#*+$AC89@G56=@=HMHCF9H5=B@CB;	H9FA89D9B89B7=9G5@@CK98:CF5BI5B7985B5@MG=GC:<CK
+7<5B;9G=B9LH9FB5@J5F=56@9G5::97H98GHC7?DF=79ACJ9A9BHG
+M7CAD5F=B;H<9AC89@GCIHDIHK=H<57HI5@<=GHCF=75@
+85H5K9K9F956@9HC=89BH=:M?9MD9F=C8GK<9F989J=5H=CBGC77IFF985B87CFF9@5H9H<9AK=H<G=;B=:=75BH9J9BHGCF
+G<=:HG=BH<9=B:@I9B7=B;:57HCFG
++<=GF9HFCGD97H=J95B5@MG=GBCHCB@M=@@IA=B5H9GH<9=BH9FD@5M69HK99B+*#VGGHC7?
+DF=79 5B8 9LH9FB5@ =B8=75HCFG 6IH 5@GC 5=8G =B IB89FGH5B8=B; H<9 IB89F@M=B; A97<5B=GAG 8F=J=B; H<9G9 =BH9F57H=CBG
+
+,@H=A5H9@MH<=G5DDFC57<7CBHF=6IH9GHC5F=7<9FACF989H5=@98=BH9FDF9H5H=CBC:A5F?9H69<5J=CIFGDFCJ=8=B;J5@I56@9
+7CBH9LH:CF6CH<<=GHCF=75@5B5@MG=G5B8:IHIF9F9G95F7<=B:=B5B7=5@AC89@@=B;
+
+020037-7
+ 03 January 2026 18:39:21
+
+
+--- PAGE 9 ---
+
+
+
+*++)!+!&%,*!%
+
+:H9FBCFA5@=N=B;H<985H5HC9BGIF95@@:95HIF9GK9F9CB57CAD5F56@9G75@9K99AD@CM985B#*+$AC89@HC
+IB89FGH5B8+*#G<=GHCF=75@GHC7?DF=79ACJ9A9BHG6M=BH9;F5H=B;AI@H=D@985H5GCIF79G
+M:C7IG=B;CBF9D@=75H=B;
+D5GH DF=79G F5H<9F H<5B DF98=7H=B; :IHIF9 CB9G CIF 5DDFC57< 5=A98 HC IB7CJ9F H<9 =BHF=75H9 F9@5H=CBG<=DG 69HK99B
++*#VGGHC7?DF=79H<9C@@5F B89L5B87CAAC8=HMDF=79GGI7<5G7C65@H5@IA=BIAB=7?9@5B8@=H<=IA
+
++<9 #*+$ AC89@ DFC79GG98 G9EI9B79G C: BCFA5@=N98 <=GHCF=75@ 85H5 9::97H=J9@M 75DHIF=B; H9ADCF5@ D5HH9FBG
+H<FCI;<=HG@5M9F985F7<=H97HIF9
+MHF5=B=B;H<9AC89@HCA=B=A=N9H<98=::9F9B7969HK99B=HGCIHDIH5B8H<957HI5@
+<=GHCF=75@DF=79G=HK5G56@9HC577IF5H9@MF9:@97HH<9IB89F@M=B;A5F?9H8MB5A=7G
++<9F9GI@HG89ACBGHF5H98H<5HH<9
+#*+$ AC89@ 9::97H=J9@M F9D@=75H98 +*#VG <=GHCF=75@ DF=79G K=H< <=;< 577IF57M F9J95@=B; <CK 8=::9F9BH :57HCFG
+=B:@I9B798D5GHDF=79ACJ9A9BHG
++<=GA9H<C8BCHCB@MDFCJ=89GJ5@I56@9=BG=;<HG=BHCH<9<=GHCF=75@7CBH9LH69<=B8
++*#GGHC7?HF9B8G6IH5@GC<=;<@=;<HGH<9G=;B=:=75BH=AD57HC:9LH9FB5@9@9A9BHGGI7<5G7CAAC8=HMDF=79G5B8H<9
+C@@5F B89LCBH<9GHC7?G69<5J=CF
+MIB89FGH5B8=B;H<9G9F9@5H=CBG<=DGH<95B5@MG=G7CBHF=6IH9GHC5ACF9BI5B798
+7CADF9<9BG=CBC:A5F?9H8MB5A=7G5B8C::9FG5:CIB85H=CB:CF:IFH<9F9LD@CF5H=CB=B:=B5B7=5@AC89@=B;
+
+#*!%(!*!&%&(!%#*'&!%*%
+**!%%,'#%*!&%)!%
++C;5=BACF95ACF9H<CFCI;<IB89FGH5B8=B;C:H<9#*+$AC89@VG897=G=CB	A5?=B;DFC79GGK97<CG9HC5B5@MN9
+GD97=:=785H5DC=BHGF5H<9FH<5B9J5@I5H=B;H<9AC89@GD9F:CFA5B79H<FCI;<CIHH<99BH=F985H5G9H
+C7IG=B;CB5G=B;@9
+85H5DC=BH5@@CKGIGHC7@CG9@M9L5A=B9<CKH<9AC89@=BH9FDF9HG5B8=BH9;F5H9GJ5F=CIG:95HIF9GHCA5?95DF98=7H=CB
+:CFH<5HD5FH=7I@5F=BGH5B79
++<=GA9H<C8C::9FG=B	89DH<=BG=;<HG=BHCH<9AC89@VG69<5J=CF5B8<9@DG=89BH=:MH<9?9M
+:57HCFG =B:@I9B7=B; =HG DF98=7H=CBG
+ .9 5F6=HF5F=@M G9@97H98 85M  5G CIF 9LD9F=A9BH HC 7@CG9@M 9L5A=B9 <CK H<9
+AC89@=BH9;F5H9GJ5F=CIG:95HIF9GHCA5?95DF98=7H=CB:CFH<=GD5FH=7I@5F=BGH5B79
+
+
+!%#+&!%+#+!&%
+020037-8
+ 03 January 2026 18:39:21
+
+
+--- PAGE 10 ---
+.9 9AD@CM98 #C75@  BH9FDF9H56@9 $C89@	5;BCGH=7 LD@5B5H=CBG # $ HC =BH9FDF9H H<9 #*+$ AC89@G
+DF98=7H=CBG
+# $=GD5FH=7I@5F@M9::97H=J96975IG9=H;9B9F5H9GD9FHIF698G5AD@9G5FCIB8H<9G9@97H9885H5DC=BH5B8
+:=HG5G=AD@9=BH9FDF9H56@9AC89@HCH<9G9G5AD@9GH<9F96M9B<5B7=B;H<9HF5BGD5F9B7MC:H<97CAD@9L#*+$AC89@G
+DF98=7H=CBG
+M:C7IG=B;H<9@C75@F9;=CBGC:H<9:95HIF9# $9@I7=85H9G<CKJ5F=5H=CBG=B=BDIH:95HIF9G=AD57HH<9
+AC89@VG CIHDIHG H<9F96M <=;<@=;<H=B; 957< :95HIF9G =AD57H CBH<9 DF98=7H=CB
+ +<=G H97<B=EI9 DFCJ=89G 7@95F 5B8
+57H=CB56@9=BG=;<HG=BHCH<9:57HCFG5::97H=B;H<9AC89@G897=G=CBGA5?=B;=H95G=9FHCIB89FGH5B8H<9DF98=7H=CBGA589
+6MH<9#*+$AC89@
++<95DD@=75H=CBC:# $H<IG6F=8;9GH<9;5D69HK99BH<9AC89@G=BH9FB5@KCF?=B;G5B8<IA5B
+=BH9FDF9H56=@=HM C::9F=B; 5 ACF9 HF5BGD5F9BH 5B8 IB89FGH5B856@9 J=9K C: <CK <=GHCF=75@ 85H5 =B:@I9B79G GHC7? DF=79
+ACJ9A9BHG
+
++<9F9GI@HC:H<9DF98=7H=CB=B7@I8=B;H<9F=G=B;5B8:5@@=B;DFC656=@=H=9G5B8H<9D9F79BH5;9C:<CK957<5GD97H=G
+5::97H=B;H<9DF98=7H=CB=G=@@IGHF5H98=B=;
+
+
+
+
++&!%+/'#%+!&%
+
+CF85MH<95DD@=75H=CBC:# $DFCJ=89889H5=@98=BG=;<HG=BHC<CK8=::9F9BH:95HIF9G=B:@I9B798H<9#*+$
+AC89@VGDF98=7H=CB
++<=GGIAA5FM<9@DG=BIB89FGH5B8=B;K<=7<:95HIF9G<58H<9ACGHG=;B=:=75BH=B:@I9B795B8<CK
+H<9M7CA6=B98HCDFC8I79H<9:=B5@DF98=7H=CB:CF85M
++<97CBHF=6IH=CBGC:J5F=CIG:57HCFG5F9GIAA5F=N98=BH<9
++56@9
+
+
+
+0*#+&")!/'#%+!&%
+
+ # !! )  #* 
+@IA=B=IA5M )=G=B; 
+C65@H5M 5@@=B;
+C@@5F B89L5M )=G=B;
+C@@5F B89L5M )=G=B;
+C65@H5M 5@@=B;
+Q Q Q
+
+77CF8=B;HCH<95B5@MG=GH<9DF=79C:5@IA=BIACB85MK5G5G=;B=:=75BH:57HCF7CBHF=6IH=B;HCH<9AC89@G
+DF98=7H=CBC:5F=G9=B+*#VGGHC7?DF=79
++<=G=B8=75H9GH<5HH<9F979BH<=GHCF=75@DF=79C:5@IA=BIA<585BCH56@9
+=AD57HCBH<9:CF975GH98ACJ9A9BHC:+*#GGHC7?
+88=H=CB5@@MH<9C@@5F B89LJ5@I9GCB85MG5B85@CB;
+K=H<7C65@HDF=79GCB85M5@GCD@5M98GI6GH5BH=5@FC@9G=BG<5D=B;H<9AC89@GDF98=7H=CB
++<9=ADCFH5B79C:H<9G9
+:57HCFGIB89FG7CF9GH<9=FF9@9J5B795G97CBCA=7=B8=75HCFG=BH<9AC89@VGDF98=7H=CBDFC79GG
++<989H5=@986F95?8CKB
+DFCJ=898 6M # $ 9B<5B79G CIF IB89FGH5B8=B; C: <CK GD97=:=7 :95HIF9G 8F=J9 H<9 :CF975GH98 GHC7? DF=79 7<5B;9G
+C::9F=B;57H=CB56@9=BG=;<HG:CFGH5?9<C@89FG
+
+CBJ9FG9@MH<9DF=79C:7C65@HCB85MK5G=89BH=:=985G7CBHF=6IH=B;HCH<9DF98=7H98:5@@=B+*#GGHC7?
+DF=79
++<=G=B8=75H9GH<5HH<9<=GHCF=75@DF=79C:7C65@H<58589HF=A9BH5@9::97HCBH<9:CF975GH98CIH7CA99AD<5G=N=B;
+020037-9
+ 03 January 2026 18:39:21
+
+
+--- PAGE 11 ---
+=HGB9;5H=J9=B:@I9B79CBH<9GHC7?GACJ9A9BH:CFH<=GD5FH=7I@5F85M
++<9AC89@VGG9BG=H=J=HMHCH<9DF=79C:7C65@H
+F9:@97HG=HGDCH9BH=5@FC@9=B=B:@I9B7=B;=BJ9GHCFG9BH=A9BHCFA5F?9H7CB8=H=CBGH<5H=AD57H+*#VGGHC7?DF=79
+
+88=H=CB5@@MH<95B5@MG=GG<CK98H<5HH<9C@@5F B89LJ5@I9GCB85MG5B8957<7CBHF=6IH98HCH<9F=G=B;
+DF98=7H=CB:CF85M
++<9C@@5F B89LA95GIF9GH<9J5@I9C:H<9,*C@@5F5;5=BGH5;FCIDC::CF9=;B7IFF9B7=9G
+D@5M985FC@9=BH<9AC89@VG:CF975GH
++<=G7CBHF=6IH=CBGI;;9GHGH<5H:@I7HI5H=CBG=BH<9C@@5F B89LF9:@97H=B;6FC589F
+97CBCA=77CB8=H=CBG5B87IFF9B7MGHF9B;H<5@GC=B:@I9B798H<9AC89@GDF98=7H=CBC:+*#VGGHC7?DF=79ACJ9A9BH
+
+CBJ9FG9@MH<9DF=79C:7C65@HCB85MK5G=89BH=:=985G7CBHF=6IH=B;HCH<9DF98=7H98:5@@=B+*#GGHC7?DF=79
+
++<=G GI;;9GHG H<5H H<9 <=GHCF=75@ DF=79 C: 7C65@H <58 5 B9;5H=J9 9::97H CB H<9 :CF975GH98 CIH7CA9 9AD<5G=N=B; =HG
+89HF=A9BH5@=B:@I9B79CBH<9GHC7?GACJ9A9BH:CFH<5HD5FH=7I@5F85M
++<9AC89@VGG9BG=H=J=HMHCH<9DF=79C:7C65@H
+<=;<@=;<HG=HGDCH9BH=5@FC@9=BG<5D=B;=BJ9GHCFG9BH=A9BHCF5::97H=B;A5F?9H7CB8=H=CBGH<5H=AD57H+*#VGGHC7?
+DF=79
+ +<=G =BG=;<H IB89FG7CF9G H<9 =ADCFH5B79 C: ACB=HCF=B; 7CAAC8=HM DF=79G 5G H<9M 75B <5J9 G=;B=:=75BH
+=AD@=75H=CBG :CF GHC7? D9F:CFA5B79 9GD97=5@@M =B =B8IGHF=9G <95J=@M F9@=5BH CB H<9G9 A5H9F=5@G
+ IFH<9FACF9
+IB89FGH5B8=B;H<9=AD57HC:GI7<J5F=56@9G75B5=8=B69HH9F:CF975GH=B;5B8GHF5H9;=7897=G=CB	A5?=B;
+
+
+
+0%$!+&!%+/'#%+!&%
+
+.95@GC5F6=HF5F=@M7<CG985MHC89ACBGHF5H9# $G56=@=HMHCDFCJ=898MB5A=79LD@5B5H=CBG5B8HCG<CK
+<CK:95HIF97CBHF=6IH=CBG75BJ5FMCJ9FH=A9
+CF85MH<9:57HCFG=B:@I9B7=B;H<9DF98=7H=CB8=::9F98G=;B=:=75BH@M
+:FCAH<CG9CB85M
+&BH<=G85MH<9#*+$AC89@DF98=7H985DFC656=@=HMC:H<9+*#GHC7?DF=79F=G=B;5B8
+5  DFC656=@=HM C: =H :5@@=B;
+ +<9 # $ 5B5@MG=G F9J95@98 <CK 8=::9F9BH :95HIF9G =AD57H98 H<9G9 DF98=7H=CBG
+IB89FG7CF=B;<CKG<=:HG=B97CBCA=7=B8=75HCFG5B87CAAC8=HMDF=79G7CI@85@H9FH<9AC89@VG:CF975GH
++<=GH5F;9H98
+5B5@MG=GBCHCB@MJ5@=85H98H<9#*+$AC89@VGDF98=7H=CBG6IH5@GCDFCJ=898899D9F=BG=;<HG=BHC<CKGD97=:=7:95HIF9G
+5::97HH<9AC89@VGCIHDIHGCB8=::9F9BH85MG
+M7CAD5F=B;85M5B885MK975BC6G9FJ9<CK# $=ADFCJ9G
+H<97@5F=HMC:H<9AC89@GDF98=7H=CBGF9J95@=B;H<97<5B;=B;=B:@I9B79GC::95HIF9GCJ9FH=A95B8:57=@=H5H9G95G=9F
+=BH9FDF9H5H=CB 5B8 ;F95H9F HFIGH =B H<9 AC89@
+ +<=G 7CAD5F=GCB=@@IGHF5H9G H<9 H9ADCF5@ J5F=56=@=HM =B :95HIF9
+7CBHF=6IH=CBG5B89AD<5G=N9GH<9=ADCFH5B79C:IG=B;=BH9FDF9H56@9AC89@GHCIB89FGH5B8:@I7HI5H=CBG=BDF98=7H=CB
+CIH7CA9G
+88=H=CB5@@MGI7<5B5@MG9G75B5GG=GH=BF9:=B=B;:CF975GH=B;GHF5H9;=9G5B8585DH=B;HC9JC@J=B;A5F?9H
+7CB8=H=CBG
+
+
++<9 9LD9F=A9BH 7CA9 =BHC 7CB7@IG=CB H<5H H<9 =BH9;F5H=CB C: #C75@  BH9FDF9H56@9 $C89@	5;BCGH=7 LD@5B5H=CBG
+# $K=H<DF98=7H=CBGA5896MH<9#CB;*<CFH	+9FA$9ACFM#*+$AC89@:CF+9G@5 B7
++*#GHC7?DF=79G
+M=9@898?9M=BG=;<HG=BHCH<9:57HCFG8F=J=B;H<9G9DF98=7H=CBG=HG9@:
+M9L5A=B=B;GD97=:=785H5DC=BHGGI7<5G85MG
+ 5B8  H<9 ?9M 7CBHF=6IHCFG 75B 69 =89BH=:=98 HC 5::97H H<9 AC89@G :CF975GHG
+ CF 9L5AD@9 CB 85M  H<9
+DF98=7H=CBC:5F=G=B;+*#GHC7?DF=79K5GG=;B=:=75BH@M=B:@I9B7986M5@IA=BIADF=79G5B8H<9C@@5F B89LK<=@9
+7C65@HDF=79GK9F95GGC7=5H98K=H<5DF98=7H=CBC::5@@=B;DF=79G
+CBJ9FG9@M:CF85MH<9AC89@:CF975GH985<=;<9F
+020037-10
+ 03 January 2026 18:39:21
+
+
+--- PAGE 12 ---
+@=?9@=<CC8C:5:5@@=B;+*#GHC7?DF=79K=H<7C65@HDF=79G5B8H<9C@@5F B89L9A9F;=B;5GDFCA=B9BH:57HCFG=BH<=G
+DF98=7H=CB
++<=G5B5@MG=GIB89FG7CF9GH<9=ADCFH5B79C:H<9G9J5F=56@9G=BG<5D=B;H<9AC89@G:CF975GHG
+
++<9IG9C:# $=BH<=G9LD9F=A9BH=ADFCJ98H<9=BH9FDF9H56=@=HMC:H<9#*+$AC89@6M=B7CFDCF5H=B;588=H=CB5@
+:57HCFGGI7<5G7C65@HB=7?9@@=H<=IAH<9C@@5F B89L5B85@IA=BIADF=79G
++<=G9B<5B79A9BHDFCJ=89G57@95F9F
+IB89FGH5B8=B;C:GHC7?A5F?9H8MB5A=7G6I=@8=B;CBH<95DDFC57<6M"IA5F9H5@
+23K<=7<:C7IG98DF=A5F=@MCB
+GHC7?DF=79G
+M=B7@I8=B;H<9G9588=H=CB5@:57HCFGH<=G9LD9F=A9BHVGAC89@C::9FG5ACF97CADF9<9BG=J9J=9KC:H<9
+:57HCFG=B:@I9B7=B;GHC7?DF=79ACJ9A9BHG=ADFCJ=B;6CH<H<9HF5BGD5F9B7M5B8F9@9J5B79C:H<9DF98=7H=CBG
+IHIF9
+F9G95F7<7CI@89LD@CF9H<9=B7@IG=CBC:9J9BACF9:57HCFGHC:IFH<9FF9:=B9H<9AC89@VG577IF57M
+
+
+
+.95F9;F5H9:I@:CFH<9GIDDCFH5B8:IB8=B;:FCA,B=J9FG=H5G*969@5G$5F9HH<FCI;<H<9 BGH=HIH9:CF)9G95F7<5B8
+CAAIB=HM*9FJ=79IB89F7CBHF57HBIA69F
+,%
+'+
+
+
+
+	
+
+  
+ 
+ 
+ 
+ *5=8 5B8 *
+ *@=A S+<9 MB5A=7 )9@5H=CBG<=D 69HK99B  BJ9GHCF HH9BH=CB 5B8 *HC7? $5F?9H
+-C@5H=@=HM BH9FB5H=CB5@J=89B79T052/#-0(+3,#/&+/#/%+#-#/#)'.'/4
+
+
+ 
+"IFG<5B!
+<9B-
+*HCF7<5B5B8
+*<9BS&BH<97IFF9BH5B89A9F;=B;7<5@@9B;9GC:89J9@CD=B;:5=F
+5B8 9H<=75@   GC@IH=CBG =B :=B5B7=5@ G9FJ=79GT 
+
+	  
+/&  /4'2/#4+0/#- 0/('2'/%' 0/  +/
++/#/%'GGC7=5H=CB:CFCADIH=B;$57<=B9FM	
+
+
+ $
+ .
+ *
+ =@<5B 5B8 %
+ $
+ .5;5F57<7<= S*HC7? $5F?9H 'F98=7H=CB IG=B; FH=:=7=5@  BH9@@=;9B79T
+
+
+
+/4'2/#4+0/#-'3'#2%*0/('2'/%'0/.#240.154+/)#/&934'.3/)+/''2+/)	
+
+
+ 
+)CIGG9@5B8"
+O<AS9CGD5H=5@/ )9J=9KT/4'2/#4+0/#-052/#-0('0/(02.#4+0/
+
+
+
+ -
+$
+9CF65SMD9FD5F5A9H9FG5B895HIF9G AD57HG=BFH=:=7=5@ BH9@@=;9B79DD@=98HC*HC7?$5F?9HT
+
+
+
+/4'2/#4+0/#-0/('2'/%'0/0.154#4+0/#-%+'/%'#/&0.154#4+0/#-/4'--+)'/%'R
+
+
+
+ 0
+I+
+*<=6I?5K50
+"CB8C*
+%5;5C5B8*
+"5A=>CS'F98=7H=CBC:GHC7?D9F:CFA5B79IG=B;899DB9IF5@
+B9HKCF?GT11-+'&%+'/%'37+4:'2-#/&R
+
+
+ $
+)9<A5B15:5F5B8%
+"<5BS9H9FA=B=GH=7#C75@ BH9FDF9H56@9$C89@	;BCGH=7LD@5B5H=CBG:CF*H56@9
+LD@5=B56=@=HMT.#%*+/'-'#2/+/),/07-'&)''842#%4+0/	
+
+
+ $
+ +
+ )=69=FC *
+ *=B;< 5B8 
+ I9GHF=B SU.<M G<CI@8 = HFIGH MCIV LD@5=B=B; H<9 DF98=7H=CBG C: 5BM
+7@5GG=:=9FT=B20%''&+/)30(4*'/4'2/#4+0/#-0/('2'/%'0//07-'&)'+3%06'29#/&#4#
++/+/)GGC7=5H=CB:CFCADIH=B;$57<=B9FMR
+
+
+ 
+ @>585B= 
+ @<5FH<= $
+ 
+ 5FG= 
+ $
+ 5@5<5 $
+ 585KM 5B8 $
+ 
+ @<CGG9=B= S$5H<9A5H=75@
+$C89@=B; 5B8 B5@MG=G C: F98=H *7CF=B; ,G=B; H<9 # $ LD@5=B9F  CADF9<9BG=J9 DDFC57<T
+#4*'.#4+%3
+
+
+ 5J=8 M5BIC@IK5>=;5)<C858IF589@9M9&BM9?5F5B75GINI&@IK5G9M=)=H5&KC@56==B596=
+@CF=5 9@@C 5B8 %8I6I=G= #9CB5F8 %8I6I=G= S)- . &   +% (,*  %  %% #
+&)*+ %''# + &%* %*+&"$)"+%#0* *T+/#/%'%%05/4+/)'3'#2%*
+052/#-R
+
+
+ +
+"5B85G5AM5B8"
+97<?CIAS AD57HC:*C7=5@$98=5*9BH=A9BHGCB*HC7?$5F?9H9<5J=CF$57<=B9
+#95FB=B; DDFC57< HC B5@MN=B; $5F?9H MB5A=7GT052/#- 0( 0.12'*'/3+6' 53+/'33 &.+/+342#4+0/
+'3'#2%*	
+
+
+ %
+ IFIB; )
+ 5G5B $8 *
+ 5N= 5B8 $
+ 15<=8I@  G@5A S@;CF=H<A=7 +F58=B; *HF5H9;=9G #9J9F5;=B;
+$57<=B9 #95FB=B; $C89@G :CF B<5B798 '9F:CFA5B79 =B H<9 ,* *HC7? $5F?9HT052/#- 0( 53+/'33 #/&
+#/#)'.'/445&+'3	
+
+
+ 0
+ #=I !
+ I5B; 5B8 +
+ 05B; SCF975GH=B; ,* *HC7? 'F=79G +<FCI;< *9BH=A9BH B5@MG=G 5B8 $57<=B9
+#95FB=B;5G9*HI8MC:+9G@5 B7
+T&6#/%'3+/%0/0.+%3#/#)'.'/4#/&0-+4+%#-%+'/%'3
+R
+
+
+ '
+*5HM5"5JM5*
+*55;5F=?5)
++
+*I65J5FGG<=B=
+
+%=J9H<9B=$
+$5F=AIH<I5B8'
+-9@J58=JIS*+&"
+$)"+ %#0* * *+&" $)"+ %#0* * ,* % $'), % '0*')"T
+/4'2/#4+0/#-'3'#2%*052/#-0(0&'2/+:#4+0/+//)+/''2+/) '%*/0-0)9#/&%+'/%'
+
+020037-11
+ 03 January 2026 18:39:21
+
+
+--- PAGE 13 ---
+
+ 
+.5B;S+<9*HC7?$5F?9H'F98=7H=CBC:+9G@5
+T+)*-+)*43+/%+'/%'/)+/''2+/)#/& '%*/0-0)9	
+	
+
+
+ #
+ $I??I 5B8 -
+ IFF= S*HC7? $5F?9H 'F98=7H=CB ,G=B; $57<=B9 #95FB=B; +97<B=EI9GT/4'2/#4+0/#-
+052/#-0(%+'/4+(+%'3'#2%*+/0.154'2%+'/%'/)+/''2+/)#/&/(02.#4+0/ '%*/0-0)9R
+
+
+
+ *
+=H9
+"<5H5J?5F"
+"CH97<5*
+*F=J5GH5J5'
+$5<9G<K5F=5B8%
+'5B89MSLD@5=B56@9GHC7?DF=79G
+DF98=7H=CB:FCA:=B5B7=5@B9KG5FH=7@9GIG=B;G9BH=A9BH5B5@MG=GT''20.154%+	R
+
+
+ $
+'
+F=GH9G7I
+
+$5F5)
+
+%9F=Y5BI#
+
+I@855B8 
+$5B=ISB5@MG=B;H<9 AD57HC:=B5B7=5@
+%9KG*9BH=A9BHGCJ9F*HC7?'F=79GR5.5J9@9HCFF9@5H=CBT#4*'.#4+%3
+
+
+ *
+C7<F9=H9F5B8!
+*7<A=8<I69FS#CB;*<CFH	+9FA$9ACFMT'52#-0.154R
+
+
+ *
+ !9GIG'4 #- SCK 75B = 7<CCG9 5B 9LD@5=B9F B DD@=75H=CB	;FCIB898 J5@I5H=CB C: 'CGH	<C7
+LD@5B5H=CBGT%%  
+
+	  20%''&+/)3 0( 4*' 
+
+	  0/('2'/%' 0/ #+2/'33 %%05/4#$+-+49 #/&
+ 2#/31#2'/%9GGC7=5H=CB:CFCADIH=B;$57<=B9FMR
+
+
+ 
+ 5FF95I 5B8 ,
+ -CB #IL6IF; SLD@5=B=B; H<9 LD@5=B9F  =FGH +<9CF9H=75@ B5@MG=G C: # $T
+20%''&+/)30(4*' 7'/49 *+2&/4'2/#4+0/#-0/('2'/%'0/24+(+%+#-/4'--+)'/%'#/&4#4+34+%3
+	
+
+
+
+ "
+CC895B8
+C:A5BBS-=GI5@8=5;BCGH=7GC:5B9LD@5=B9FAC89@+CC@G:CFH<95GG9GGA9BHC:# $
+9LD@5B5H=CBGT4#4/#-#4#+/R
+
+
+ '
+"IA5F#
+CH5-
+
++=??=K5@5B8
+"IA5FSB5@MG=B;CF975GH=B;C:*HC7?'F=79GBLD@5=B56@9
+ DDFC57<T=B20%'&+#0.154'2%+'/%'@G9J=9F
+-
+R
+
+
+
+
+020037-12
+ 03 January 2026 18:39:21

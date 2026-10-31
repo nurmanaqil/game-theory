@@ -1,0 +1,16 @@
+﻿kode,isu,temuan,keputusan,alasan,status,baris_terkait_bukan_jumlah_dihapus
+P01,Data mentah,"30,000 baris, 25 kolom",Bekukan snapshot dan verifikasi SHA-256; sumber asli tidak ditimpa,Mencegah perubahan data tanpa jejak,Selesai: snapshot dan manifest dibuat,0
+P02,Kolom ID,"30,000 ID unik","Keluarkan dari X, tetap simpan sebagai metadata",ID bukan prediktor substantif atau urutan waktu,Ditetapkan; diterapkan pada tahap persiapan X/y,30000
+P03,Target,Kode 0/1; gagal bayar 22.12% pada file ini,Pisahkan target dari X; jaga proporsi kelas pada pembagian,Menghindari kebocoran target dan evaluasi menyesatkan,Ditetapkan; belum membuat split,30000
+P04,Missing/nonfinite,0 sel kosong; 0 nonfinite,Tidak melakukan imputasi pada data saat ini,Tidak ada missing numerik yang memerlukan pengisian,Ditetapkan; tidak ada pengisian,0
+P05,EDUCATION 0/5/6,345 baris,Pemetaan deterministik 0/5/6 -> kategori unknown; 4 tetap others,S1 tidak menjelaskan kode tersebut lengkap; jangan mengarang tingkat pendidikan,Ditetapkan untuk tahap berikutnya; raw belum diubah,345
+P06,MARRIAGE 0,54 baris,Pertahankan sebagai kategori unknown terpisah,Arti status spesifik tidak dijelaskan di S1,Ditetapkan untuk encoding; raw belum diubah,54
+P07,PAY -2/-1/0,Terdapat kode nonpositif pada seluruh bulan,Pertahankan kategori terpisah; jangan jadikan NaN atau jumlah bulan negatif,S3 menambahkan arti -2/0; tidak setara dengan kode keterlambatan positif,Ditetapkan; encoding setelah split,28659
+P08,Tagihan negatif,1930 nasabah; 3932 sel,Pertahankan; hanya beri flag audit,Tidak ada bukti setiap nilai negatif adalah kesalahan,Ditetapkan; flag tersedia; tidak ada clipping,1930
+P09,Pembayaran nol,Nol ada pada PAY_AMT,Pertahankan nol sebagai nilai teramati,Nol tidak otomatis missing,Ditetapkan; tidak ada imputasi,14542
+P10,Profil raw identik,108 baris dalam 52 kelompok; 56 pengulangan berlebih,"Jangan drop otomatis; hitung ulang kelompok profil setelah pemetaan kategori tetap, sebelum split",Nasabah berbeda dapat memiliki fitur sama; kelompok tidak memakai target,Audit selesai; pengelompokan untuk split menunggu tahap 4,108
+P11,"Profil raw sama, target berbeda",21 kelompok; 46 baris,Pertahankan label masing-masing; tidak melakukan voting atau mengganti target,Fitur yang diamati tidak menentukan outcome secara sempurna,Ditetapkan; flag tersedia,46
+P12,Nilai ekstrem,Lihat min/median/p99/max pada statistik numerik,"Tidak hapus/clipping otomatis; jika kelak perlu ambang, pelajari hanya pada train",Nilai besar tidak otomatis salah dan penghapusan bisa mengubah populasi,Ditetapkan: tanpa filter outlier pada audit,0
+P13,Fitur tagihan berkorelasi,BILL_AMT1-BILL_AMT6 adalah fokus penelitian,Pertahankan enam fitur; analisis korelasi untuk keputusan riset dilakukan pada train nanti,Menghapusnya akan menghilangkan objek penelitian,Ditetapkan; tidak melakukan seleksi fitur,0
+P14,Encoding dan scaling,9 kategori semantik; 14 numerik; ID/target terpisah,Rencana one-hot kategori; fit encoder pada train. Tidak wajib scaling untuk Random Forest,Mencegah urutan kategori semu dan kebocoran transformasi,Ditetapkan; belum fit encoder atau scaler,0
+P15,Ketidakseimbangan kelas,Gagal bayar lebih sedikit dari tidak gagal bayar,Pilot memakai distribusi asli tanpa SMOTE/undersampling,Hindari faktor sampling tercampur dengan mode TreeSHAP,Ditetapkan; tidak melakukan resampling,0

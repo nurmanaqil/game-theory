@@ -1,0 +1,32 @@
+# Local Python environments and copied dependencies
+.venv/
+.venv_local/
+.extension_deps/
+.analysis_deps/
+.tools/
+.models/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Temporary exports, caches, and editor files
+/tmp/
+~$*
+*.log
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Trained models, binary experiment arrays, and historical bundles
+*.joblib
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.zip

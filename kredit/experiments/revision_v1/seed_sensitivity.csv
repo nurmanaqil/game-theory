@@ -1,0 +1,13 @@
+family,seed,max_probability_difference_from_seed42,test_predictions_equal_to_seed42_at_1e-12,billing_disagreement,billing_spearman
+random_forest,42,0.0,True,0.422,0.7714285714285715
+random_forest,17,0.07148562054158009,False,0.461,0.942857142857143
+random_forest,73,0.07460203668178889,False,0.422,1.0
+extra_trees,42,0.0,True,0.426,0.7714285714285715
+extra_trees,17,0.05100718006378746,False,0.416,0.8285714285714287
+extra_trees,73,0.06538656222954664,False,0.419,0.7714285714285715
+gradient_boosting,42,0.0,True,0.21,1.0
+gradient_boosting,17,0.020687077182191427,False,0.211,1.0
+gradient_boosting,73,0.01491480793031752,False,0.21,1.0
+xgboost,42,0.0,True,0.149,1.0
+xgboost,17,0.1275847499999999,False,0.149,1.0
+xgboost,73,0.19002565,False,0.171,1.0

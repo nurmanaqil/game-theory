@@ -1,0 +1,14 @@
+[
+  {
+    "seed": 17,
+    "mode": "tree_path_dependent",
+    "seconds": 367.9520738001447,
+    "error": 2.827102441038676e-10
+  },
+  {
+    "seed": 17,
+    "mode": "interventional",
+    "seconds": 334.96085870009847,
+    "error": 2.1117651849422714e-08
+  }
+]

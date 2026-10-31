@@ -1,0 +1,12 @@
+family,seed,operation,seconds
+gradient_boosting,42,fit_or_load_selected,0.008969999849796295
+gradient_boosting,42,tree_path_dependent_0,0.18920589983463287
+gradient_boosting,42,interventional_20261021,2.1125622999388725
+gradient_boosting,42,interventional_20261023,2.149391499813646
+gradient_boosting,42,interventional_20261024,2.1611297999043018
+gradient_boosting,17,fit_or_load_selected,25.14844899997115
+gradient_boosting,17,tree_path_dependent_0,0.20875180000439286
+gradient_boosting,17,interventional_20261021,2.2314041999634355
+gradient_boosting,73,fit_or_load_selected,24.651231699855998
+gradient_boosting,73,tree_path_dependent_0,0.19527800008654594
+gradient_boosting,73,interventional_20261021,2.286108799977228

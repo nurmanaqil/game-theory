@@ -1,0 +1,12 @@
+family,seed,operation,seconds
+extra_trees,42,fit_or_load_selected,0.15360520011745393
+extra_trees,42,tree_path_dependent_0,0.09297589980997145
+extra_trees,42,interventional_20261021,0.11154150008223951
+extra_trees,42,interventional_20261023,0.09784719999879599
+extra_trees,42,interventional_20261024,0.08696340001188219
+extra_trees,17,fit_or_load_selected,0.1487397002056241
+extra_trees,17,tree_path_dependent_0,0.0925746001303196
+extra_trees,17,interventional_20261021,0.07868670020252466
+extra_trees,73,fit_or_load_selected,0.14746799995191395
+extra_trees,73,tree_path_dependent_0,0.06695039989426732
+extra_trees,73,interventional_20261021,0.07578289997763932

@@ -1,0 +1,29 @@
+{
+  "reason": "Helper stored pandas Index names as object dtype. Re-encoded names as Unicode; SHAP arrays and row indices unchanged.",
+  "files": [
+    {
+      "file": "kredit\\experiments\\revision_v1\\extra_trees\\seed_17\\shap_interventional_20261021.npz",
+      "values_sha256_unchanged": "7d8b1ce09e97f7c3eb05eb9f163f0977693e82dcb1532573083cc86adcaaa233"
+    },
+    {
+      "file": "kredit\\experiments\\revision_v1\\extra_trees\\seed_17\\shap_tree_path_dependent_0.npz",
+      "values_sha256_unchanged": "052e42dd53571153790d9a56d9fba3b30f64cc7fe3f471d5f799759c2878b602"
+    },
+    {
+      "file": "kredit\\experiments\\revision_v1\\extra_trees\\seed_42\\shap_interventional_20261023.npz",
+      "values_sha256_unchanged": "87f7ce8047086e2aa00680487aeaf182fd467bdf0b241fa4c6814b6efebdb2b7"
+    },
+    {
+      "file": "kredit\\experiments\\revision_v1\\extra_trees\\seed_42\\shap_interventional_20261024.npz",
+      "values_sha256_unchanged": "c8a3d8ae3da74afa3caa0abd328262631eb9e0c0968f553c489884e395184756"
+    },
+    {
+      "file": "kredit\\experiments\\revision_v1\\extra_trees\\seed_73\\shap_interventional_20261021.npz",
+      "values_sha256_unchanged": "c922303137a8af84e60383e288af86635cf7a363acc4f5cd46e1be7480d54647"
+    },
+    {
+      "file": "kredit\\experiments\\revision_v1\\extra_trees\\seed_73\\shap_tree_path_dependent_0.npz",
+      "values_sha256_unchanged": "3ab0dc8a37512b8b4ccd8a066f5769fc14e835488eb794f9c1a2c19d3ea024d7"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "analysis": {
+    "status": "PASS",
+    "prediction_metric_rows": 48,
+    "attribution_summary_rows": 160,
+    "pilot_rows": 24,
+    "shap_files": 32,
+    "source_features": 23,
+    "plots": 5,
+    "selection_validation_only": true
+  },
+  "local_manuscript": "D:\\Kuliah\\Semester 5\\Game Theory\\Project Paper\\kredit\\paper\\manuscript_revision_en.md",
+  "google_docs_modified": false,
+  "final_quality_checks": 266,
+  "final_quality_report": "final_quality_report.json",
+  "publication_ready": false,
+  "remaining_editorial_steps": [
+    "author review of claims and bibliography",
+    "unify citation style",
+    "resolve full-text literature access before novelty claims"
+  ]
+}

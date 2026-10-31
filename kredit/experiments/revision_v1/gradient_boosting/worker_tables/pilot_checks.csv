@@ -1,0 +1,7 @@
+family,seed,mode,n,error,atol,seconds
+gradient_boosting,42,interventional,20,1.9208384882674068e-08,1e-06,0.05969049991108477
+gradient_boosting,42,tree_path_dependent,20,2.6645352591003757e-15,1e-06,0.01711890008300543
+gradient_boosting,17,interventional,20,1.9208384882674068e-08,1e-06,0.071135199861601
+gradient_boosting,17,tree_path_dependent,20,3.1086244689504383e-15,1e-06,0.013005099957808852
+gradient_boosting,73,interventional,20,1.9208384882674068e-08,1e-06,0.0577008998952806
+gradient_boosting,73,tree_path_dependent,20,3.1086244689504383e-15,1e-06,0.01168240001425147

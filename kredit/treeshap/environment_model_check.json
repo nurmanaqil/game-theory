@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "python_executable": "C:\\Penyimpanan Utama\\Documents\\0. Univ Sebelas Maret\\5. Semester 5\\8. TEORI GAME Game Theory\\Project Paper\\kredit\\.venv\\Scripts\\python.exe",
+  "versions": {
+    "python": "3.14.4",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scikit_learn": "1.7.2",
+    "shap": "0.54.1",
+    "joblib": "1.5.2"
+  },
+  "model_name": "RF_depth12_leaf5",
+  "model_sha256": "3f79f93e3e66a28fac8ff168e297d6ccfcfc9a5413dec44cbc55db977cc12b7f",
+  "n_test": 5998,
+  "n_features": 89,
+  "positive_class_index": 1,
+  "maximum_prediction_difference": 1.6653345369377348e-16,
+  "prediction_comparison_rtol": 1e-07,
+  "prediction_comparison_atol": 1e-09,
+  "model_fitted_or_tuned": false,
+  "treeshap_computed": false
+}

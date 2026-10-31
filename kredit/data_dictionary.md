@@ -1,0 +1,45 @@
+# Kamus variabel dataset kredit
+
+Satu baris adalah satu nasabah. Riwayat bulan merupakan kolom, bukan baris waktu. ID bukan waktu.
+
+| kolom | arti | jenis_semantik | dtype_csv | satuan | definisi_kode_dan_catatan | perlakuan | sumber |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ID | Identitas nasabah | ID | int64 | Tidak berlaku | Identifier; bukan urutan waktu | Tidak menjadi prediktor; simpan untuk pelacakan | S1 |
+| LIMIT_BAL | Batas kredit yang diberikan | Numerik | float64 | NT dollar | Mencakup kredit individu dan tambahan keluarga menurut S1 | Pertahankan; tidak diskalakan untuk pilot Random Forest | S1 |
+| SEX | Kategori jenis kelamin yang direkam | Kategoris | int64 | Kode | 1=laki-laki; 2=perempuan | Pertahankan kode raw; encoding kategoris setelah split | S1 |
+| EDUCATION | Kategori pendidikan | Kategoris | int64 | Kode | 1=pascasarjana; 2=universitas; 3=SMA; 4=lainnya. 0/5/6 tidak dijelaskan lengkap di S1 | Rencana: 0/5/6 menjadi satu kategori unknown; 4 tetap others; belum diterapkan | S1; kebijakan kelompok |
+| MARRIAGE | Kategori status perkawinan | Kategoris | int64 | Kode | 1=menikah; 2=belum menikah; 3=lainnya; 0 tidak dijelaskan di S1 | Pertahankan 0 sebagai kategori unknown; jangan diberi arti status tertentu | S1; kebijakan kelompok |
+| AGE | Usia nasabah | Numerik | int64 | Tahun | Nilai usia, bukan kode kategori | Pertahankan | S1 |
+| PAY_0 | Status pembayaran September 2005 | Kategoris | int64 | Kode | -1=bayar sesuai ketentuan; 1-9=bulan keterlambatan (S1). -2=tidak ada konsumsi; 0=revolving credit menurut S3, bukan dokumentasi lengkap S1 | Pertahankan -2/-1/0 terpisah, bukan missing; encoding kategoris setelah split | S1; S3 (interpretasi tambahan -2/0) |
+| PAY_2 | Status pembayaran Agustus 2005 | Kategoris | int64 | Kode | -1=bayar sesuai ketentuan; 1-9=bulan keterlambatan (S1). -2=tidak ada konsumsi; 0=revolving credit menurut S3, bukan dokumentasi lengkap S1 | Pertahankan -2/-1/0 terpisah, bukan missing; encoding kategoris setelah split | S1; S3 (interpretasi tambahan -2/0) |
+| PAY_3 | Status pembayaran Juli 2005 | Kategoris | int64 | Kode | -1=bayar sesuai ketentuan; 1-9=bulan keterlambatan (S1). -2=tidak ada konsumsi; 0=revolving credit menurut S3, bukan dokumentasi lengkap S1 | Pertahankan -2/-1/0 terpisah, bukan missing; encoding kategoris setelah split | S1; S3 (interpretasi tambahan -2/0) |
+| PAY_4 | Status pembayaran Juni 2005 | Kategoris | int64 | Kode | -1=bayar sesuai ketentuan; 1-9=bulan keterlambatan (S1). -2=tidak ada konsumsi; 0=revolving credit menurut S3, bukan dokumentasi lengkap S1 | Pertahankan -2/-1/0 terpisah, bukan missing; encoding kategoris setelah split | S1; S3 (interpretasi tambahan -2/0) |
+| PAY_5 | Status pembayaran Mei 2005 | Kategoris | int64 | Kode | -1=bayar sesuai ketentuan; 1-9=bulan keterlambatan (S1). -2=tidak ada konsumsi; 0=revolving credit menurut S3, bukan dokumentasi lengkap S1 | Pertahankan -2/-1/0 terpisah, bukan missing; encoding kategoris setelah split | S1; S3 (interpretasi tambahan -2/0) |
+| PAY_6 | Status pembayaran April 2005 | Kategoris | int64 | Kode | -1=bayar sesuai ketentuan; 1-9=bulan keterlambatan (S1). -2=tidak ada konsumsi; 0=revolving credit menurut S3, bukan dokumentasi lengkap S1 | Pertahankan -2/-1/0 terpisah, bukan missing; encoding kategoris setelah split | S1; S3 (interpretasi tambahan -2/0) |
+| BILL_AMT1 | Jumlah tagihan September 2005 | Numerik | float64 | NT dollar | Tagihan, bukan jumlah pembayaran; nilai negatif mungkin sah | Pertahankan termasuk negatif; jangan hapus karena korelasi | S1; S3 (penjelasan negatif) |
+| BILL_AMT2 | Jumlah tagihan Agustus 2005 | Numerik | float64 | NT dollar | Tagihan, bukan jumlah pembayaran; nilai negatif mungkin sah | Pertahankan termasuk negatif; jangan hapus karena korelasi | S1; S3 (penjelasan negatif) |
+| BILL_AMT3 | Jumlah tagihan Juli 2005 | Numerik | float64 | NT dollar | Tagihan, bukan jumlah pembayaran; nilai negatif mungkin sah | Pertahankan termasuk negatif; jangan hapus karena korelasi | S1; S3 (penjelasan negatif) |
+| BILL_AMT4 | Jumlah tagihan Juni 2005 | Numerik | float64 | NT dollar | Tagihan, bukan jumlah pembayaran; nilai negatif mungkin sah | Pertahankan termasuk negatif; jangan hapus karena korelasi | S1; S3 (penjelasan negatif) |
+| BILL_AMT5 | Jumlah tagihan Mei 2005 | Numerik | float64 | NT dollar | Tagihan, bukan jumlah pembayaran; nilai negatif mungkin sah | Pertahankan termasuk negatif; jangan hapus karena korelasi | S1; S3 (penjelasan negatif) |
+| BILL_AMT6 | Jumlah tagihan April 2005 | Numerik | float64 | NT dollar | Tagihan, bukan jumlah pembayaran; nilai negatif mungkin sah | Pertahankan termasuk negatif; jangan hapus karena korelasi | S1; S3 (penjelasan negatif) |
+| PAY_AMT1 | Jumlah pembayaran September 2005 | Numerik | float64 | NT dollar | Jumlah pembayaran, bukan status keterlambatan | Pertahankan termasuk nol; tidak imputasi nol | S1 |
+| PAY_AMT2 | Jumlah pembayaran Agustus 2005 | Numerik | float64 | NT dollar | Jumlah pembayaran, bukan status keterlambatan | Pertahankan termasuk nol; tidak imputasi nol | S1 |
+| PAY_AMT3 | Jumlah pembayaran Juli 2005 | Numerik | float64 | NT dollar | Jumlah pembayaran, bukan status keterlambatan | Pertahankan termasuk nol; tidak imputasi nol | S1 |
+| PAY_AMT4 | Jumlah pembayaran Juni 2005 | Numerik | float64 | NT dollar | Jumlah pembayaran, bukan status keterlambatan | Pertahankan termasuk nol; tidak imputasi nol | S1 |
+| PAY_AMT5 | Jumlah pembayaran Mei 2005 | Numerik | float64 | NT dollar | Jumlah pembayaran, bukan status keterlambatan | Pertahankan termasuk nol; tidak imputasi nol | S1 |
+| PAY_AMT6 | Jumlah pembayaran April 2005 | Numerik | float64 | NT dollar | Jumlah pembayaran, bukan status keterlambatan | Pertahankan termasuk nol; tidak imputasi nol | S1 |
+| default.payment.next.month | Gagal bayar pada bulan berikutnya | Target biner | int64 | Kode | 1=gagal bayar; 0=tidak gagal bayar; target Oktober 2005 menurut S3 | Pisahkan sebagai y; tidak boleh masuk fitur X | S1; S3 |
+
+## Catatan definisi
+
+- PAY_0 adalah September dan PAY_2 adalah Agustus; tidak membuat PAY_1 atau menggeser urutan bulan.
+- EDUCATION 0/5/6 disebut unknown sebagai kebijakan konservatif, bukan pengakuan bahwa arti aslinya telah dipastikan.
+- MARRIAGE 3 mengikuti S1 sebagai others, tidak otomatis disebut bercerai.
+- Arti PAY -2 dan 0 memakai S3 sebagai literatur tambahan. Nilai tersebut tetap kategori tersendiri walau definisinya belum lengkap pada S1.
+- Nilai tagihan negatif tidak memiliki alasan transaksi per baris dalam dataset. Jangan menyimpulkan semua kasus adalah refund atau overpayment.
+
+## Sumber
+
+- S1: [UCI Default of Credit Card Clients](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients).
+- S2: [Kaggle mirror: uciml/default-of-credit-card-clients-dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset).
+- S3: [Lin dan Wang (2025), preprint, Tabel 1 dan bagian Data Source and Cleaning](https://arxiv.org/pdf/2508.01851).

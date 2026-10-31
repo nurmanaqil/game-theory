@@ -1,0 +1,39 @@
+{
+  "n_baris": 30000,
+  "n_kolom": 25,
+  "n_fitur_prediksi": 23,
+  "missing_cells": 0,
+  "nonfinite_values": 0,
+  "n_ID_unik": 30000,
+  "duplicate_full_excess": 0,
+  "duplicate_excluding_ID_excess": 35,
+  "duplicate_features_only_excess": 56,
+  "rows_in_repeated_feature_profiles": 108,
+  "repeated_feature_groups": 52,
+  "conflicting_label_groups": 21,
+  "rows_in_conflicting_label_groups": 46,
+  "education_0_5_6_rows": 345,
+  "marriage_0_rows": 54,
+  "rows_with_negative_bill": 1930,
+  "negative_bill_cells": 3932,
+  "negative_payment_cells": 0,
+  "constant_columns": [],
+  "unexpected_codes_relative_to_audit_schema": {
+    "SEX": [],
+    "EDUCATION": [],
+    "MARRIAGE": [],
+    "PAY_0": [],
+    "PAY_2": [],
+    "PAY_3": [],
+    "PAY_4": [],
+    "PAY_5": [],
+    "PAY_6": []
+  },
+  "target_counts": {
+    "0": 23364,
+    "1": 6636
+  },
+  "target_default_percent": 22.12,
+  "raw_data_changes_applied": 0,
+  "scope": "Audit seluruh data untuk kualitas dan dokumentasi; bukan seleksi fitur atau estimasi transformasi untuk model."
+}

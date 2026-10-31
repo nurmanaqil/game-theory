@@ -1,0 +1,8 @@
+﻿code,before,after,meaning_after
+0,14,345,unknown
+1,10585,10585,graduate school
+2,14030,14030,university
+3,4917,4917,high school
+4,123,123,others
+5,280,0,merged into 0
+6,51,0,merged into 0

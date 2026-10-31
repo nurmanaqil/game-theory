@@ -1,0 +1,15 @@
+{
+  "reason": "Identical RF configuration and reproduced validation/test predictions; these backgrounds were independently recomputed and verified in stage 1. No new selection based on results.",
+  "files": [
+    {
+      "source": "kredit\\treeshap\\background_check\\shap_interventional_20261023.npz",
+      "destination": "kredit\\experiments\\revision_v1\\random_forest\\seed_42\\shap_interventional_20261023.npz",
+      "source_sha256": "57db5701adbc3146f1edff6c4061473441604bbad26bfe265c99df6135db3ea5"
+    },
+    {
+      "source": "kredit\\treeshap\\background_check\\shap_interventional_20261024.npz",
+      "destination": "kredit\\experiments\\revision_v1\\random_forest\\seed_42\\shap_interventional_20261024.npz",
+      "source_sha256": "cbc6e64bb495ff7626e5e13969ea3e3561a618c582ec219507599efcb4c9f69b"
+    }
+  ]
+}

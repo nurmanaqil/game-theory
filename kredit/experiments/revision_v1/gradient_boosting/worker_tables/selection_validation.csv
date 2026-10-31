@@ -1,0 +1,4 @@
+family,candidate,validation_AP,validation_ROC_AUC,parameters,seconds_fit_or_load
+gradient_boosting,0,0.5697520123681087,0.7865327968338649,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""min_samples_leaf"": 5, ""max_depth"": 2, ""subsample"": 1.0}",0.034394599962979555
+gradient_boosting,1,0.5757201877916722,0.7894418479070167,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""min_samples_leaf"": 5, ""max_depth"": 3, ""subsample"": 1.0}",0.040592100005596876
+gradient_boosting,2,0.5742691211597569,0.7886134342594768,"{""n_estimators"": 200, ""learning_rate"": 0.05, ""min_samples_leaf"": 5, ""max_depth"": 4, ""subsample"": 1.0}",0.047574999975040555

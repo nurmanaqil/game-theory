@@ -1,0 +1,136 @@
+Transkripsi otomatis bahasa Indonesia; perlu verifikasi bagian ambigu.
+[00:04 - 00:08] Suara saya masih masuk?
+[00:08 - 00:10] Stringnya belum, Pak.
+[00:10 - 00:11] Belum, ya.
+[00:11 - 00:13] Nah, ini coba saya...
+[00:13 - 00:15] Berikan beberapa contoh.
+[00:15 - 01:18] Diobah...
+[01:19 - 01:20] ...dune screen-nya.
+[01:20 - 01:33] Ini saja kelihatannya.
+[01:33 - 01:35] Nah, untuk masing-masing kelombok,
+[01:35 - 01:38] silakan nanti membuat akun pepperpoll.
+[01:38 - 01:40] Pepperpoll ini platform GI.
+[01:41 - 01:44] Yang bisa dikundakan untuk membantu membuat pepper.
+[01:44 - 01:48] Tetapi ingatnya, dia bisa diintegrasikan di MSWood.
+[01:49 - 01:54] ini sudah saya integrasikan di MSWatt saya
+[01:54 - 01:58] sehingga bisa sudah muncul ada tag khusus pepperpoll di sini
+[01:58 - 02:00] kemudian
+[02:00 - 02:03] kemudian Open Pepperpoll
+[02:03 - 02:10] kita berikan sedikit
+[02:10 - 02:14] ilustrasi atau contohnya
+[02:14 - 02:39] ini contohnya ya, kalau misalnya dibuka di Pepperpoll sudah diintegrasikan di Dock
+[02:39 - 02:46] kemudian langsung untuk Papers di buat dalam BaseEnglish
+[02:46 - 02:54] ini bisa digunakan untuk mengecek Grammar
+[02:54 - 02:59] kita lihat di sini ada beberapa suggestion
+[02:59 - 03:04] berarti ada kekeliruan di Grammar terkait dengan BaseEnglish
+[03:04 - 03:08] ada Grammar, Readability, Mechanism & Style, Hoga Blurry dan sebagainya
+[03:08 - 03:12] kita bisa langsung memperbaiki menggunakan Papers Poll di sini
+[03:12 - 03:23] misalnya di sini ada kalimat yang perlu direpres, harusnya bukan escapable of achieving tapi cukup kan achieve
+[03:23 - 03:29] kalau di asap nanti langsung memperbaiki di tulisan keyword kita
+[03:29 - 03:33] kalimat ini langsung berubah
+[03:33 - 03:45] kemudian yang berikutnya, S1 of the largest coffee producing, nah ini coffee producing harusnya pakai strip
+[03:45 - 03:54] nah ini sudah langsung diperbaiki oleh paper poll kemudian kita accept tapi harus dibaca satu-satu
+[03:54 - 03:58] ada beberapa yang tidak sesuai, harusnya diri-check
+[03:58 - 04:03] tapi kalau misalnya perbaikannya sesuai set, nah misalnya di sini masalah
+[04:03 - 04:09] Baca kemudian disk dan seharusnya ini cukup biasa saja dan seharusnya
+[04:09 - 04:15] Ini yang pertama, jadi bisa mengecek grammar secara langsung
+[04:15 - 04:24] Kemudian kelebihan yang lain bisa mencari citasi atau referensi yang paling mendekati
+[04:24 - 04:28] Argumen yang kita masukkan ke dalam introduction
+[04:28 - 04:38] saya punya kalimat seperti ini, perlu citasi yang mendukung pernyataan yang saya berikan di dalam intro.datsun
+[04:38 - 04:46] disini bisa kita cari reset set, ax and question, set text
+[04:46 - 04:56] nanti kita search, pepper poll akan memberikan beberapa atau native pepper yang membahas kalimat
+[04:56 - 05:01] kalimat atau paragraph yang kita berikan tadi
+[05:01 - 05:05] kalau cari yang bahasa Inggris
+[05:05 - 05:13] ini harusnya belum saya masukkan akun saya tadi
+[05:13 - 05:16] tapi kalau sudah punya akun, kemudian login
+[05:16 - 05:18] ini tadi saya belum login, kalau sudah login
+[05:18 - 05:22] nanti di sini ada tulisan set, kemudian langsung masuk ke sini
+[05:22 - 05:29] kemudian reverensinya akan otomatis masuk di bagian reverensi
+[05:29 - 05:39] ini fitur yang kedua, fitur yang pertama radikan bisa untuk mengecek grammar secara langsung
+[05:39 - 05:45] kemudian yang kedua bisa mencari reverensi untuk citasi
+[05:45 - 05:52] kemudian yang ketiga, fiturnya banyak, tapi disini saya berikan contoh 3 fitur saja
+[05:52 - 05:55] nanti silahkan bisa di explore
+[05:56 - 06:00] tapi ingat AITC ini hanya digunakan untuk membantu
+[06:00 - 06:05] kita untuk menulis semua hasil begian
+[06:05 - 06:11] jadi hasil begiannya tetap kita tejakan dengan menggunakan metan atau pingin kita sendiri
+[06:11 - 06:14] kemudian baru kita beri penjelasan
+[06:14 - 06:19] kita beri penjelasan misalnya hasilnya lebih besar dari 15 persaian
+[06:19 - 06:24] kalau akurasi 24% ini berdasarkan hasil pelitian
+[06:24 - 06:33] tapi untuk isian teksnya, misalnya mau kita tambahkan atau kita perkuat argumentnya
+[06:33 - 06:37] kita bisa menggunakan bantuan pepperpulse bagi asisten
+[06:37 - 06:40] misalnya disini ada pilihan re-read atau re-read
+[06:40 - 06:46] misalnya re-read, misalnya disini ada beberapa fitur
+[06:46 - 06:54] mau kita tambahkan kalimat terikutnya itu keep writing atau explain this, expand on this
+[06:54 - 07:04] atau pilihan yang lain generate concluding statement, silahkan nanti bisa dicoba-coba
+[07:04 - 07:09] langitnya keep writing, keep writing itu biasanya menambahkan beberapa kalimat selanjutnya
+[07:09 - 07:17] jadi tidak mengubah kalimat yang kita bold disini, misalnya keep writing
+[07:17 - 07:22] dan setelah 3 sentensis, menambahkan 3 kalimat berikutnya
+[07:22 - 07:25] kemudian kita insert dan nanti menambah
+[07:25 - 07:29] tapi tetep kita becala lagi apakah sudah sesuai atau belum
+[07:29 - 07:32] iskondistan, improvement, highlight, dan sebagainya
+[07:32 - 07:36] ini kalau ini untuk give rating
+[07:36 - 07:41] atau yang lain, misalnya mau kita para-plaster
+[07:41 - 07:44] karena nandikan perlu di-check turn it in ya
+[07:44 - 07:55] yang untuk menghindari plagiasi atau plagiarisme tingkat turnitian harus kurang dari 20 persen atau sumbularity
+[07:55 - 08:03] disini ada pilihan misalnya para rasa mudian generate
+[08:03 - 08:11] disini mempara rasa paragraph yang kita pilih tadi
+[08:11 - 08:16] replace berarti menggantikan, kalau kita replace disini menggantikan
+[08:16 - 08:21] isinya sama, cuma susu-susunan atau susu-susur bahasanya berbeda.
+[08:21 - 08:25] Nanti bisa di-check yang lain.
+[08:25 - 08:27] Fitur-fitur yang lain.
+[08:27 - 08:33] Jadi silahkan ada banyak platform seperti Paperball.
+[08:33 - 08:39] Tapi Paperball ini cukup bagus karena sudah bisa diindegasikan di,
+[08:39 - 08:44] jadi ketika kita menulis, kita bisa langsung menggunakan Paperball
+[08:44 - 08:51] pepperpoll untuk membantu melengkapi, menyempurnakan manuskribi yang kita buat.
+[08:51 - 08:57] Ingat tidak membuat semua pepper di si pepper, tetapi hanya melengkapi
+[08:57 - 09:03] atau membantu, misalnya untuk mengecek kremar, mengecek bahasa, dan sebesar.
+[09:03 - 09:09] Itu ya, jadi itu kaya yang pertama, silahkan masing-masing individu,
+[09:09 - 09:12] masing-masing kelompok untuk mendarat membuat akun pepperpoll,
+[09:12 - 09:19] kemudian sampai bisa diintegrasikan ke Word, sehingga muncul paper poll di sini
+[09:19 - 09:30] kemudian tugas untuk UTSID, masing-masing kelompos sudah mulai meniusun mini paper dengan formatnya bebas
+[09:30 - 09:35] tapi paling tidak menggudi format paper ya, ada judul, ada abstract, ada introduction sampai yang terakhir
+[09:35 - 09:40] ada kesimpulan, concluding, remark, atau conclusion dan references
+[09:40 - 09:49] Selain ini nanti kita berikan beberapa contoh beper yang lain ya, tadi kan baru kita masukkan di sepada satu contoh beper saja.
+[09:49 - 10:03] Baik itu ada pertanyaan sampai di sini, atau sudah jelas tergantung dengan tugas UDS-nya?
+[10:03 - 10:06] Apa, izintannya?
+[10:06 - 10:07] Iya, silahkan.
+[10:07 - 10:12] Penugasan berarti tidak harus selesai kan Pak, tadi kan Pak Bintang kereda harus sempurna.
+[10:12 - 10:21] Tapi buat sekarang belum sebab mengatakan, kalau sekarang masih banyak yang bisa saya baru nyari data-nya dulu,
+[10:21 - 10:26] atau di paper yang tiba-tiba jelasnya nak kira gimana, tapi bisa dikonsentrasi lagi.
+[10:26 - 10:36] Iya, boleh. Jadi ini untuk V1 atau versi pertama, jadi mini paper versi pertama.
+[10:36 - 10:43] Jadi tidak harus lengkap dulu, sempurna dulu.
+[10:43 - 10:49] Tetapi kalau sudah lengkap atau semuna, tentunya kan ada poin ngelenya ya.
+[10:49 - 10:55] Jadi misalnya ada kelompok yang sudah mengerjakan, sudah menganalisi data
+[10:55 - 11:00] dengan kelompok yang baru mencari data, tentunya kan ngelenya kan berbeda.
+[11:00 - 11:04] Kemudian untuk dirlenya kan sampai tanggal 25 ya.
+[11:04 - 11:15] Nah, nanti kalau misalnya dirasa waktunya kurang, silahkan bisa didiskusikan melalui BG Classnya nanti bisa disampaikan ke saya, jadi waktunya flexible.
+[11:15 - 11:19] Tapi kalau pun ada perpanjangan hanya beberapa hari saja.
+[11:19 - 11:23] Sudah jelas?
+[11:28 - 11:29] Yang lain?
+[11:29 - 11:33] Jelas, Pak.
+[11:33 - 11:34] Ya, baik.
+[11:34 - 11:36] Kalau tidak, kita cukupkan ya.
+[11:36 - 11:49] Tadi kalau ada kelompok yang mau mengubah modelnya menjadi mengambilkan generatif adversari yang network ada point plus
+[11:49 - 12:00] Karena tiga kompleksitasnya berbeda. Jangan kalau ada kelompok yang suka tantangan, ada yang mengambilkan
+[12:00 - 12:03] baik itu ya untuk pertemuan kita hari ini
+[12:03 - 12:06] ini nanti saya buatkan OJW 5 menit
+[12:06 - 12:08] setelah itu nanti silahkan
+[12:08 - 12:10] persensi
+[12:10 - 12:13] untuk mengganti pertemuan minggu ini
+[12:13 - 12:17] kalau tidak ada bisa kita cukupkan tadi ya
+[12:17 - 12:21] ingat yang pertama tadi
+[12:21 - 12:22] paper pole
+[12:22 - 12:24] nanti sangat membantu tugasnya
+[12:24 - 12:25] kemudian yang kedua
+[12:25 - 12:27] mulai
+[12:27 - 12:29] pengajakan
+[12:29 - 12:35] isi tukasnya yaitu mencari data kemudian dianalysis menggunakan model, kemudian mulai menyusup
+[12:35 - 12:42] Makanya disini butuh tim ya, butuh tim base project, masing-masing anggota harus berkontribusi
+[12:42 - 12:46] Kalau ada yang tidak berkontribusi, silahkan nanti bisa dilaporkan
+[12:46 - 12:54] Makanya nanti di akhir kita cek perkontribusi masing-masing anggota
+[12:54 - 12:57] Kalau tidak, kita cukupkan
+[12:57 - 13:00] Assalamu'alaikum warahmatullahi wabarakatuh
+[13:00 - 13:02] Waalaikumsalam
+[13:02 - 13:04] Waalaikumsalam
+[13:04 - 13:06] Waalaikumsalam
+[13:06 - 13:08] Selamat tinggal
